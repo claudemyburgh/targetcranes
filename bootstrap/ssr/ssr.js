@@ -59,8 +59,8 @@ createServer((page) => createInertiaApp({
 	render: ReactDOMServer.renderToString,
 	title: (title) => `${title} - ${appName}`,
 	resolve: (name) => resolvePageComponent(`./pages/${name}.tsx`, /* #__PURE__ */ Object.assign({
-		"./pages/home.tsx": () => import("./assets/home-B4h-9zyt.js"),
-		"./pages/welcome.tsx": () => import("./assets/welcome-Co_eRHKS.js")
+		"./pages/home.tsx": () => import("./assets/home-DXT0glj7.js"),
+		"./pages/welcome.tsx": () => import("./assets/welcome-DIxx9BM8.js")
 	})),
 	setup: ({ App, props }) => /* @__PURE__ */ jsx(AppearanceProvider, { children: /* @__PURE__ */ jsx(App, { ...props }) })
 }));

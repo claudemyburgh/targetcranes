@@ -13,7 +13,7 @@ function Hero() {
     }, []);
 
     return (
-        <section className={`h-svh flex items-end py-12 w-full max-w-full relative overflow-clip`}>
+        <section className={`h-svh  pb-12 pt-24 w-full max-w-full relative overflow-clip`}>
             <div
                 className="absolute inset-0 w-full h-full transform-gpu"
                 style={{
@@ -29,19 +29,22 @@ function Hero() {
 
             </div>
 
-            <Wrapper className="relative z-10 text-white ">
+            <Wrapper className="relative z-10 text-white flex items-end h-full">
+                <div aria-hidden={true}
+                     className={`text-white border-2 opacity-50  border-white/50 h-full rounded-3xl absolute inset-0 p-6 mask-[radial-gradient(circle_at_bottom_left,transparent_20%,black_30%)]`}></div>
                 <div className={` drop-shadow-black drop-shadow-xl`}>
                     <h2 className={`text-xl md:text-2xl font-heading tracking-widest `}>THE
                         TRUSTED NAME BEHIND</h2>
                     <h1 className="text-6xl md:text-8xl font-black font-heading tracking-tighter max-w-3xl text-balance uppercase">
                         THE NATIONS <span
-                        className={`bg-linear-to-r from-primary to-orange-800 inline-block px-1  bg-clip-text text-transparent`}>HEAVIEST LIFTS</span>
+                        className={`bg-linear-to-r from-primary to-orange-500 inline-block px-1  bg-clip-text text-transparent`}>HEAVIEST LIFTS</span>
                     </h1>
                     <p className={`max-w-3xl text-md md:text-xl leading-loose mt-4`}>Recognised Leaders for Unmatched
                         Excellence</p>
                 </div>
             </Wrapper>
-            <div className={`absolute bottom-0 inset-x-0 h-2/5 bg-linear-to-t from-foreground to-transparent`}></div>
+            <div
+                className={`absolute bottom-0 inset-x-0 h-2/5 bg-linear-to-t from-foreground dark:from-background to-transparent`}></div>
         </section>
     )
 }

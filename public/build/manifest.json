@@ -1,6 +1,6 @@
 {
-  "_app-layout-C3m7Qxs8.js": {
-    "file": "assets/app-layout-C3m7Qxs8.js",
+  "_app-layout-BbjfTcfL.js": {
+    "file": "assets/app-layout-BbjfTcfL.js",
     "name": "app-layout",
     "imports": [
       "resources/js/app.tsx"
@@ -58,8 +58,28 @@
     "file": "assets/jetbrains-mono-vietnamese-wght-normal-Bt-aOZkq.woff2",
     "src": "node_modules/@fontsource-variable/jetbrains-mono/files/jetbrains-mono-vietnamese-wght-normal.woff2"
   },
+  "node_modules/@fontsource-variable/oswald/files/oswald-cyrillic-ext-wght-normal.woff2": {
+    "file": "assets/oswald-cyrillic-ext-wght-normal-DLWmRmaW.woff2",
+    "src": "node_modules/@fontsource-variable/oswald/files/oswald-cyrillic-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/oswald/files/oswald-cyrillic-wght-normal.woff2": {
+    "file": "assets/oswald-cyrillic-wght-normal-C8sJyxwB.woff2",
+    "src": "node_modules/@fontsource-variable/oswald/files/oswald-cyrillic-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/oswald/files/oswald-latin-ext-wght-normal.woff2": {
+    "file": "assets/oswald-latin-ext-wght-normal-Dj_1K-Kw.woff2",
+    "src": "node_modules/@fontsource-variable/oswald/files/oswald-latin-ext-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/oswald/files/oswald-latin-wght-normal.woff2": {
+    "file": "assets/oswald-latin-wght-normal-CzS3kehr.woff2",
+    "src": "node_modules/@fontsource-variable/oswald/files/oswald-latin-wght-normal.woff2"
+  },
+  "node_modules/@fontsource-variable/oswald/files/oswald-vietnamese-wght-normal.woff2": {
+    "file": "assets/oswald-vietnamese-wght-normal-Tdf5mmdl.woff2",
+    "src": "node_modules/@fontsource-variable/oswald/files/oswald-vietnamese-wght-normal.woff2"
+  },
   "resources/css/app.css": {
-    "file": "assets/app-Bxdajz1p.css",
+    "file": "assets/app-B8xTutBa.css",
     "name": "app",
     "names": [
       "app.css"
@@ -79,15 +99,40 @@
       "assets/jetbrains-mono-greek-wght-normal-Bw9x6K1M.woff2",
       "assets/jetbrains-mono-vietnamese-wght-normal-Bt-aOZkq.woff2",
       "assets/jetbrains-mono-latin-ext-wght-normal-DBQx-q_a.woff2",
-      "assets/jetbrains-mono-latin-wght-normal-B9CIFXIH.woff2"
+      "assets/jetbrains-mono-latin-wght-normal-B9CIFXIH.woff2",
+      "assets/oswald-cyrillic-ext-wght-normal-DLWmRmaW.woff2",
+      "assets/oswald-cyrillic-wght-normal-C8sJyxwB.woff2",
+      "assets/oswald-vietnamese-wght-normal-Tdf5mmdl.woff2",
+      "assets/oswald-latin-ext-wght-normal-Dj_1K-Kw.woff2",
+      "assets/oswald-latin-wght-normal-CzS3kehr.woff2"
     ]
   },
-  "resources/images/hero-image.webp": {
-    "file": "assets/hero-image-BBNAoJo-.webp",
-    "src": "resources/images/hero-image.webp"
+  "resources/images/IMG-20261008-WA0038.webp": {
+    "file": "assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "src": "resources/images/IMG-20261008-WA0038.webp"
+  },
+  "resources/images/IMG-20261008-WA0039.webp": {
+    "file": "assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "src": "resources/images/IMG-20261008-WA0039.webp"
+  },
+  "resources/images/IMG-20261008-WA0040.webp": {
+    "file": "assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "src": "resources/images/IMG-20261008-WA0040.webp"
+  },
+  "resources/images/IMG-20261008-WA0041.webp": {
+    "file": "assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "src": "resources/images/IMG-20261008-WA0041.webp"
+  },
+  "resources/images/IMG-20261008-WA0054.webp": {
+    "file": "assets/IMG-20261008-WA0054-DTrbVS2T.webp",
+    "src": "resources/images/IMG-20261008-WA0054.webp"
+  },
+  "resources/images/hero-bigger.webp": {
+    "file": "assets/hero-bigger-CZlAwTII.webp",
+    "src": "resources/images/hero-bigger.webp"
   },
   "resources/js/app.tsx": {
-    "file": "assets/app-CpiR8XnA.js",
+    "file": "assets/app-D-uIesn3.js",
     "name": "app",
     "src": "resources/js/app.tsx",
     "isEntry": true,
@@ -96,7 +141,7 @@
       "resources/js/pages/welcome.tsx"
     ],
     "css": [
-      "assets/app-Bxdajz1p.css"
+      "assets/app-B8xTutBa.css"
     ],
     "assets": [
       "assets/inter-cyrillic-ext-wght-normal-BOeWTOD4.woff2",
@@ -111,29 +156,39 @@
       "assets/jetbrains-mono-greek-wght-normal-Bw9x6K1M.woff2",
       "assets/jetbrains-mono-vietnamese-wght-normal-Bt-aOZkq.woff2",
       "assets/jetbrains-mono-latin-ext-wght-normal-DBQx-q_a.woff2",
-      "assets/jetbrains-mono-latin-wght-normal-B9CIFXIH.woff2"
+      "assets/jetbrains-mono-latin-wght-normal-B9CIFXIH.woff2",
+      "assets/oswald-cyrillic-ext-wght-normal-DLWmRmaW.woff2",
+      "assets/oswald-cyrillic-wght-normal-C8sJyxwB.woff2",
+      "assets/oswald-vietnamese-wght-normal-Tdf5mmdl.woff2",
+      "assets/oswald-latin-ext-wght-normal-Dj_1K-Kw.woff2",
+      "assets/oswald-latin-wght-normal-CzS3kehr.woff2"
     ]
   },
   "resources/js/pages/home.tsx": {
-    "file": "assets/home-DOmjtGuU.js",
+    "file": "assets/home-DXcEPp_7.js",
     "name": "home",
     "src": "resources/js/pages/home.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_app-layout-C3m7Qxs8.js",
+      "_app-layout-BbjfTcfL.js",
       "resources/js/app.tsx"
     ],
     "assets": [
-      "assets/hero-image-BBNAoJo-.webp"
+      "assets/hero-bigger-CZlAwTII.webp",
+      "assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+      "assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+      "assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+      "assets/IMG-20261008-WA0041-voCRLuil.webp",
+      "assets/IMG-20261008-WA0054-DTrbVS2T.webp"
     ]
   },
   "resources/js/pages/welcome.tsx": {
-    "file": "assets/welcome-Db1RWKqR.js",
+    "file": "assets/welcome-lczkJK6D.js",
     "name": "welcome",
     "src": "resources/js/pages/welcome.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_app-layout-C3m7Qxs8.js",
+      "_app-layout-BbjfTcfL.js",
       "resources/js/app.tsx"
     ]
   }

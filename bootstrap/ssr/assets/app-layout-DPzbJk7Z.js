@@ -139,15 +139,15 @@ Wrapper.displayName = "Wrapper";
 //#region resources/js/components/navigation.tsx
 function Navigation() {
 	return /* @__PURE__ */ jsx("nav", {
-		className: "border-b border-border bg-background/80 backdrop-blur-md sticky top-0 z-40",
+		className: "border-b border-border bg-background/75 backdrop-blur-md fixed w-full top-0 z-40",
 		children: /* @__PURE__ */ jsx(Wrapper, { children: /* @__PURE__ */ jsxs("div", {
 			className: "flex justify-between h-16 items-center",
 			children: [/* @__PURE__ */ jsxs("div", {
 				className: "flex items-center gap-8",
 				children: [/* @__PURE__ */ jsx(Link, {
 					href: "/",
-					className: "font-bold text-xl tracking-tight text-primary",
-					children: "StarterKit"
+					className: "font-bold text-2xl font-heading tracking-tight text-primary uppercase",
+					children: "Target Cranes"
 				}), /* @__PURE__ */ jsx("div", {
 					className: "hidden md:flex gap-6 text-sm font-medium",
 					children: /* @__PURE__ */ jsx(Link, {
@@ -198,4 +198,4 @@ function AppLayout({ children }) {
 	});
 }
 //#endregion
-export { Wrapper as n, buttonVariants as r, AppLayout as t };
+export { buttonVariants as i, Wrapper as n, cn$1 as r, AppLayout as t };

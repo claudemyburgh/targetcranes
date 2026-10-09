@@ -1,44 +1,131 @@
 {
   "node_modules/laravel-vite-plugin/inertia-helpers/index.js": [],
-  "resources/images/hero-image.webp": [
-    "/build/assets/home-B4h-9zyt.js",
-    "/build/assets/hero-image-BBNAoJo-.webp"
+  "resources/images/IMG-20261008-WA0038.webp": [
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
+  ],
+  "resources/images/IMG-20261008-WA0039.webp": [
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
+  ],
+  "resources/images/IMG-20261008-WA0040.webp": [
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
+  ],
+  "resources/images/IMG-20261008-WA0041.webp": [
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
+  ],
+  "resources/images/IMG-20261008-WA0054.webp": [
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
+  ],
+  "resources/images/hero-bigger.webp": [
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
   ],
   "resources/js/components/footer.tsx": [
-    "/build/assets/app-layout-a01gcPpr.js"
+    "/build/assets/app-layout-DPzbJk7Z.js"
   ],
   "resources/js/components/hero.tsx": [
-    "/build/assets/home-B4h-9zyt.js",
-    "/build/assets/hero-image-BBNAoJo-.webp"
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
   ],
   "resources/js/components/navigation.tsx": [
-    "/build/assets/app-layout-a01gcPpr.js"
+    "/build/assets/app-layout-DPzbJk7Z.js"
+  ],
+  "resources/js/components/project-success-4.tsx": [
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
+  ],
+  "resources/js/components/service-areas-alt-1.tsx": [
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
   ],
   "resources/js/components/theme-toggle.tsx": [
-    "/build/assets/app-layout-a01gcPpr.js"
+    "/build/assets/app-layout-DPzbJk7Z.js"
   ],
   "resources/js/components/ui/button.tsx": [
-    "/build/assets/app-layout-a01gcPpr.js"
+    "/build/assets/app-layout-DPzbJk7Z.js"
   ],
   "resources/js/components/ui/dropdown-menu.tsx": [
-    "/build/assets/app-layout-a01gcPpr.js"
+    "/build/assets/app-layout-DPzbJk7Z.js"
+  ],
+  "resources/js/components/ui/misc/section-label.tsx": [
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
   ],
   "resources/js/components/ui/misc/wrapper.tsx": [
-    "/build/assets/app-layout-a01gcPpr.js"
+    "/build/assets/app-layout-DPzbJk7Z.js"
   ],
   "resources/js/hooks/use-appearance.tsx": [],
   "resources/js/layouts/app-layout.tsx": [
-    "/build/assets/app-layout-a01gcPpr.js"
+    "/build/assets/app-layout-DPzbJk7Z.js"
   ],
   "resources/js/lib/utils.ts": [
-    "/build/assets/app-layout-a01gcPpr.js"
+    "/build/assets/app-layout-DPzbJk7Z.js"
   ],
   "resources/js/pages/home.tsx": [
-    "/build/assets/home-B4h-9zyt.js",
-    "/build/assets/hero-image-BBNAoJo-.webp"
+    "/build/assets/home-DXT0glj7.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
+    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
   ],
   "resources/js/pages/welcome.tsx": [
-    "/build/assets/welcome-Co_eRHKS.js"
+    "/build/assets/welcome-DIxx9BM8.js"
   ],
   "resources/js/ssr.tsx": []
 }

@@ -1,13 +1,14 @@
 import AppLayout from "@/layouts/app-layout.tsx";
-import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import Hero from "@/components/hero.tsx";
-
+import ServiceAreasAlt1 from "@/components/service-areas-alt-1.tsx";
+import ProjectSuccess4 from "@/components/project-success-4.tsx";
 
 function Home() {
     return (
         <>
             <Hero/>
-            <Wrapper>Home page</Wrapper>
+            <ServiceAreasAlt1/>
+            <ProjectSuccess4/>
         </>
 
     )
