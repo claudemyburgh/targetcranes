@@ -53,12 +53,15 @@ function useAppearance() {
 }
 //#endregion
 //#region resources/js/ssr.tsx
-var appName = "Laravel Starter";
+var appName = "Target Cranes";
 createServer((page) => createInertiaApp({
 	page,
 	render: ReactDOMServer.renderToString,
 	title: (title) => `${title} - ${appName}`,
-	resolve: (name) => resolvePageComponent(`./pages/${name}.tsx`, /* #__PURE__ */ Object.assign({ "./pages/welcome.tsx": () => import("./assets/welcome-D6A4o9jZ.js") })),
+	resolve: (name) => resolvePageComponent(`./pages/${name}.tsx`, /* #__PURE__ */ Object.assign({
+		"./pages/home.tsx": () => import("./assets/home-B4h-9zyt.js"),
+		"./pages/welcome.tsx": () => import("./assets/welcome-Co_eRHKS.js")
+	})),
 	setup: ({ App, props }) => /* @__PURE__ */ jsx(AppearanceProvider, { children: /* @__PURE__ */ jsx(App, { ...props }) })
 }));
 //#endregion
