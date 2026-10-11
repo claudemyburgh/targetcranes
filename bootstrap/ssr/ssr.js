@@ -57,10 +57,12 @@ var appName = "Target Cranes";
 createServer((page) => createInertiaApp({
 	page,
 	render: ReactDOMServer.renderToString,
-	title: (title) => `${title} - ${appName}`,
+	title: (title) => title ? `${title} | ${appName}` : `${appName} | Crane Hire & Managed Lifting in South Africa`,
 	resolve: (name) => resolvePageComponent(`./pages/${name}.tsx`, /* #__PURE__ */ Object.assign({
-		"./pages/home.tsx": () => import("./assets/home-DXT0glj7.js"),
-		"./pages/welcome.tsx": () => import("./assets/welcome-DIxx9BM8.js")
+		"./pages/about-us.tsx": () => import("./assets/about-us-l-8A2CqW.js"),
+		"./pages/contact-us.tsx": () => import("./assets/contact-us-DRfMZ_jT.js"),
+		"./pages/home.tsx": () => import("./assets/home-5VzPejUg.js"),
+		"./pages/welcome.tsx": () => import("./assets/welcome-D74JieWH.js")
 	})),
 	setup: ({ App, props }) => /* @__PURE__ */ jsx(AppearanceProvider, { children: /* @__PURE__ */ jsx(App, { ...props }) })
 }));

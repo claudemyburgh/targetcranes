@@ -1,5 +1,6 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
+import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
 import maritimeImg from "@/../images/IMG-20261008-WA0038.webp";
 // @ts-ignore
@@ -47,10 +48,15 @@ function ServiceAreasAlt1() {
                     {/* Left Sticky Column */}
                     <div className="lg:w-1/3 lg:sticky lg:top-32 flex flex-col">
                         <SectionLabel className="mb-8">Industry</SectionLabel>
-                        <h2 className="text-4xl md:text-6xl font-black font-heading tracking-tight uppercase mb-6 text-foreground drop-shadow-sm ">
-                            Service <span
-                            className={`bg-linear-to-r from-primary to-orange-500 inline-block px-1  bg-clip-text text-transparent`}>Areas</span
-                        >
+                        <h2>
+                            <SwipeTitle
+                                className="text-4xl md:text-6xl font-black font-heading tracking-tight uppercase mb-6 text-foreground drop-shadow-sm">
+                                <SwipeLine>Service</SwipeLine>
+                                <SwipeLine>
+                                    <span
+                                        className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">Areas</span>
+                                </SwipeLine>
+                            </SwipeTitle>
                         </h2>
                         <p className="text-lg text-muted-foreground leading-relaxed">
                             We provide specialised lifting services across a variety of sectors.

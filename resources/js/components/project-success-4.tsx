@@ -1,5 +1,6 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
+import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
 import img1 from "@/../images/IMG-20261008-WA0054.webp";
 // @ts-ignore
@@ -15,10 +16,15 @@ function ProjectSuccess4() {
             <Wrapper>
                 <div className="max-w-4xl mb-16 lg:mb-24">
                     <SectionLabel className="mb-8">Our Approach</SectionLabel>
-                    <h2 className="text-5xl md:text-7xl font-black font-heading text-foreground drop-shadow-sm uppercase tracking-tight leading-[1.1]">
-                        Every Successful Project <br/>
-                        <span
-                            className={`bg-linear-to-r from-primary to-orange-500 inline-block px-1  bg-clip-text text-transparent`}>Begins With Us</span>
+                    <h2>
+                        <SwipeTitle
+                            className="text-5xl md:text-7xl font-black font-heading text-foreground drop-shadow-sm uppercase tracking-tight leading-[1.1]">
+                            <SwipeLine>Every Successful Project</SwipeLine>
+                            <SwipeLine>
+                                <span
+                                    className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">Begins With Us</span>
+                            </SwipeLine>
+                        </SwipeTitle>
                     </h2>
                 </div>
 
@@ -43,22 +49,35 @@ function ProjectSuccess4() {
                     </div>
 
                     <div className="lg:col-span-7 h-full">
-                        <div className="grid grid-cols-2 grid-rows-3 gap-3 md:gap-4 h-[400px] md:h-[500px] lg:h-full lg:min-h-[600px]">
+                        <div
+                            className="grid grid-cols-2 grid-rows-3 gap-3 md:gap-4 h-[400px] md:h-[500px] lg:h-full lg:min-h-[600px]">
                             {/* Large left item */}
-                            <div className="col-span-1 row-span-2 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group">
-                                <img src={img1} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" alt="Crane operation 1" />
+                            <div
+                                className="col-span-1 row-span-2 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group">
+                                <img src={img1}
+                                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                                     alt="Crane operation 1"/>
                             </div>
                             {/* Top right item */}
-                            <div className="col-span-1 row-span-1 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group">
-                                <img src={img2} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" alt="Crane operation 2" />
+                            <div
+                                className="col-span-1 row-span-1 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group">
+                                <img src={img2}
+                                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                                     alt="Crane operation 2"/>
                             </div>
                             {/* Middle right item */}
-                            <div className="col-span-1 row-span-2 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group">
-                                <img src={img3} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" alt="Crane operation 3" />
+                            <div
+                                className="col-span-1 row-span-2 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group">
+                                <img src={img3}
+                                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                                     alt="Crane operation 3"/>
                             </div>
                             {/* Bottom left item */}
-                            <div className="col-span-1 row-span-1 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group">
-                                <img src={img4} className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" alt="Crane operation 4" />
+                            <div
+                                className="col-span-1 row-span-1 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group">
+                                <img src={img4}
+                                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105"
+                                     alt="Crane operation 4"/>
                             </div>
                         </div>
                     </div>

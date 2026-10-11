@@ -1,5 +1,8 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import {useEffect, useState} from "react";
+import {ChevronDown} from "lucide-react";
+import ExperienceBadge from "@/components/ui/misc/experience-badge.tsx";
+import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
 import heroImage from "@/../images/hero-bigger.webp";
 
@@ -23,28 +26,47 @@ function Hero() {
             >
                 <img
                     src={heroImage}
-                    alt="Target Cranes"
+                    alt="Target Cranes - Mobile Crane Hire & Managed Lifting"
                     className="w-full h-full mx-auto object-cover object-center"
                 />
 
             </div>
 
-            <Wrapper className="relative z-10 text-white flex items-end h-full">
-                <div aria-hidden={true}
-                     className={`text-white border-2 opacity-50  border-white/50 h-full rounded-3xl absolute inset-0 p-6 mask-[radial-gradient(circle_at_bottom_left,transparent_20%,black_30%)]`}></div>
-                <div className={` drop-shadow-black drop-shadow-xl`}>
-                    <h2 className={`text-xl md:text-2xl font-heading tracking-widest `}>THE
-                        TRUSTED NAME BEHIND</h2>
-                    <h1 className="text-6xl md:text-8xl font-black font-heading tracking-tighter max-w-3xl text-balance uppercase">
-                        THE NATIONS <span
-                        className={`bg-linear-to-r from-primary to-orange-500 inline-block px-1  bg-clip-text text-transparent`}>HEAVIEST LIFTS</span>
+            <div className="absolute top-28 md:top-32 inset-x-0 flex justify-center z-20 pointer-events-none">
+                <ExperienceBadge/>
+            </div>
+
+            <Wrapper className="relative z-10 text-white flex items-end h-full pb-6 sm:pb-8">
+
+                <div className="drop-shadow-black drop-shadow-xl max-w-4xl">
+                    <h2 className="text-xl md:text-2xl font-heading tracking-widest opacity-0 animate-[slide-up-fade_1s_ease-out_forwards]">
+                        THE TRUSTED NAME BEHIND
+                    </h2>
+                    <h1 className="mt-2">
+                        <SwipeTitle
+                            className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black font-heading tracking-tighter max-w-3xl text-balance uppercase">
+                            <SwipeLine delay={2}>THE NATIONS</SwipeLine>
+                            <SwipeLine delay={3}>
+                                <span
+                                    className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">
+                                    HEAVIEST LIFTS
+                                </span>
+                            </SwipeLine>
+                        </SwipeTitle>
                     </h1>
-                    <p className={`max-w-3xl text-md md:text-xl leading-loose mt-4`}>Recognised Leaders for Unmatched
-                        Excellence</p>
+                    <p className="max-w-3xl text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mt-4 text-white/90 opacity-0 animate-[slide-up-fade_1s_ease-out_0.6s_forwards]">
+                        From routine lifts to complex projects, Target Cranes provides equipment selection, lift planning and managed crane operations tailored to your site and schedule.
+                    </p>
                 </div>
             </Wrapper>
             <div
-                className={`absolute bottom-0 inset-x-0 h-2/5 bg-linear-to-t from-foreground dark:from-background to-transparent`}></div>
+                className={`absolute bottom-0 inset-x-0 h-2/5 bg-linear-to-t from-foreground dark:from-background to-transparent flex items-end justify-center pb-8 pointer-events-none`}>
+                <div className="opacity-0 animate-[slide-up-fade_1s_ease-out_1s_forwards]">
+                    <div className="animate-bounce -translate-y-12 text-white/50">
+                        <ChevronDown size={32}/>
+                    </div>
+                </div>
+            </div>
         </section>
     )
 }
