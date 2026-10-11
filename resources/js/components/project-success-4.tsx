@@ -2,11 +2,11 @@ import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
-import img1 from "@/../images/IMG-20261008-WA0054.webp";
+import img1 from "@/../images/tall.webp";
 // @ts-ignore
-import img2 from "@/../images/IMG-20261008-WA0038.webp";
+import img2 from "@/../images/const.webp";
 // @ts-ignore
-import img3 from "@/../images/IMG-20261008-WA0039.webp";
+import img3 from "@/../images/tall-2.webp";
 // @ts-ignore
 import img4 from "@/../images/IMG-20261008-WA0040.webp";
 

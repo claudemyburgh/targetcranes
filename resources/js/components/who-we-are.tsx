@@ -2,14 +2,14 @@ import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
-import whoWeAreImage from "@/../images/fleet.webp";
+import whoWeAreImage from "@/../images/welcome.webp";
 
 export default function WhoWeAre() {
     return (
-        <section className="py-24 bg-muted">
+        <section className="py-24 bg-muted overflow-hidden">
             <Wrapper>
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-                    <div>
+                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 items-center">
+                    <div className="lg:col-span-5">
                         <SectionLabel className="mb-8">Our Approach</SectionLabel>
                         <h2>
                             <SwipeTitle
@@ -23,7 +23,7 @@ export default function WhoWeAre() {
                                 </SwipeLine>
                             </SwipeTitle>
                         </h2>
-                        <div className="space-y-4 text-muted-foreground text-lg leading-relaxed max-w-xl">
+                        <div className="space-y-4 text-muted-foreground text-lg leading-relaxed max-w-2xl">
                             <p>
                                 No two lifting projects present the same conditions. The load, available space, site
                                 access and work schedule all shape the approach.
@@ -34,12 +34,11 @@ export default function WhoWeAre() {
                             </p>
                         </div>
                     </div>
-                    <div
-                        className="relative aspect-square md:aspect-video lg:aspect-square bg-muted rounded-3xl overflow-clip shadow-2xl">
+                    <div className="lg:col-span-7 relative flex items-center justify-center lg:justify-end">
                         <img
                             src={whoWeAreImage}
                             alt="Target Cranes operations"
-                            className="w-full h-full object-cover transition-transform hover:scale-105 duration-700"
+                            className="w-full max-w-2xl lg:max-w-none h-auto object-contain drop-shadow-2xl lg:scale-115 xl:scale-125 transform-gpu origin-center lg:origin-right transition-transform duration-700 hover:scale-105 lg:hover:scale-120 xl:hover:scale-130"
                         />
                     </div>
                 </div>

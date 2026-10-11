@@ -1,107 +1,104 @@
 {
   "node_modules/laravel-vite-plugin/inertia-helpers/index.js": [],
   "node_modules/leaflet/dist/leaflet.css": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
     "/build/assets/layers-2x-Bpkbi35X.png",
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
-  "resources/images/IMG-20261008-WA0038.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
-    "/build/assets/hero-bigger-CZlAwTII.webp",
-    "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
-    "/build/assets/maritime-DOuBr_0N.webp",
-    "/build/assets/construction-f8ODE_Ud.webp",
-    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
-    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
-    "/build/assets/black-white-WRcZDZ-k.webp"
-  ],
-  "resources/images/IMG-20261008-WA0039.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
-    "/build/assets/hero-bigger-CZlAwTII.webp",
-    "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
-    "/build/assets/maritime-DOuBr_0N.webp",
-    "/build/assets/construction-f8ODE_Ud.webp",
-    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
-    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
-    "/build/assets/black-white-WRcZDZ-k.webp"
-  ],
   "resources/images/IMG-20261008-WA0040.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/images/IMG-20261008-WA0041.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/images/IMG-20261008-WA0042.webp": [
-    "/build/assets/about-us-D-Emekt3.js",
-    "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp",
+    "/build/assets/IMG-20261008-WA0042-GyVLJorL.js",
     "/build/assets/IMG-20261008-WA0042-NQ1RHsCP.webp"
   ],
   "resources/images/IMG-20261008-WA0045.webp": [
-    "/build/assets/about-us-D-Emekt3.js",
-    "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp",
-    "/build/assets/IMG-20261008-WA0042-NQ1RHsCP.webp"
+    "/build/assets/about-us-DO9cMJMk.js",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp",
+    "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp"
   ],
   "resources/images/IMG-20261008-WA0054.webp": [
-    "/build/assets/IMG-20261008-WA0054-Czj_loDn.js",
-    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp"
+    "/build/assets/about-us-DO9cMJMk.js",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp",
+    "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp"
   ],
   "resources/images/black-white.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/black-white-WRcZDZ-k.webp"
+  ],
+  "resources/images/const.webp": [
+    "/build/assets/home-CTQmEYzI.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/panorama-BH1CJntt.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
+    "/build/assets/maritime-DOuBr_0N.webp",
+    "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/images/construction.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/images/crane-half-cut.webp": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -109,59 +106,116 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/images/fleet.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/images/hero-bigger.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/images/maritime.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/images/panorama.webp": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/black-white-WRcZDZ-k.webp"
+  ],
+  "resources/images/safety.webp": [
+    "/build/assets/safety-DJ9UUmmq.js",
+    "/build/assets/safety-ugjOazif.webp"
+  ],
+  "resources/images/tall-2.webp": [
+    "/build/assets/home-CTQmEYzI.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/panorama-BH1CJntt.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
+    "/build/assets/maritime-DOuBr_0N.webp",
+    "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/black-white-WRcZDZ-k.webp"
+  ],
+  "resources/images/tall.webp": [
+    "/build/assets/home-CTQmEYzI.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/panorama-BH1CJntt.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
+    "/build/assets/maritime-DOuBr_0N.webp",
+    "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/black-white-WRcZDZ-k.webp"
+  ],
+  "resources/images/welcome.webp": [
+    "/build/assets/home-CTQmEYzI.js",
+    "/build/assets/hero-bigger-CZlAwTII.webp",
+    "/build/assets/panorama-BH1CJntt.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
+    "/build/assets/maritime-DOuBr_0N.webp",
+    "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/js/components/Grainient.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -169,7 +223,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/address-map.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -177,7 +231,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/emergency-support.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -185,7 +239,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/footer.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -193,20 +247,26 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/hero.tsx": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
+  "resources/js/components/home-safety-practices-section.tsx": [
+    "/build/assets/safety-DJ9UUmmq.js",
+    "/build/assets/safety-ugjOazif.webp"
+  ],
   "resources/js/components/logo.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -214,20 +274,22 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/nationwide-service.tsx": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/js/components/navigation.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -235,57 +297,67 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/project-success-4.tsx": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/js/components/seo.tsx": [
-    "/build/assets/seo-C6a5S63n.js"
+    "/build/assets/seo-BEU1r1nv.js"
   ],
   "resources/js/components/service-areas-alt-1.tsx": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/js/components/stats.tsx": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/js/components/theme-toggle.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
     "/build/assets/layers-2x-Bpkbi35X.png",
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
+  "resources/js/components/ui/accordion.tsx": [
+    "/build/assets/safety-DJ9UUmmq.js",
+    "/build/assets/safety-ugjOazif.webp"
+  ],
   "resources/js/components/ui/button.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -293,7 +365,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/ui/dropdown-menu.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -301,26 +373,32 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/ui/input.tsx": [
-    "/build/assets/contact-us-BGu0SXCL.js"
+    "/build/assets/contact-us-0L_hTszT.js"
   ],
   "resources/js/components/ui/label.tsx": [
-    "/build/assets/contact-us-BGu0SXCL.js"
+    "/build/assets/contact-us-0L_hTszT.js"
   ],
   "resources/js/components/ui/misc/experience-badge.tsx": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
+  "resources/js/components/ui/misc/section-heading.tsx": [
+    "/build/assets/safety-DJ9UUmmq.js",
+    "/build/assets/safety-ugjOazif.webp"
+  ],
   "resources/js/components/ui/misc/section-label.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -328,7 +406,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/ui/misc/wrapper.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -336,7 +414,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/ui/sheet.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -344,7 +422,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/ui/swipe-title.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -352,24 +430,26 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/ui/textarea.tsx": [
-    "/build/assets/contact-us-BGu0SXCL.js"
+    "/build/assets/contact-us-0L_hTszT.js"
   ],
   "resources/js/components/who-we-are.tsx": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/js/hooks/use-appearance.tsx": [],
   "resources/js/layouts/app-layout.tsx": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -377,7 +457,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/lib/utils.ts": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -385,40 +465,46 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/pages/about-us.tsx": [
-    "/build/assets/about-us-D-Emekt3.js",
-    "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp",
-    "/build/assets/IMG-20261008-WA0042-NQ1RHsCP.webp"
+    "/build/assets/about-us-DO9cMJMk.js",
+    "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp",
+    "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp"
   ],
   "resources/js/pages/contact-us.tsx": [
-    "/build/assets/contact-us-BGu0SXCL.js"
+    "/build/assets/contact-us-0L_hTszT.js"
   ],
   "resources/js/pages/home.tsx": [
-    "/build/assets/home-BRt0PgIZ.js",
+    "/build/assets/home-CTQmEYzI.js",
     "/build/assets/hero-bigger-CZlAwTII.webp",
     "/build/assets/panorama-BH1CJntt.webp",
-    "/build/assets/fleet-Y9bg7l4z.webp",
+    "/build/assets/welcome-DCBdM6AD.webp",
     "/build/assets/maritime-DOuBr_0N.webp",
     "/build/assets/construction-f8ODE_Ud.webp",
+    "/build/assets/fleet-Y9bg7l4z.webp",
     "/build/assets/IMG-20261008-WA0041-voCRLuil.webp",
-    "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp",
-    "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
     "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
     "/build/assets/black-white-WRcZDZ-k.webp"
   ],
   "resources/js/pages/privacy-policy.tsx": [
-    "/build/assets/privacy-policy-CiqC5tt3.js"
+    "/build/assets/privacy-policy-BMzEmonx.js"
+  ],
+  "resources/js/pages/safety.tsx": [
+    "/build/assets/safety-DJ9UUmmq.js",
+    "/build/assets/safety-ugjOazif.webp"
   ],
   "resources/js/pages/terms-of-service.tsx": [
-    "/build/assets/terms-of-service-CMG1KoDW.js"
+    "/build/assets/terms-of-service-G5npJ3DQ.js"
   ],
   "resources/js/pages/welcome.tsx": [
-    "/build/assets/welcome-B9cQIgBf.js"
+    "/build/assets/welcome-DoQDUF-1.js"
   ],
   "resources/js/routes/contact-us/index.ts": [
-    "/build/assets/contact-us-BGu0SXCL.js"
+    "/build/assets/contact-us-0L_hTszT.js"
   ],
   "resources/js/routes/index.ts": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",
@@ -427,7 +513,7 @@
   ],
   "resources/js/ssr.tsx": [],
   "resources/js/wayfinder/index.ts": [
-    "/build/assets/app-layout-Coy9jip_.js",
+    "/build/assets/app-layout-DGmJQL0R.js",
     "/build/assets/app-layout-1DTFk8zz.css",
     "/build/assets/crane-half-cut-Cxi4Fc3U.webp",
     "/build/assets/layers-BWBAp2CZ.png",

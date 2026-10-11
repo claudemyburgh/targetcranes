@@ -29,6 +29,12 @@ class SitemapService
                     ->setPriority(0.8)
             )
             ->add(
+                Url::create("{$baseUrl}/safety")
+                    ->setLastModificationDate(Carbon::now())
+                    ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)
+                    ->setPriority(0.8)
+            )
+            ->add(
                 Url::create("{$baseUrl}/contact-us")
                     ->setLastModificationDate(Carbon::now())
                     ->setChangeFrequency(Url::CHANGE_FREQUENCY_MONTHLY)

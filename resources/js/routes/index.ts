@@ -86,6 +86,49 @@ aboutUs.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
 })
 
 /**
+* @see \App\Http\Controllers\SafetyIndexController::__invoke
+ * @see app/Http/Controllers/SafetyIndexController.php:14
+ * @route '/safety'
+ */
+export const safety = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: safety.url(options),
+    method: 'get',
+})
+
+safety.definition = {
+    methods: ["get","head"],
+    url: '/safety',
+} satisfies RouteDefinition<["get","head"]>
+
+/**
+* @see \App\Http\Controllers\SafetyIndexController::__invoke
+ * @see app/Http/Controllers/SafetyIndexController.php:14
+ * @route '/safety'
+ */
+safety.url = (options?: RouteQueryOptions) => {
+    return safety.definition.url + queryParams(options)
+}
+
+/**
+* @see \App\Http\Controllers\SafetyIndexController::__invoke
+ * @see app/Http/Controllers/SafetyIndexController.php:14
+ * @route '/safety'
+ */
+safety.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: safety.url(options),
+    method: 'get',
+})
+/**
+* @see \App\Http\Controllers\SafetyIndexController::__invoke
+ * @see app/Http/Controllers/SafetyIndexController.php:14
+ * @route '/safety'
+ */
+safety.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
+    url: safety.url(options),
+    method: 'head',
+})
+
+/**
 * @see \App\Http\Controllers\ContactUsIndexController::__invoke
  * @see app/Http/Controllers/ContactUsIndexController.php:13
  * @route '/contact-us'

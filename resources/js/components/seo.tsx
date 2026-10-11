@@ -21,6 +21,13 @@ export function Seo({
         <Head title={title}>
             <meta name="description" content={description} head-key="description" />
 
+            {/* Favicons */}
+            <link rel="icon" type="image/x-icon" href="/favicon.ico?v=2" head-key="favicon" />
+            <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=2" head-key="shortcut-icon" />
+            <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png?v=2" head-key="icon-32" />
+            <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png?v=2" head-key="icon-16" />
+            <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2" head-key="apple-icon" />
+
             {/* Open Graph / Facebook */}
             <meta property="og:type" content={type} head-key="og:type" />
             <meta property="og:title" content={fullTitle} head-key="og:title" />

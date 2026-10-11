@@ -14,6 +14,7 @@
         "laravel/framework": "^13.8",
         "laravel/tinker": "^3.0",
         "laravel/wayfinder": "*",
+        "spatie/laravel-backup": "^10.3",
         "spatie/laravel-sitemap": "^8.2",
         "stephenjude/filament-two-factor-authentication": "*"
     },

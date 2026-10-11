@@ -44,8 +44,8 @@ export function AddressMap() {
                     </div>
                     <div className="lg:w-2/3 w-full">
                         <div
-                            className="w-full h-[400px] rounded-xl overflow-hidden shadow-lg border border-border relative z-0">
-                            <MapContainer center={position} zoom={15} scrollWheelZoom={false}
+                            className="w-full h-100 rounded-xl overflow-hidden shadow-lg border border-border relative z-0">
+                            <MapContainer center={position} zoom={17} scrollWheelZoom={false}
                                           className="w-full h-full relative z-0"
                                           style={{height: "100%", width: "100%", zIndex: 0}}>
                                 <TileLayer
