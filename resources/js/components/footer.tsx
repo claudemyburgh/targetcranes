@@ -1,7 +1,7 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import { Link } from "@inertiajs/react";
 import { Logo } from "./logo";
-import { home, aboutUs, contactUs } from "@/routes";
+import { home, aboutUs, contactUs, privacyPolicy, termsOfService } from "@/routes";
 import { Phone, Mail, MapPin } from "lucide-react";
 
 export function Footer() {
@@ -80,10 +80,21 @@ export function Footer() {
                 </div>
 
                 {/* Sub-Footer */}
-                <div className="border-t border-border pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground">
-                    <p>
-                        &copy; {new Date().getFullYear()} Target Cranes (Pty) Ltd. All rights reserved.
-                    </p>
+                <div className="border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
+                    <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left">
+                        <p>
+                            &copy; {new Date().getFullYear()} Target Cranes (Pty) Ltd. All rights reserved.
+                        </p>
+                        <div className="flex items-center gap-3">
+                            <Link href={privacyPolicy.url()} className="hover:text-primary transition-colors hover:underline">
+                                Privacy Policy
+                            </Link>
+                            <span>&bull;</span>
+                            <Link href={termsOfService.url()} className="hover:text-primary transition-colors hover:underline">
+                                Terms of Service
+                            </Link>
+                        </div>
+                    </div>
                     <p className="flex items-center gap-1">
                         Designed and developed by{" "}
                         <a

@@ -2,11 +2,11 @@ import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
-import maritimeImg from "@/../images/IMG-20261008-WA0038.webp";
+import maritimeImg from "@/../images/maritime.webp";
 // @ts-ignore
-import constructionImg from "@/../images/IMG-20261008-WA0039.webp";
+import constructionImg from "@/../images/construction.webp";
 // @ts-ignore
-import renewableImg from "@/../images/IMG-20261008-WA0040.webp";
+import renewableImg from "@/../images/fleet.webp";
 // @ts-ignore
 import miningImg from "@/../images/IMG-20261008-WA0041.webp";
 
@@ -75,7 +75,7 @@ function ServiceAreasAlt1() {
                             return (
                                 <div key={index} className="flex flex-col gap-8 group">
                                     <div
-                                        className="relative h-[300px] md:h-[450px] w-full rounded-3xl overflow-hidden bg-card border border-border shadow-sm">
+                                        className="relative w-full aspect-video rounded-3xl overflow-hidden bg-card border border-border shadow-sm">
                                         <div
                                             className="absolute inset-0 bg-primary/10 mix-blend-overlay z-10 transition-opacity duration-500 group-hover:opacity-0"></div>
                                         <img

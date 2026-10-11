@@ -437,6 +437,123 @@ contactUs.head = (options) => ({
 	url: contactUs.url(options),
 	method: "head"
 });
+/**
+* @see \App\Http\Controllers\PrivacyPolicyController::__invoke
+* @see app/Http/Controllers/PrivacyPolicyController.php:14
+* @route '/privacy-policy'
+*/
+var privacyPolicy = (options) => ({
+	url: privacyPolicy.url(options),
+	method: "get"
+});
+privacyPolicy.definition = {
+	methods: ["get", "head"],
+	url: "/privacy-policy"
+};
+/**
+* @see \App\Http\Controllers\PrivacyPolicyController::__invoke
+* @see app/Http/Controllers/PrivacyPolicyController.php:14
+* @route '/privacy-policy'
+*/
+privacyPolicy.url = (options) => {
+	return privacyPolicy.definition.url + queryParams(options);
+};
+/**
+* @see \App\Http\Controllers\PrivacyPolicyController::__invoke
+* @see app/Http/Controllers/PrivacyPolicyController.php:14
+* @route '/privacy-policy'
+*/
+privacyPolicy.get = (options) => ({
+	url: privacyPolicy.url(options),
+	method: "get"
+});
+/**
+* @see \App\Http\Controllers\PrivacyPolicyController::__invoke
+* @see app/Http/Controllers/PrivacyPolicyController.php:14
+* @route '/privacy-policy'
+*/
+privacyPolicy.head = (options) => ({
+	url: privacyPolicy.url(options),
+	method: "head"
+});
+/**
+* @see \App\Http\Controllers\TermsOfServiceController::__invoke
+* @see app/Http/Controllers/TermsOfServiceController.php:14
+* @route '/terms-of-service'
+*/
+var termsOfService = (options) => ({
+	url: termsOfService.url(options),
+	method: "get"
+});
+termsOfService.definition = {
+	methods: ["get", "head"],
+	url: "/terms-of-service"
+};
+/**
+* @see \App\Http\Controllers\TermsOfServiceController::__invoke
+* @see app/Http/Controllers/TermsOfServiceController.php:14
+* @route '/terms-of-service'
+*/
+termsOfService.url = (options) => {
+	return termsOfService.definition.url + queryParams(options);
+};
+/**
+* @see \App\Http\Controllers\TermsOfServiceController::__invoke
+* @see app/Http/Controllers/TermsOfServiceController.php:14
+* @route '/terms-of-service'
+*/
+termsOfService.get = (options) => ({
+	url: termsOfService.url(options),
+	method: "get"
+});
+/**
+* @see \App\Http\Controllers\TermsOfServiceController::__invoke
+* @see app/Http/Controllers/TermsOfServiceController.php:14
+* @route '/terms-of-service'
+*/
+termsOfService.head = (options) => ({
+	url: termsOfService.url(options),
+	method: "head"
+});
+/**
+* @see \App\Http\Controllers\SitemapController::__invoke
+* @see app/Http/Controllers/SitemapController.php:13
+* @route '/sitemap.xml'
+*/
+var sitemap = (options) => ({
+	url: sitemap.url(options),
+	method: "get"
+});
+sitemap.definition = {
+	methods: ["get", "head"],
+	url: "/sitemap.xml"
+};
+/**
+* @see \App\Http\Controllers\SitemapController::__invoke
+* @see app/Http/Controllers/SitemapController.php:13
+* @route '/sitemap.xml'
+*/
+sitemap.url = (options) => {
+	return sitemap.definition.url + queryParams(options);
+};
+/**
+* @see \App\Http\Controllers\SitemapController::__invoke
+* @see app/Http/Controllers/SitemapController.php:13
+* @route '/sitemap.xml'
+*/
+sitemap.get = (options) => ({
+	url: sitemap.url(options),
+	method: "get"
+});
+/**
+* @see \App\Http\Controllers\SitemapController::__invoke
+* @see app/Http/Controllers/SitemapController.php:13
+* @route '/sitemap.xml'
+*/
+sitemap.head = (options) => ({
+	url: sitemap.url(options),
+	method: "head"
+});
 //#endregion
 //#region resources/js/components/navigation.tsx
 var navLinks = [
@@ -602,12 +719,30 @@ function Footer() {
 				})
 			]
 		}), /* @__PURE__ */ jsxs("div", {
-			className: "border-t border-border pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-muted-foreground",
-			children: [/* @__PURE__ */ jsxs("p", { children: [
-				"© ",
-				(/* @__PURE__ */ new Date()).getFullYear(),
-				" Target Cranes (Pty) Ltd. All rights reserved."
-			] }), /* @__PURE__ */ jsxs("p", {
+			className: "border-t border-border pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-muted-foreground",
+			children: [/* @__PURE__ */ jsxs("div", {
+				className: "flex flex-col sm:flex-row items-center gap-2 sm:gap-4 text-center sm:text-left",
+				children: [/* @__PURE__ */ jsxs("p", { children: [
+					"© ",
+					(/* @__PURE__ */ new Date()).getFullYear(),
+					" Target Cranes (Pty) Ltd. All rights reserved."
+				] }), /* @__PURE__ */ jsxs("div", {
+					className: "flex items-center gap-3",
+					children: [
+						/* @__PURE__ */ jsx(Link, {
+							href: privacyPolicy.url(),
+							className: "hover:text-primary transition-colors hover:underline",
+							children: "Privacy Policy"
+						}),
+						/* @__PURE__ */ jsx("span", { children: "•" }),
+						/* @__PURE__ */ jsx(Link, {
+							href: termsOfService.url(),
+							className: "hover:text-primary transition-colors hover:underline",
+							children: "Terms of Service"
+						})
+					]
+				})]
+			}), /* @__PURE__ */ jsxs("p", {
 				className: "flex items-center gap-1",
 				children: [
 					"Designed and developed by",
@@ -1176,11 +1311,11 @@ function AppLayout({ children }) {
 				className: `flex-1`,
 				children
 			}),
-			/* @__PURE__ */ jsx(AddressMap, {}),
 			/* @__PURE__ */ jsx(EmergencySupport, {}),
+			/* @__PURE__ */ jsx(AddressMap, {}),
 			/* @__PURE__ */ jsx(Footer, {})
 		]
 	});
 }
 //#endregion
-export { queryParams as a, buttonVariants as c, SwipeTitle as i, cn$1 as l, SectionLabel as n, Wrapper as o, SwipeLine as r, Button$1 as s, AppLayout as t };
+export { contactUs as a, Button$1 as c, SwipeTitle as i, buttonVariants as l, SectionLabel as n, queryParams as o, SwipeLine as r, Wrapper as s, AppLayout as t, cn$1 as u };

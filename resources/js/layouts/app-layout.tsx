@@ -19,8 +19,8 @@ export default function AppLayout({children}: AppLayoutProps) {
                 {children}
             </main>
 
-            <AddressMap/>
             <EmergencySupport/>
+            <AddressMap/>
             <Footer/>
         </div>
     );

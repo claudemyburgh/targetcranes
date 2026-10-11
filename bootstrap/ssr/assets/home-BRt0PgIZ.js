@@ -1,8 +1,9 @@
+import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-Coy9jip_.js";
 import { t as Seo } from "./seo-C6a5S63n.js";
-import { i as SwipeTitle, n as SectionLabel, o as Wrapper, r as SwipeLine, t as AppLayout } from "./app-layout-vr0g2HT6.js";
+import { t as IMG_20261008_WA0054_default } from "./IMG-20261008-WA0054-Czj_loDn.js";
 import { useEffect, useState } from "react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
-import { Anchor, Award, ChevronDown, Clock, HardHat, Pickaxe, Wind } from "lucide-react";
+import { Anchor, Award, Clock, HardHat, Pickaxe, Wind } from "lucide-react";
 //#region resources/js/components/ui/misc/experience-badge.tsx
 function ExperienceBadge({ className = "" }) {
 	return /* @__PURE__ */ jsxs("div", {
@@ -34,7 +35,7 @@ function Hero() {
 			/* @__PURE__ */ jsx("div", {
 				className: "absolute inset-0 w-full h-full transform-gpu",
 				style: {
-					transform: `scale(${1 + offsetY * 5e-4})`,
+					transform: `scale(${1 + offsetY * 25e-5})`,
 					transformOrigin: "center center"
 				},
 				children: /* @__PURE__ */ jsx("img", {
@@ -53,41 +54,39 @@ function Hero() {
 					className: "drop-shadow-black drop-shadow-xl max-w-4xl",
 					children: [
 						/* @__PURE__ */ jsx("h2", {
-							className: "text-xl md:text-2xl font-heading tracking-widest opacity-0 animate-[slide-up-fade_1s_ease-out_forwards]",
+							className: "text-xl font-heading tracking-widest opacity-0 animate-[slide-up-fade_1s_ease-out_forwards]",
 							children: "THE TRUSTED NAME BEHIND"
 						}),
 						/* @__PURE__ */ jsx("h1", {
 							className: "mt-2",
 							children: /* @__PURE__ */ jsxs(SwipeTitle, {
-								className: "text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black font-heading tracking-tighter max-w-3xl text-balance uppercase",
-								children: [/* @__PURE__ */ jsx(SwipeLine, {
-									delay: 2,
-									children: "THE NATIONS"
-								}), /* @__PURE__ */ jsx(SwipeLine, {
-									delay: 3,
-									children: /* @__PURE__ */ jsx("span", {
-										className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
-										children: "HEAVIEST LIFTS"
+								className: "text-4xl sm:text-5xl md:text-6xl  font-black font-heading tracking-tighter max-w-3xl text-balance uppercase",
+								children: [
+									/* @__PURE__ */ jsx(SwipeLine, {
+										delay: 2,
+										children: "THE NATIONS"
+									}),
+									" ",
+									/* @__PURE__ */ jsxs(SwipeLine, {
+										delay: 3,
+										children: [" ", /* @__PURE__ */ jsx("span", {
+											className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
+											children: "HEAVIEST LIFTS"
+										})]
 									})
-								})]
+								]
 							})
 						}),
 						/* @__PURE__ */ jsx("p", {
-							className: "max-w-3xl text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mt-4 text-white/90 opacity-0 animate-[slide-up-fade_1s_ease-out_0.6s_forwards]",
+							className: "max-w-4xl text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed mt-4 text-white/90 opacity-0 animate-[slide-up-fade_1s_ease-out_0.6s_forwards]",
 							children: "From routine lifts to complex projects, Target Cranes provides equipment selection, lift planning and managed crane operations tailored to your site and schedule."
 						})
 					]
 				})
 			}),
 			/* @__PURE__ */ jsx("div", {
-				className: `absolute bottom-0 inset-x-0 h-2/5 bg-linear-to-t from-foreground dark:from-background to-transparent flex items-end justify-center pb-8 pointer-events-none`,
-				children: /* @__PURE__ */ jsx("div", {
-					className: "opacity-0 animate-[slide-up-fade_1s_ease-out_1s_forwards]",
-					children: /* @__PURE__ */ jsx("div", {
-						className: "animate-bounce -translate-y-12 text-white/50",
-						children: /* @__PURE__ */ jsx(ChevronDown, { size: 32 })
-					})
-				})
+				"aria-hidden": true,
+				className: `absolute bottom-0 inset-x-0 h-2/5 bg-linear-to-t from-foreground dark:from-background to-transparent flex items-end justify-center pb-8 pointer-events-none`
 			})
 		]
 	});
@@ -181,8 +180,8 @@ function Stats() {
 	});
 }
 //#endregion
-//#region resources/images/IMG-20261008-WA0045.webp
-var IMG_20261008_WA0045_default = "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp";
+//#region resources/images/fleet.webp
+var fleet_default = "/build/assets/fleet-Y9bg7l4z.webp";
 //#endregion
 //#region resources/js/components/who-we-are.tsx
 function WhoWeAre() {
@@ -193,23 +192,23 @@ function WhoWeAre() {
 			children: [/* @__PURE__ */ jsxs("div", { children: [
 				/* @__PURE__ */ jsx(SectionLabel, {
 					className: "mb-8",
-					children: "Who we are"
+					children: "Our Approach"
 				}),
-				/* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsx(SwipeTitle, {
+				/* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
 					className: "text-4xl md:text-6xl font-black font-heading tracking-tighter uppercase mb-6 text-balance",
-					children: /* @__PURE__ */ jsxs(SwipeLine, { children: ["Welcome to ", /* @__PURE__ */ jsx("span", {
-						className: `bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent`,
-						children: "Target Cranes"
-					})] })
+					children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Every Lift Starts With" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
+						className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
+						children: "Understanding The Job"
+					}) })]
 				}) }),
-				/* @__PURE__ */ jsx("p", {
-					className: "text-lg text-muted-foreground leading-relaxed max-w-xl",
-					children: "At Target Cranes, we pride ourselves on delivering top-notch crane services with a focus on safety, efficiency, and customer satisfaction."
+				/* @__PURE__ */ jsxs("div", {
+					className: "space-y-4 text-muted-foreground text-lg leading-relaxed max-w-xl",
+					children: [/* @__PURE__ */ jsx("p", { children: "No two lifting projects present the same conditions. The load, available space, site access and work schedule all shape the approach." }), /* @__PURE__ */ jsx("p", { children: "At Target Cranes, we take time to understand those details before work begins, so the lifting plan fits the job in front of us." })]
 				})
 			] }), /* @__PURE__ */ jsx("div", {
 				className: "relative aspect-square md:aspect-video lg:aspect-square bg-muted rounded-3xl overflow-clip shadow-2xl",
 				children: /* @__PURE__ */ jsx("img", {
-					src: IMG_20261008_WA0045_default,
+					src: fleet_default,
 					alt: "Target Cranes operations",
 					className: "w-full h-full object-cover transition-transform hover:scale-105 duration-700"
 				})
@@ -218,33 +217,24 @@ function WhoWeAre() {
 	});
 }
 //#endregion
-//#region resources/images/IMG-20261008-WA0038.webp
-var IMG_20261008_WA0038_default = "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp";
-//#endregion
-//#region resources/images/IMG-20261008-WA0039.webp
-var IMG_20261008_WA0039_default = "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp";
-//#endregion
-//#region resources/images/IMG-20261008-WA0040.webp
-var IMG_20261008_WA0040_default = "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp";
-//#endregion
 //#region resources/js/components/service-areas-alt-1.tsx
 var services = [
 	{
 		title: "Maritime",
 		description: "Our experience in the maritime industry spans many shipyard, port, and offshore projects. Whether it’s vessel launches, dry-dock work, or harbour operations, we take pride in playing a part in projects that support the ongoing growth of the maritime sector.",
-		image: IMG_20261008_WA0038_default,
+		image: "/build/assets/maritime-DOuBr_0N.webp",
 		icon: Anchor
 	},
 	{
 		title: "Construction",
 		description: "With years of experience in the construction sector, we’ve contributed to many of the nation’s most notable infrastructure and building projects. From large-scale civil works to landmark high-rise developments, our team provides complete crane hire solutions that keep progress on track. Supported by a versatile fleet and the capability to handle both everyday and specialised lifting requirements, we remain a trusted partner to the construction industry.",
-		image: IMG_20261008_WA0039_default,
+		image: "/build/assets/construction-f8ODE_Ud.webp",
 		icon: HardHat
 	},
 	{
 		title: "Renewable Energy",
 		description: "We’re proud to be part of renewable energy projects that are transforming Africa’s power landscape. From wind and solar installations to hydro developments, our crane hire services provide the strength and reliability needed for large-scale energy work. Supported by specialised equipment and a dedicated team, we continue to play a role in building a cleaner, more sustainable future.",
-		image: IMG_20261008_WA0040_default,
+		image: fleet_default,
 		icon: Wind
 	},
 	{
@@ -294,7 +284,7 @@ function ServiceAreasAlt1() {
 					return /* @__PURE__ */ jsxs("div", {
 						className: "flex flex-col gap-8 group",
 						children: [/* @__PURE__ */ jsxs("div", {
-							className: "relative h-[300px] md:h-[450px] w-full rounded-3xl overflow-hidden bg-card border border-border shadow-sm",
+							className: "relative w-full aspect-video rounded-3xl overflow-hidden bg-card border border-border shadow-sm",
 							children: [
 								/* @__PURE__ */ jsx("div", { className: "absolute inset-0 bg-primary/10 mix-blend-overlay z-10 transition-opacity duration-500 group-hover:opacity-0" }),
 								/* @__PURE__ */ jsx("img", {
@@ -324,8 +314,14 @@ function ServiceAreasAlt1() {
 	});
 }
 //#endregion
-//#region resources/images/IMG-20261008-WA0054.webp
-var IMG_20261008_WA0054_default = "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp";
+//#region resources/images/IMG-20261008-WA0038.webp
+var IMG_20261008_WA0038_default = "/build/assets/IMG-20261008-WA0038-jyIrIZ_-.webp";
+//#endregion
+//#region resources/images/IMG-20261008-WA0039.webp
+var IMG_20261008_WA0039_default = "/build/assets/IMG-20261008-WA0039-tLkp7Uy_.webp";
+//#endregion
+//#region resources/images/IMG-20261008-WA0040.webp
+var IMG_20261008_WA0040_default = "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp";
 //#endregion
 //#region resources/js/components/project-success-4.tsx
 function ProjectSuccess4() {
@@ -335,22 +331,32 @@ function ProjectSuccess4() {
 			className: "max-w-4xl mb-16 lg:mb-24",
 			children: [/* @__PURE__ */ jsx(SectionLabel, {
 				className: "mb-8",
-				children: "Our Approach"
+				children: "Planning & Execution"
 			}), /* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
 				className: "text-5xl md:text-7xl font-black font-heading text-foreground drop-shadow-sm uppercase tracking-tight leading-[1.1]",
-				children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Every Successful Project" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
+				children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Preparation Makes" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
 					className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
-					children: "Begins With Us"
+					children: "The Difference"
 				}) })]
 			}) })]
 		}), /* @__PURE__ */ jsxs("div", {
 			className: "grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-start",
 			children: [/* @__PURE__ */ jsxs("div", {
-				className: "lg:col-span-5 space-y-8 text-xl text-muted-foreground leading-relaxed font-medium",
+				className: "lg:col-span-5 space-y-6 text-base sm:text-lg text-muted-foreground leading-relaxed font-normal",
 				children: [
-					/* @__PURE__ */ jsx("p", { children: "With services available for both short and long-term hire, Target Cranes provides fully managed lifting solutions tailored to each project’s scope and scale. Every operation begins long before the first lift, through detailed planning, site analysis, and equipment selection that ensure complete readiness from the ground up." }),
-					/* @__PURE__ */ jsx("p", { children: "Safety lies at the heart of our operations. Before any project begins, our teams carry out comprehensive risk assessments and method studies to safeguard our people, our clients, and the environments in which we work." }),
-					/* @__PURE__ */ jsx("p", { children: "For complex lifts, we implement engineered lift plans, CAD drawings, and precise crane configurations to guarantee safe, efficient lifting operations that meet the highest industry standards." })
+					/* @__PURE__ */ jsx("p", { children: "A crane is only one part of a successful operation. Behind each lift is a process of assessing the site, selecting suitable equipment and coordinating the people involved. For more complex work, that preparation can include detailed lift plans, method studies and crane configurations." }),
+					/* @__PURE__ */ jsx("p", { children: "Our aim is to give clients a clear path from the first discussion to the completed lift one built on practical planning and communication throughout the job." }),
+					/* @__PURE__ */ jsxs("div", {
+						className: "pt-2 border-t border-border/60 space-y-4",
+						children: [
+							/* @__PURE__ */ jsx("h3", {
+								className: "text-xl font-bold font-heading uppercase text-foreground",
+								children: "A Partner On Site"
+							}),
+							/* @__PURE__ */ jsx("p", { children: "Lifting work often happens alongside other teams and deadlines. We work with clients and site teams to understand the wider project, communicate the plan and respond to the conditions on the ground." }),
+							/* @__PURE__ */ jsx("p", { children: "Whether the requirement is straightforward or technically demanding, we bring the same attention to preparation and execution." })
+						]
+					})
 				]
 			}), /* @__PURE__ */ jsx("div", {
 				className: "lg:col-span-7 h-full",
@@ -358,7 +364,7 @@ function ProjectSuccess4() {
 					className: "grid grid-cols-2 grid-rows-3 gap-3 md:gap-4 h-[400px] md:h-[500px] lg:h-full lg:min-h-[600px]",
 					children: [
 						/* @__PURE__ */ jsx("div", {
-							className: "col-span-1 row-span-2 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group",
+							className: "col-span-1 row-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
 							children: /* @__PURE__ */ jsx("img", {
 								src: IMG_20261008_WA0054_default,
 								className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
@@ -366,7 +372,7 @@ function ProjectSuccess4() {
 							})
 						}),
 						/* @__PURE__ */ jsx("div", {
-							className: "col-span-1 row-span-1 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group",
+							className: "col-span-1 row-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
 							children: /* @__PURE__ */ jsx("img", {
 								src: IMG_20261008_WA0038_default,
 								className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
@@ -374,7 +380,7 @@ function ProjectSuccess4() {
 							})
 						}),
 						/* @__PURE__ */ jsx("div", {
-							className: "col-span-1 row-span-2 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group",
+							className: "col-span-1 row-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
 							children: /* @__PURE__ */ jsx("img", {
 								src: IMG_20261008_WA0039_default,
 								className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
@@ -382,7 +388,7 @@ function ProjectSuccess4() {
 							})
 						}),
 						/* @__PURE__ */ jsx("div", {
-							className: "col-span-1 row-span-1 relative rounded-2xl md:rounded-[2rem] overflow-hidden shadow-lg group",
+							className: "col-span-1 row-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
 							children: /* @__PURE__ */ jsx("img", {
 								src: IMG_20261008_WA0040_default,
 								className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",

@@ -2,7 +2,7 @@ import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
-import whoWeAreImage from "@/../images/IMG-20261008-WA0045.webp";
+import whoWeAreImage from "@/../images/fleet.webp";
 
 export default function WhoWeAre() {
     return (
@@ -10,19 +10,29 @@ export default function WhoWeAre() {
             <Wrapper>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
                     <div>
-                        <SectionLabel className="mb-8">Who we are</SectionLabel>
+                        <SectionLabel className="mb-8">Our Approach</SectionLabel>
                         <h2>
                             <SwipeTitle
                                 className="text-4xl md:text-6xl font-black font-heading tracking-tighter uppercase mb-6 text-balance">
-                                <SwipeLine>Welcome to <span
-                                    className={`bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent`}>Target Cranes</span></SwipeLine>
-
+                                <SwipeLine>Every Lift Starts With</SwipeLine>
+                                <SwipeLine>
+                                    <span
+                                        className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">
+                                        Understanding The Job
+                                    </span>
+                                </SwipeLine>
                             </SwipeTitle>
                         </h2>
-                        <p className="text-lg text-muted-foreground leading-relaxed max-w-xl">
-                            At Target Cranes, we pride ourselves on delivering top-notch crane services with a focus on
-                            safety, efficiency, and customer satisfaction.
-                        </p>
+                        <div className="space-y-4 text-muted-foreground text-lg leading-relaxed max-w-xl">
+                            <p>
+                                No two lifting projects present the same conditions. The load, available space, site
+                                access and work schedule all shape the approach.
+                            </p>
+                            <p>
+                                At Target Cranes, we take time to understand those details before work begins, so the
+                                lifting plan fits the job in front of us.
+                            </p>
+                        </div>
                     </div>
                     <div
                         className="relative aspect-square md:aspect-video lg:aspect-square bg-muted rounded-3xl overflow-clip shadow-2xl">

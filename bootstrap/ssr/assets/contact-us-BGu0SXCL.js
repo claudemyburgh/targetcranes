@@ -1,5 +1,5 @@
+import { c as Button, i as SwipeTitle, n as SectionLabel, o as queryParams, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-Coy9jip_.js";
 import { t as Seo } from "./seo-C6a5S63n.js";
-import { a as queryParams, i as SwipeTitle, l as cn, n as SectionLabel, o as Wrapper, r as SwipeLine, s as Button, t as AppLayout } from "./app-layout-vr0g2HT6.js";
 import { useForm, usePage } from "@inertiajs/react";
 import { useState } from "react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";

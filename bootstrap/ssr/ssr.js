@@ -59,10 +59,12 @@ createServer((page) => createInertiaApp({
 	render: ReactDOMServer.renderToString,
 	title: (title) => title ? `${title} | ${appName}` : `${appName} | Crane Hire & Managed Lifting in South Africa`,
 	resolve: (name) => resolvePageComponent(`./pages/${name}.tsx`, /* #__PURE__ */ Object.assign({
-		"./pages/about-us.tsx": () => import("./assets/about-us-l-8A2CqW.js"),
-		"./pages/contact-us.tsx": () => import("./assets/contact-us-DRfMZ_jT.js"),
-		"./pages/home.tsx": () => import("./assets/home-5VzPejUg.js"),
-		"./pages/welcome.tsx": () => import("./assets/welcome-D74JieWH.js")
+		"./pages/about-us.tsx": () => import("./assets/about-us-D-Emekt3.js"),
+		"./pages/contact-us.tsx": () => import("./assets/contact-us-BGu0SXCL.js"),
+		"./pages/home.tsx": () => import("./assets/home-BRt0PgIZ.js"),
+		"./pages/privacy-policy.tsx": () => import("./assets/privacy-policy-CiqC5tt3.js"),
+		"./pages/terms-of-service.tsx": () => import("./assets/terms-of-service-CMG1KoDW.js"),
+		"./pages/welcome.tsx": () => import("./assets/welcome-B9cQIgBf.js")
 	})),
 	setup: ({ App, props }) => /* @__PURE__ */ jsx(AppearanceProvider, { children: /* @__PURE__ */ jsx(App, { ...props }) })
 }));

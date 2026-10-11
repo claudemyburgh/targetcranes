@@ -127,3 +127,132 @@ contactUs.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
     url: contactUs.url(options),
     method: 'head',
 })
+
+/**
+* @see \App\Http\Controllers\PrivacyPolicyController::__invoke
+ * @see app/Http/Controllers/PrivacyPolicyController.php:14
+ * @route '/privacy-policy'
+ */
+export const privacyPolicy = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: privacyPolicy.url(options),
+    method: 'get',
+})
+
+privacyPolicy.definition = {
+    methods: ["get","head"],
+    url: '/privacy-policy',
+} satisfies RouteDefinition<["get","head"]>
+
+/**
+* @see \App\Http\Controllers\PrivacyPolicyController::__invoke
+ * @see app/Http/Controllers/PrivacyPolicyController.php:14
+ * @route '/privacy-policy'
+ */
+privacyPolicy.url = (options?: RouteQueryOptions) => {
+    return privacyPolicy.definition.url + queryParams(options)
+}
+
+/**
+* @see \App\Http\Controllers\PrivacyPolicyController::__invoke
+ * @see app/Http/Controllers/PrivacyPolicyController.php:14
+ * @route '/privacy-policy'
+ */
+privacyPolicy.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: privacyPolicy.url(options),
+    method: 'get',
+})
+/**
+* @see \App\Http\Controllers\PrivacyPolicyController::__invoke
+ * @see app/Http/Controllers/PrivacyPolicyController.php:14
+ * @route '/privacy-policy'
+ */
+privacyPolicy.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
+    url: privacyPolicy.url(options),
+    method: 'head',
+})
+
+/**
+* @see \App\Http\Controllers\TermsOfServiceController::__invoke
+ * @see app/Http/Controllers/TermsOfServiceController.php:14
+ * @route '/terms-of-service'
+ */
+export const termsOfService = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: termsOfService.url(options),
+    method: 'get',
+})
+
+termsOfService.definition = {
+    methods: ["get","head"],
+    url: '/terms-of-service',
+} satisfies RouteDefinition<["get","head"]>
+
+/**
+* @see \App\Http\Controllers\TermsOfServiceController::__invoke
+ * @see app/Http/Controllers/TermsOfServiceController.php:14
+ * @route '/terms-of-service'
+ */
+termsOfService.url = (options?: RouteQueryOptions) => {
+    return termsOfService.definition.url + queryParams(options)
+}
+
+/**
+* @see \App\Http\Controllers\TermsOfServiceController::__invoke
+ * @see app/Http/Controllers/TermsOfServiceController.php:14
+ * @route '/terms-of-service'
+ */
+termsOfService.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: termsOfService.url(options),
+    method: 'get',
+})
+/**
+* @see \App\Http\Controllers\TermsOfServiceController::__invoke
+ * @see app/Http/Controllers/TermsOfServiceController.php:14
+ * @route '/terms-of-service'
+ */
+termsOfService.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
+    url: termsOfService.url(options),
+    method: 'head',
+})
+
+/**
+* @see \App\Http\Controllers\SitemapController::__invoke
+ * @see app/Http/Controllers/SitemapController.php:13
+ * @route '/sitemap.xml'
+ */
+export const sitemap = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: sitemap.url(options),
+    method: 'get',
+})
+
+sitemap.definition = {
+    methods: ["get","head"],
+    url: '/sitemap.xml',
+} satisfies RouteDefinition<["get","head"]>
+
+/**
+* @see \App\Http\Controllers\SitemapController::__invoke
+ * @see app/Http/Controllers/SitemapController.php:13
+ * @route '/sitemap.xml'
+ */
+sitemap.url = (options?: RouteQueryOptions) => {
+    return sitemap.definition.url + queryParams(options)
+}
+
+/**
+* @see \App\Http\Controllers\SitemapController::__invoke
+ * @see app/Http/Controllers/SitemapController.php:13
+ * @route '/sitemap.xml'
+ */
+sitemap.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: sitemap.url(options),
+    method: 'get',
+})
+/**
+* @see \App\Http\Controllers\SitemapController::__invoke
+ * @see app/Http/Controllers/SitemapController.php:13
+ * @route '/sitemap.xml'
+ */
+sitemap.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
+    url: sitemap.url(options),
+    method: 'head',
+})
