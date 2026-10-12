@@ -6,7 +6,7 @@ import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
 import {Award, HardHat, MapPin, ShieldCheck, Wrench} from "lucide-react";
 
 // @ts-ignore
-import aboutHeroImg from "@/../images/IMG-20261008-WA0054.webp";
+import aboutHeroImg from "@/../images/cutom-lines.webp";
 // @ts-ignore
 import depotImg from "@/../images/IMG-20261008-WA0045.webp";
 // @ts-ignore
@@ -150,8 +150,8 @@ export default function AboutUs() {
                                     1993 (OHSA), Construction Regulations, and applicable SANS lifting codes.
                                 </p>
                                 <p>
-                                    Every piece of equipment&mdash;from telescopic booms and outrigger load pads to
-                                    spreader beams and wire ropes&mdash;undergoes regular third-party load testing and
+                                    Every piece of equipment-from telescopic booms and outrigger load pads to
+                                    spreader beams and wire ropes-undergoes regular third-party load testing and
                                     mandatory daily pre-operation inspections.
                                 </p>
                             </div>
@@ -198,7 +198,7 @@ export default function AboutUs() {
                 </Wrapper>
             </section>
 
-            
+
         </AppLayout>
     );
 }

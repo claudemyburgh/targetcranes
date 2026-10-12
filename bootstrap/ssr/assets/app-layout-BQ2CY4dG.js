@@ -1217,91 +1217,75 @@ function SectionLabel({ children, className }) {
 	});
 }
 //#endregion
-//#region resources/images/crane-half-cut.webp
-var crane_half_cut_default = "/build/assets/crane-half-cut-Cxi4Fc3U.webp";
-//#endregion
 //#region resources/js/components/emergency-support.tsx
 function EmergencySupport() {
 	return /* @__PURE__ */ jsxs("section", {
 		className: "bg-primary/5 border-t border-primary/10 py-16 lg:py-24 relative overflow-hidden ",
-		children: [
-			/* @__PURE__ */ jsx("div", {
-				className: "absolute top-0 left-0 w-full h-full lg:w-1/2 pointer-events-none z-0 opacity-10 dark:opacity-20",
-				style: {
-					backgroundImage: `url(${crane_half_cut_default})`,
-					backgroundSize: "cover",
-					backgroundPosition: "center",
-					maskImage: "radial-gradient(ellipse at center, black 40%, transparent 80%)",
-					WebkitMaskImage: "radial-gradient(ellipse at center, black 40%, transparent 80%)"
-				}
-			}),
-			/* @__PURE__ */ jsx("div", {
-				className: "absolute top-1/2 -translate-y-1/2 -right-24 size-270 opacity-40 pointer-events-none mix-blend-plus-lighter mask-[radial-gradient(circle_at_center,black_10%,transparent_70%)]",
-				children: /* @__PURE__ */ jsx(Grainient, {
-					color1: "#b91c1c",
-					color2: "#ea580c",
-					color3: "#f97316",
-					timeSpeed: 4,
-					colorBalance: -.11,
-					warpStrength: 1.55,
-					warpFrequency: 3.7,
-					warpSpeed: 7,
-					warpAmplitude: 76,
-					blendAngle: 0,
-					blendSoftness: .09,
-					rotationAmount: 510,
-					noiseScale: 1.25,
-					grainAmount: .07,
-					grainScale: 2.2,
-					grainAnimated: false,
-					contrast: 1.5,
-					gamma: 1,
-					saturation: 1,
-					centerX: .44,
-					centerY: .46,
-					zoom: .75
-				})
-			}),
-			/* @__PURE__ */ jsx(Wrapper, {
-				className: "relative z-10",
-				children: /* @__PURE__ */ jsxs("div", {
-					className: "flex flex-col lg:flex-row items-start lg:items-center gap-12 justify-between",
-					children: [/* @__PURE__ */ jsxs("div", {
-						className: "max-w-3xl",
-						children: [
-							/* @__PURE__ */ jsx(SectionLabel, {
-								className: "mb-8",
-								children: "Emergencies can happen anytime"
-							}),
-							/* @__PURE__ */ jsx("h2", {
-								className: "mb-6",
-								children: /* @__PURE__ */ jsx(SwipeTitle, {
-									className: "text-4xl md:text-6xl font-black font-heading tracking-tighter uppercase text-balance",
-									children: /* @__PURE__ */ jsxs(SwipeLine, { children: ["24/7 ", /* @__PURE__ */ jsx("span", {
-										className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
-										children: "SERVICE SUPPORT"
-									})] })
-								})
-							}),
-							/* @__PURE__ */ jsx("p", {
-								className: "text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl",
-								children: "That’s why we offer 24/7 emergency response services for urgent lifting needs. Whether it’s an equipment failure or an unforeseen event, we’re here to provide immediate support, minimizing downtime and potential losses."
-							})
-						]
-					}), /* @__PURE__ */ jsx("div", {
-						className: "shrink-0 w-full lg:w-auto",
-						children: /* @__PURE__ */ jsxs("a", {
-							href: "#contact",
-							className: "inline-flex items-center justify-center gap-3 rounded-full bg-primary hover:bg-primary/90 dark:bg-white dark:hover:bg-white/90 text-primary-foreground dark:text-black px-8 py-5 font-bold uppercase tracking-wider transition-all hover:scale-105 shadow-xl shadow-primary/20 hover:shadow-primary/40 dark:shadow-white/10 dark:hover:shadow-white/20",
-							children: [/* @__PURE__ */ jsx(PhoneCall, {
-								size: 24,
-								className: "animate-pulse"
-							}), /* @__PURE__ */ jsx("span", { children: "Request Emergency Lift" })]
-						})
-					})]
-				})
+		children: [/* @__PURE__ */ jsx("div", {
+			className: "absolute top-1/2 -translate-y-1/2 -right-24 size-270 opacity-40 pointer-events-none mix-blend-plus-lighter mask-[radial-gradient(circle_at_center,black_10%,transparent_70%)]",
+			children: /* @__PURE__ */ jsx(Grainient, {
+				color1: "#b91c1c",
+				color2: "#ea580c",
+				color3: "#f97316",
+				timeSpeed: 4,
+				colorBalance: -.11,
+				warpStrength: 1.55,
+				warpFrequency: 3.7,
+				warpSpeed: 7,
+				warpAmplitude: 76,
+				blendAngle: 0,
+				blendSoftness: .09,
+				rotationAmount: 510,
+				noiseScale: 1.25,
+				grainAmount: .07,
+				grainScale: 2.2,
+				grainAnimated: false,
+				contrast: 1.5,
+				gamma: 1,
+				saturation: 1,
+				centerX: .44,
+				centerY: .46,
+				zoom: .75
 			})
-		]
+		}), /* @__PURE__ */ jsx(Wrapper, {
+			className: "relative z-10",
+			children: /* @__PURE__ */ jsxs("div", {
+				className: "flex flex-col lg:flex-row items-start lg:items-center gap-12 justify-between",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "max-w-3xl",
+					children: [
+						/* @__PURE__ */ jsx(SectionLabel, {
+							className: "mb-8",
+							children: "Emergencies can happen anytime"
+						}),
+						/* @__PURE__ */ jsx("h2", {
+							className: "mb-6",
+							children: /* @__PURE__ */ jsx(SwipeTitle, {
+								className: "text-4xl md:text-6xl font-black font-heading tracking-tighter uppercase text-balance",
+								children: /* @__PURE__ */ jsxs(SwipeLine, { children: ["24/7 ", /* @__PURE__ */ jsx("span", {
+									className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
+									children: "SERVICE SUPPORT"
+								})] })
+							})
+						}),
+						/* @__PURE__ */ jsx("p", {
+							className: "text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl",
+							children: "That’s why we offer 24/7 emergency response services for urgent lifting needs. Whether it’s an equipment failure or an unforeseen event, we’re here to provide immediate support, minimizing downtime and potential losses."
+						})
+					]
+				}), /* @__PURE__ */ jsx("div", {
+					className: "shrink-0 w-full lg:w-auto",
+					children: /* @__PURE__ */ jsxs("a", {
+						href: contactUs.url(),
+						className: "inline-flex items-center justify-center gap-3 rounded-full bg-primary hover:bg-primary/90 dark:bg-white dark:hover:bg-white/90 text-primary-foreground dark:text-black px-8 py-5 font-bold uppercase tracking-wider transition-all hover:scale-105 shadow-xl shadow-primary/20 hover:shadow-primary/40 dark:shadow-white/10 dark:hover:shadow-white/20",
+						children: [/* @__PURE__ */ jsx(PhoneCall, {
+							size: 24,
+							className: "animate-pulse"
+						}), /* @__PURE__ */ jsx("span", { children: "Request Emergency Lift" })]
+					})
+				})]
+			})
+		})]
 	});
 }
 //#endregion

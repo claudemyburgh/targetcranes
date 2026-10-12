@@ -6,14 +6,14 @@ import whoWeAreImage from "@/../images/welcome.webp";
 
 export default function WhoWeAre() {
     return (
-        <section className="py-24 bg-muted overflow-hidden">
+        <section className="py-24 bg-muted overflow-hidden isolate relative">
             <Wrapper>
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 items-center">
                     <div className="lg:col-span-5">
                         <SectionLabel className="mb-8">Our Approach</SectionLabel>
                         <h2>
                             <SwipeTitle
-                                className="text-4xl md:text-6xl font-black font-heading tracking-tighter uppercase mb-6 text-balance">
+                                className="text-4xl md:text-6xl z-0 relative font-black font-heading tracking-tighter uppercase mb-6 text-balance">
                                 <SwipeLine>Every Lift Starts With</SwipeLine>
                                 <SwipeLine>
                                     <span
@@ -34,11 +34,11 @@ export default function WhoWeAre() {
                             </p>
                         </div>
                     </div>
-                    <div className="lg:col-span-7 relative flex items-center justify-center lg:justify-end">
+                    <div className="lg:col-span-7 z-10 relative flex items-center justify-center lg:justify-end">
                         <img
                             src={whoWeAreImage}
                             alt="Target Cranes operations"
-                            className="w-full max-w-2xl lg:max-w-none h-auto object-contain drop-shadow-2xl lg:scale-115 xl:scale-125 transform-gpu origin-center lg:origin-right transition-transform duration-700 hover:scale-105 lg:hover:scale-120 xl:hover:scale-130"
+                            className="w-full max-w-3xl lg:max-w-none h-auto object-contain drop-shadow-2xl lg:scale-115 xl:scale-125 origin-center lg:origin-right  "
                         />
                     </div>
                 </div>

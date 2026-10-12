@@ -59,13 +59,13 @@ createServer((page) => createInertiaApp({
 	render: ReactDOMServer.renderToString,
 	title: (title) => title ? `${title} | ${appName}` : `${appName} | Crane Hire & Managed Lifting in South Africa`,
 	resolve: (name) => resolvePageComponent(`./pages/${name}.tsx`, /* #__PURE__ */ Object.assign({
-		"./pages/about-us.tsx": () => import("./assets/about-us-DO9cMJMk.js"),
-		"./pages/contact-us.tsx": () => import("./assets/contact-us-0L_hTszT.js"),
-		"./pages/home.tsx": () => import("./assets/home-CTQmEYzI.js"),
-		"./pages/privacy-policy.tsx": () => import("./assets/privacy-policy-BMzEmonx.js"),
-		"./pages/safety.tsx": () => import("./assets/safety-DJ9UUmmq.js"),
-		"./pages/terms-of-service.tsx": () => import("./assets/terms-of-service-G5npJ3DQ.js"),
-		"./pages/welcome.tsx": () => import("./assets/welcome-DoQDUF-1.js")
+		"./pages/about-us.tsx": () => import("./assets/about-us-DD1zFFAr.js"),
+		"./pages/contact-us.tsx": () => import("./assets/contact-us-Bu-Iq63f.js"),
+		"./pages/home.tsx": () => import("./assets/home-z_HzDyEK.js"),
+		"./pages/privacy-policy.tsx": () => import("./assets/privacy-policy-Dk9k_jIi.js"),
+		"./pages/safety.tsx": () => import("./assets/safety-DRA3aw9z.js"),
+		"./pages/terms-of-service.tsx": () => import("./assets/terms-of-service-B67gttCH.js"),
+		"./pages/welcome.tsx": () => import("./assets/welcome-CjUUuzy2.js")
 	})),
 	setup: ({ App, props }) => /* @__PURE__ */ jsx(AppearanceProvider, { children: /* @__PURE__ */ jsx(App, { ...props }) })
 }));

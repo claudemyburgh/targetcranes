@@ -1,4 +1,4 @@
-import { c as Button, i as SwipeTitle, n as SectionLabel, o as queryParams, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-DGmJQL0R.js";
+import { c as Button, i as SwipeTitle, n as SectionLabel, o as queryParams, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-BQ2CY4dG.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { useForm, usePage } from "@inertiajs/react";
 import { useState } from "react";

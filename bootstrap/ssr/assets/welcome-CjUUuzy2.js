@@ -1,4 +1,4 @@
-import { l as buttonVariants, t as AppLayout } from "./app-layout-DGmJQL0R.js";
+import { l as buttonVariants, t as AppLayout } from "./app-layout-BQ2CY4dG.js";
 import { Head } from "@inertiajs/react";
 import { jsx, jsxs } from "react/jsx-runtime";
 import { ArrowRight, BookOpen, Code, Compass, Layout, Lock, Sparkles, Terminal } from "lucide-react";

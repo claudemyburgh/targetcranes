@@ -1,4 +1,4 @@
-import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-DGmJQL0R.js";
+import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-BQ2CY4dG.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { useEffect, useState } from "react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
@@ -180,12 +180,12 @@ function Stats() {
 }
 //#endregion
 //#region resources/images/welcome.webp
-var welcome_default = "/build/assets/welcome-DCBdM6AD.webp";
+var welcome_default = "/build/assets/welcome-CoPy7Zfl.webp";
 //#endregion
 //#region resources/js/components/who-we-are.tsx
 function WhoWeAre() {
 	return /* @__PURE__ */ jsx("section", {
-		className: "py-24 bg-muted overflow-hidden",
+		className: "py-24 bg-muted overflow-hidden isolate relative",
 		children: /* @__PURE__ */ jsx(Wrapper, { children: /* @__PURE__ */ jsxs("div", {
 			className: "grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 items-center",
 			children: [/* @__PURE__ */ jsxs("div", {
@@ -196,7 +196,7 @@ function WhoWeAre() {
 						children: "Our Approach"
 					}),
 					/* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
-						className: "text-4xl md:text-6xl font-black font-heading tracking-tighter uppercase mb-6 text-balance",
+						className: "text-4xl md:text-6xl z-0 relative font-black font-heading tracking-tighter uppercase mb-6 text-balance",
 						children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Every Lift Starts With" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
 							className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
 							children: "Understanding The Job"
@@ -208,11 +208,11 @@ function WhoWeAre() {
 					})
 				]
 			}), /* @__PURE__ */ jsx("div", {
-				className: "lg:col-span-7 relative flex items-center justify-center lg:justify-end",
+				className: "lg:col-span-7 z-10 relative flex items-center justify-center lg:justify-end",
 				children: /* @__PURE__ */ jsx("img", {
 					src: welcome_default,
 					alt: "Target Cranes operations",
-					className: "w-full max-w-2xl lg:max-w-none h-auto object-contain drop-shadow-2xl lg:scale-115 xl:scale-125 transform-gpu origin-center lg:origin-right transition-transform duration-700 hover:scale-105 lg:hover:scale-120 xl:hover:scale-130"
+					className: "w-full max-w-3xl lg:max-w-none h-auto object-contain drop-shadow-2xl lg:scale-115 xl:scale-125 origin-center lg:origin-right  "
 				})
 			})]
 		}) })

@@ -1,10 +1,10 @@
-import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-DGmJQL0R.js";
+import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-BQ2CY4dG.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { t as IMG_20261008_WA0042_default } from "./IMG-20261008-WA0042-GyVLJorL.js";
 import { jsx, jsxs } from "react/jsx-runtime";
 import { Award, HardHat, MapPin, ShieldCheck, Wrench } from "lucide-react";
-//#region resources/images/IMG-20261008-WA0054.webp
-var IMG_20261008_WA0054_default = "/build/assets/IMG-20261008-WA0054-DTrbVS2T.webp";
+//#region resources/images/cutom-lines.webp
+var cutom_lines_default = "/build/assets/cutom-lines-DBzKrRVl.webp";
 //#endregion
 //#region resources/images/IMG-20261008-WA0045.webp
 var IMG_20261008_WA0045_default = "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp";
@@ -48,7 +48,7 @@ function AboutUs() {
 					children: /* @__PURE__ */ jsxs("div", {
 						className: "relative aspect-[4/5] w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card",
 						children: [/* @__PURE__ */ jsx("img", {
-							src: IMG_20261008_WA0054_default,
+							src: cutom_lines_default,
 							alt: "Target Cranes fleet and operations",
 							className: "w-full h-full object-cover transition-transform duration-700 hover:scale-105"
 						}), /* @__PURE__ */ jsx("div", { className: "absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent pointer-events-none" })]
@@ -143,7 +143,7 @@ function AboutUs() {
 						}),
 						/* @__PURE__ */ jsxs("div", {
 							className: "space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed",
-							children: [/* @__PURE__ */ jsx("p", { children: "In heavy lifting, precision is the foundation of safety. All Target Cranes operations comply with the South African Occupational Health and Safety Act 85 of 1993 (OHSA), Construction Regulations, and applicable SANS lifting codes." }), /* @__PURE__ */ jsx("p", { children: "Every piece of equipment—from telescopic booms and outrigger load pads to spreader beams and wire ropes—undergoes regular third-party load testing and mandatory daily pre-operation inspections." })]
+							children: [/* @__PURE__ */ jsx("p", { children: "In heavy lifting, precision is the foundation of safety. All Target Cranes operations comply with the South African Occupational Health and Safety Act 85 of 1993 (OHSA), Construction Regulations, and applicable SANS lifting codes." }), /* @__PURE__ */ jsx("p", { children: "Every piece of equipment-from telescopic booms and outrigger load pads to spreader beams and wire ropes-undergoes regular third-party load testing and mandatory daily pre-operation inspections." })]
 						}),
 						/* @__PURE__ */ jsxs("div", {
 							className: "space-y-3 pt-2",
