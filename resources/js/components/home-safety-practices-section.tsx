@@ -1,6 +1,9 @@
 import Wrapper from "@/components/ui/misc/wrapper";
 import SectionHeading from "@/components/ui/misc/section-heading";
-import {Accordion, AccordionContent, AccordionItem, AccordionTrigger,} from "@/components/ui/accordion";
+import SectionLabel from "@/components/ui/misc/section-label";
+import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
+import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion";
+import {AlertOctagon, Compass, FileCheck2, HardHat, Scale, ShieldCheck} from "lucide-react";
 import React from "react";
 
 // @ts-ignore
@@ -8,6 +11,8 @@ import imgSafety from "../../images/safety.webp";
 
 export const safetyItems = [
     {
+        step: "01",
+        icon: Compass,
         title: "Engineered Lift Planning & Ground Verification",
         content: (
             <div className="space-y-3">
@@ -24,6 +29,8 @@ export const safetyItems = [
         ),
     },
     {
+        step: "02",
+        icon: ShieldCheck,
         title: "Statutory Load Testing & Certified Rigging Tackle (DMR 18)",
         content: (
             <div className="space-y-3">
@@ -39,6 +46,8 @@ export const safetyItems = [
         ),
     },
     {
+        step: "03",
+        icon: HardHat,
         title: "TETA-Accredited Operators & Qualified Master Riggers",
         content: (
             <div className="space-y-3">
@@ -55,6 +64,8 @@ export const safetyItems = [
         ),
     },
     {
+        step: "04",
+        icon: FileCheck2,
         title: "Project-Specific RAMS & Daily Toolbox Briefings",
         content: (
             <div className="space-y-3">
@@ -70,6 +81,8 @@ export const safetyItems = [
         ),
     },
     {
+        step: "05",
+        icon: AlertOctagon,
         title: "Uncompromising Stop Work Authority",
         content: (
             <div className="space-y-3">
@@ -85,6 +98,8 @@ export const safetyItems = [
         ),
     },
     {
+        step: "06",
+        icon: Scale,
         title: "OHSA 85 of 1993 & National SANS Standard Compliance",
         content: (
             <div className="space-y-3">
@@ -104,32 +119,25 @@ export const safetyItems = [
 
 export function HomeSafetyPracticesSection() {
     return (
-        <section className="py-24 bg-muted/30  relative overflow-hidden">
+        <>
+            {/* Section 1: Core Safety Philosophy + Right-Edge Full-Height Cutout Image */}
+            <section className="relative bg-muted/30 border-b border-border overflow-hidden">
+                <img
+                    src={imgSafety}
+                    alt="Target Cranes Precision Safety Operations"
+                    className="pointer-events-none select-none absolute inset-y-0 right-0 h-full w-auto max-w-none object-cover object-left translate-x-1/4 sm:translate-x-12 lg:translate-x-16 xl:translate-x-0 opacity-15 dark:opacity-20 lg:opacity-100 drop-shadow-black z-0"
+                />
 
-            <Wrapper>
-                <div className="block relative z-10">
-
-                    {/* Floated Image with CSS Shape-Outside */}
-                    <img
-                        src={imgSafety}
-                        alt="Target Cranes Precision Safety Operations"
-                        className="float-none lg:float-right mx-auto lg:mx-0 w-3/4 max-w-xs sm:w-1/2 lg:w-[38%] lg:max-w-none rounded-xl drop-shadow-black object-contain lg:ml-10 mb-8 lg:mb-4 mt-2 lg:mt-4"
-                        style={{
-                            shapeOutside: `url(${imgSafety})`,
-                            shapeImageThreshold: 0.1,
-                            shapeMargin: '1.5rem'
-                        }}
-                    />
-
-                    {/* Text & Accordion */}
-                    <div className="space-y-10">
+                <Wrapper className="relative z-10">
+                    <div className="lg:w-2/3 xl:w-[70%] py-16 sm:py-20 lg:py-28 space-y-6 sm:space-y-8">
                         <SectionHeading
                             title="SAFETY STARTS WELL BEFORE THE LIFT"
                             label="Our Core Priority"
                             align="left"
                         />
 
-                        <div className="text-muted-foreground text-base sm:text-lg leading-relaxed space-y-6">
+                        <div
+                            className="text-muted-foreground text-base sm:text-lg leading-relaxed space-y-5 sm:space-y-6">
                             <p>
                                 <strong>At Target Cranes, safety is an operational discipline</strong> that shapes every
                                 lift from initial engineering to final set-down. In heavy lifting and high-risk
@@ -151,35 +159,80 @@ export function HomeSafetyPracticesSection() {
                                 and surrounding communities remains <strong>uncompromised on every job</strong>.
                             </p>
                         </div>
+                    </div>
+                </Wrapper>
+            </section>
 
-                        <div className="pt-4">
-                            <Accordion className="border-t-0">
-                                {safetyItems.map((item, index) => (
-                                    <AccordionItem
-                                        key={index}
-                                        value={`item-${index}`}
-                                        className="py-2"
-                                    >
-                                        <AccordionTrigger
-                                            className="text-left font-bold text-lg py-5 hover:no-underline hover:text-primary transition-colors">
-                                            {item.title}
-                                        </AccordionTrigger>
-                                        <AccordionContent className="pb-6">
-                                            <div className="text-muted-foreground leading-relaxed text-base max-w-none">
-                                                {item.content}
-                                            </div>
-                                        </AccordionContent>
-                                    </AccordionItem>
-                                ))}
+            {/* Section 2: Dedicated Restyled Safety Protocols Accordion Section */}
+            <section className="py-16 sm:py-20 lg:py-28 bg-background border-b border-border">
+                <Wrapper>
+                    <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start">
+                        {/* Left Sticky Column */}
+                        <div className="lg:w-5/12 lg:sticky lg:top-32 space-y-4 sm:space-y-6">
+                            <SectionLabel>Safety Protocols</SectionLabel>
+                            <h2>
+                                <SwipeTitle
+                                    className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black font-heading tracking-tighter uppercase text-foreground text-balance">
+                                    <SwipeLine>Disciplined</SwipeLine>
+                                    <SwipeLine>
+                                        <span
+                                            className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">
+                                            Field Standards
+                                        </span>
+                                    </SwipeLine>
+                                </SwipeTitle>
+                            </h2>
+                            <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
+                                Every mobile crane deployment follows six non-negotiable operational safeguards—from
+                                initial ground bearing verification and statutory load testing to on-site exclusion
+                                zones and unconditional Stop Work Authority.
+                            </p>
+                        </div>
+
+                        {/* Right Column: Elevated Card Accordion */}
+                        <div className="w-full lg:w-7/12">
+                            <Accordion className="divide-y-0 border-b-0 space-y-3 sm:space-y-4">
+                                {safetyItems.map((item, index) => {
+                                    const Icon = item.icon;
+                                    return (
+                                        <AccordionItem
+                                            key={index}
+                                            value={`item-${index}`}
+                                            className="rounded-2xl border border-border bg-card px-4 sm:px-6 py-1.5 sm:py-2 shadow-xs transition-all duration-300 hover:border-primary/30 data-[state=open]:border-primary/50 data-[state=open]:shadow-md data-[state=open]:ring-1 data-[state=open]:ring-primary/15 last:border-b"
+                                        >
+                                            <AccordionTrigger className="py-3.5 sm:py-4 hover:no-underline">
+                                                <div className="flex items-center gap-3 sm:gap-4">
+                                                    <div
+                                                        className="flex size-9 sm:size-11 shrink-0 items-center justify-center rounded-xl border border-primary/20 bg-primary/10 text-primary transition-colors group-data-[state=open]:bg-primary group-data-[state=open]:text-primary-foreground">
+                                                        <Icon className="size-4 sm:size-5" strokeWidth={1.75}/>
+                                                    </div>
+                                                    <div className="flex flex-col gap-0.5">
+                                                        <span
+                                                            className="font-mono text-[11px] sm:text-xs font-bold uppercase tracking-widest text-primary">
+                                                            Protocol {item.step}
+                                                        </span>
+                                                        <span
+                                                            className="font-heading text-base sm:text-lg md:text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary transition-colors leading-snug">
+                                                            {item.title}
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </AccordionTrigger>
+                                            <AccordionContent className="pb-4 sm:pb-5 pt-1 sm:pt-2">
+                                                <div
+                                                    className="border-t border-border/60 pt-3.5 sm:pt-4 pl-0 sm:pl-15 text-muted-foreground leading-relaxed text-sm sm:text-base">
+                                                    {item.content}
+                                                </div>
+                                            </AccordionContent>
+                                        </AccordionItem>
+                                    );
+                                })}
                             </Accordion>
                         </div>
                     </div>
-
-                    {/* Clearfix to ensure container wraps floated element if it's taller than text */}
-                    <div className="clear-both"></div>
-                </div>
-            </Wrapper>
-        </section>
+                </Wrapper>
+            </section>
+        </>
     );
 }
 

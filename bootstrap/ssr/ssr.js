@@ -61,9 +61,9 @@ createServer((page) => createInertiaApp({
 	resolve: (name) => resolvePageComponent(`./pages/${name}.tsx`, /* #__PURE__ */ Object.assign({
 		"./pages/about-us.tsx": () => import("./assets/about-us-DxjrZdXE.js"),
 		"./pages/contact-us.tsx": () => import("./assets/contact-us-Bnv8S_qA.js"),
-		"./pages/home.tsx": () => import("./assets/home-D3eoA8Lw.js"),
+		"./pages/home.tsx": () => import("./assets/home-BXNfqlFt.js"),
 		"./pages/privacy-policy.tsx": () => import("./assets/privacy-policy-D6cnbsPy.js"),
-		"./pages/safety.tsx": () => import("./assets/safety-JWwik427.js"),
+		"./pages/safety.tsx": () => import("./assets/safety-BavtOkCE.js"),
 		"./pages/terms-of-service.tsx": () => import("./assets/terms-of-service-BYIB9PJc.js"),
 		"./pages/welcome.tsx": () => import("./assets/welcome-nME6OaId.js")
 	})),

@@ -3,8 +3,8 @@ import { t as Seo } from "./seo-BEU1r1nv.js";
 import { t as IMG_20261008_WA0042_default } from "./IMG-20261008-WA0042-GyVLJorL.js";
 import { Link } from "@inertiajs/react";
 import * as React$1 from "react";
-import { jsx, jsxs } from "react/jsx-runtime";
-import { AlertOctagon, ArrowRight, Award, CheckCircle2, ChevronDown, FileCheck2, Gauge, HardHat, Phone, ShieldCheck, Wrench } from "lucide-react";
+import { Fragment, jsx, jsxs } from "react/jsx-runtime";
+import { AlertOctagon, ArrowRight, Award, CheckCircle2, ChevronDown, Compass, FileCheck2, Gauge, HardHat, Phone, Scale, ShieldCheck, Wrench } from "lucide-react";
 //#region resources/js/components/ui/misc/section-heading.tsx
 function SectionHeading({ title, label, align = "left", className }) {
 	return /* @__PURE__ */ jsxs("div", {
@@ -66,6 +66,7 @@ function AccordionItem({ value, className, children }) {
 			isOpen
 		},
 		children: /* @__PURE__ */ jsx("div", {
+			"data-state": isOpen ? "open" : "closed",
 			className: cn("group border-b border-border last:border-b-0", className),
 			children
 		})
@@ -78,8 +79,14 @@ function AccordionTrigger({ className, children }) {
 		type: "button",
 		onClick: () => toggleValue(value),
 		"aria-expanded": isOpen,
-		className: cn("flex w-full items-center justify-between text-left font-bold transition-all hover:text-primary cursor-pointer", className),
-		children: [/* @__PURE__ */ jsx("span", { children }), /* @__PURE__ */ jsx(ChevronDown, { className: cn("h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-300 group-hover:text-primary", isOpen && "rotate-180 text-primary") })]
+		className: cn("flex w-full items-center justify-between gap-4 text-left font-bold transition-all hover:text-primary cursor-pointer", className),
+		children: [/* @__PURE__ */ jsx("div", {
+			className: "flex-1",
+			children
+		}), /* @__PURE__ */ jsx("span", {
+			className: cn("flex size-9 shrink-0 items-center justify-center rounded-xl border border-border bg-muted/60 text-muted-foreground transition-all duration-300 group-hover:border-primary/40 group-hover:text-primary", isOpen && "border-primary bg-primary text-primary-foreground group-hover:text-primary-foreground shadow-sm shadow-primary/25"),
+			children: /* @__PURE__ */ jsx(ChevronDown, { className: cn("size-4 transition-transform duration-300", isOpen && "rotate-180") })
+		})]
 	});
 }
 function AccordionContent({ className, children }) {
@@ -102,6 +109,8 @@ var safety_default = "/build/assets/safety-DiS-cmeU.webp";
 //#region resources/js/components/home-safety-practices-section.tsx
 var safetyItems = [
 	{
+		step: "01",
+		icon: Compass,
 		title: "Engineered Lift Planning & Ground Verification",
 		content: /* @__PURE__ */ jsxs("div", {
 			className: "space-y-3",
@@ -109,6 +118,8 @@ var safetyItems = [
 		})
 	},
 	{
+		step: "02",
+		icon: ShieldCheck,
 		title: "Statutory Load Testing & Certified Rigging Tackle (DMR 18)",
 		content: /* @__PURE__ */ jsxs("div", {
 			className: "space-y-3",
@@ -116,6 +127,8 @@ var safetyItems = [
 		})
 	},
 	{
+		step: "03",
+		icon: HardHat,
 		title: "TETA-Accredited Operators & Qualified Master Riggers",
 		content: /* @__PURE__ */ jsxs("div", {
 			className: "space-y-3",
@@ -123,6 +136,8 @@ var safetyItems = [
 		})
 	},
 	{
+		step: "04",
+		icon: FileCheck2,
 		title: "Project-Specific RAMS & Daily Toolbox Briefings",
 		content: /* @__PURE__ */ jsxs("div", {
 			className: "space-y-3",
@@ -130,6 +145,8 @@ var safetyItems = [
 		})
 	},
 	{
+		step: "05",
+		icon: AlertOctagon,
 		title: "Uncompromising Stop Work Authority",
 		content: /* @__PURE__ */ jsxs("div", {
 			className: "space-y-3",
@@ -137,6 +154,8 @@ var safetyItems = [
 		})
 	},
 	{
+		step: "06",
+		icon: Scale,
 		title: "OHSA 85 of 1993 & National SANS Standard Compliance",
 		content: /* @__PURE__ */ jsxs("div", {
 			className: "space-y-3",
@@ -145,75 +164,105 @@ var safetyItems = [
 	}
 ];
 function HomeSafetyPracticesSection() {
-	return /* @__PURE__ */ jsx("section", {
-		className: "py-24 bg-muted/30  relative overflow-hidden",
-		children: /* @__PURE__ */ jsx(Wrapper, { children: /* @__PURE__ */ jsxs("div", {
-			className: "block relative z-10",
-			children: [
-				/* @__PURE__ */ jsx("img", {
-					src: safety_default,
-					alt: "Target Cranes Precision Safety Operations",
-					className: "float-none lg:float-right mx-auto lg:mx-0 w-3/4 max-w-xs sm:w-1/2 lg:w-[38%] lg:max-w-none rounded-xl drop-shadow-black object-contain lg:ml-10 mb-8 lg:mb-4 mt-2 lg:mt-4",
-					style: {
-						shapeOutside: `url(${safety_default})`,
-						shapeImageThreshold: .1,
-						shapeMargin: "1.5rem"
-					}
-				}),
-				/* @__PURE__ */ jsxs("div", {
-					className: "space-y-10",
+	return /* @__PURE__ */ jsxs(Fragment, { children: [/* @__PURE__ */ jsxs("section", {
+		className: "relative bg-muted/30 border-b border-border overflow-hidden",
+		children: [/* @__PURE__ */ jsx("img", {
+			src: safety_default,
+			alt: "Target Cranes Precision Safety Operations",
+			className: "pointer-events-none select-none absolute inset-y-0 right-0 h-full w-auto max-w-none object-cover object-left translate-x-1/4 sm:translate-x-12 lg:translate-x-16 xl:translate-x-0 opacity-15 dark:opacity-20 lg:opacity-100 drop-shadow-black z-0"
+		}), /* @__PURE__ */ jsx(Wrapper, {
+			className: "relative z-10",
+			children: /* @__PURE__ */ jsxs("div", {
+				className: "lg:w-2/3 xl:w-[70%] py-16 sm:py-20 lg:py-28 space-y-6 sm:space-y-8",
+				children: [/* @__PURE__ */ jsx(SectionHeading, {
+					title: "SAFETY STARTS WELL BEFORE THE LIFT",
+					label: "Our Core Priority",
+					align: "left"
+				}), /* @__PURE__ */ jsxs("div", {
+					className: "text-muted-foreground text-base sm:text-lg leading-relaxed space-y-5 sm:space-y-6",
 					children: [
-						/* @__PURE__ */ jsx(SectionHeading, {
-							title: "SAFETY STARTS WELL BEFORE THE LIFT",
-							label: "Our Core Priority",
-							align: "left"
-						}),
-						/* @__PURE__ */ jsxs("div", {
-							className: "text-muted-foreground text-base sm:text-lg leading-relaxed space-y-6",
-							children: [
-								/* @__PURE__ */ jsxs("p", { children: [/* @__PURE__ */ jsx("strong", { children: "At Target Cranes, safety is an operational discipline" }), " that shapes every lift from initial engineering to final set-down. In heavy lifting and high-risk environments, safety cannot be separated from execution. It dictates equipment configuration, ground preparation, rigging calculations, and how our crews coordinate on site."] }),
-								/* @__PURE__ */ jsxs("p", { children: [
-									"Our philosophy begins with ",
-									/* @__PURE__ */ jsx("strong", { children: "proactive hazard identification and engineered risk mitigation" }),
-									" well before outriggers extend. We place equal value on the specialists guiding the equipment: ",
-									/* @__PURE__ */ jsx("strong", { children: "continuous operator training, certified medical fitness, strict PPE compliance" }),
-									", and day-to-day mental readiness ensure our team performs with precision and accountability."
-								] }),
-								/* @__PURE__ */ jsxs("p", { children: [
-									"Health and safety is never treated as a periodic compliance box to tick. It is an ",
-									/* @__PURE__ */ jsx("strong", { children: "active, daily standard" }),
-									" continually evaluated and strengthened across our operations ensuring the protection of our personnel, client teams, site property, and surrounding communities remains ",
-									/* @__PURE__ */ jsx("strong", { children: "uncompromised on every job" }),
-									"."
-								] })
-							]
-						}),
-						/* @__PURE__ */ jsx("div", {
-							className: "pt-4",
-							children: /* @__PURE__ */ jsx(Accordion, {
-								className: "border-t-0",
-								children: safetyItems.map((item, index) => /* @__PURE__ */ jsxs(AccordionItem, {
-									value: `item-${index}`,
-									className: "py-2",
-									children: [/* @__PURE__ */ jsx(AccordionTrigger, {
-										className: "text-left font-bold text-lg py-5 hover:no-underline hover:text-primary transition-colors",
-										children: item.title
-									}), /* @__PURE__ */ jsx(AccordionContent, {
-										className: "pb-6",
-										children: /* @__PURE__ */ jsx("div", {
-											className: "text-muted-foreground leading-relaxed text-base max-w-none",
-											children: item.content
-										})
-									})]
-								}, index))
-							})
-						})
+						/* @__PURE__ */ jsxs("p", { children: [/* @__PURE__ */ jsx("strong", { children: "At Target Cranes, safety is an operational discipline" }), " that shapes every lift from initial engineering to final set-down. In heavy lifting and high-risk environments, safety cannot be separated from execution. It dictates equipment configuration, ground preparation, rigging calculations, and how our crews coordinate on site."] }),
+						/* @__PURE__ */ jsxs("p", { children: [
+							"Our philosophy begins with ",
+							/* @__PURE__ */ jsx("strong", { children: "proactive hazard identification and engineered risk mitigation" }),
+							" well before outriggers extend. We place equal value on the specialists guiding the equipment: ",
+							/* @__PURE__ */ jsx("strong", { children: "continuous operator training, certified medical fitness, strict PPE compliance" }),
+							", and day-to-day mental readiness ensure our team performs with precision and accountability."
+						] }),
+						/* @__PURE__ */ jsxs("p", { children: [
+							"Health and safety is never treated as a periodic compliance box to tick. It is an ",
+							/* @__PURE__ */ jsx("strong", { children: "active, daily standard" }),
+							" continually evaluated and strengthened across our operations ensuring the protection of our personnel, client teams, site property, and surrounding communities remains ",
+							/* @__PURE__ */ jsx("strong", { children: "uncompromised on every job" }),
+							"."
+						] })
 					]
-				}),
-				/* @__PURE__ */ jsx("div", { className: "clear-both" })
-			]
+				})]
+			})
+		})]
+	}), /* @__PURE__ */ jsx("section", {
+		className: "py-16 sm:py-20 lg:py-28 bg-background border-b border-border",
+		children: /* @__PURE__ */ jsx(Wrapper, { children: /* @__PURE__ */ jsxs("div", {
+			className: "flex flex-col lg:flex-row gap-10 lg:gap-16 items-start",
+			children: [/* @__PURE__ */ jsxs("div", {
+				className: "lg:w-5/12 lg:sticky lg:top-32 space-y-4 sm:space-y-6",
+				children: [
+					/* @__PURE__ */ jsx(SectionLabel, { children: "Safety Protocols" }),
+					/* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
+						className: "text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black font-heading tracking-tighter uppercase text-foreground text-balance",
+						children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Disciplined" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
+							className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
+							children: "Field Standards"
+						}) })]
+					}) }),
+					/* @__PURE__ */ jsx("p", {
+						className: "text-base sm:text-lg text-muted-foreground leading-relaxed",
+						children: "Every mobile crane deployment follows six non-negotiable operational safeguards—from initial ground bearing verification and statutory load testing to on-site exclusion zones and unconditional Stop Work Authority."
+					})
+				]
+			}), /* @__PURE__ */ jsx("div", {
+				className: "w-full lg:w-7/12",
+				children: /* @__PURE__ */ jsx(Accordion, {
+					className: "divide-y-0 border-b-0 space-y-3 sm:space-y-4",
+					children: safetyItems.map((item, index) => {
+						const Icon = item.icon;
+						return /* @__PURE__ */ jsxs(AccordionItem, {
+							value: `item-${index}`,
+							className: "rounded-2xl border border-border bg-card px-4 sm:px-6 py-1.5 sm:py-2 shadow-xs transition-all duration-300 hover:border-primary/30 data-[state=open]:border-primary/50 data-[state=open]:shadow-md data-[state=open]:ring-1 data-[state=open]:ring-primary/15 last:border-b",
+							children: [/* @__PURE__ */ jsx(AccordionTrigger, {
+								className: "py-3.5 sm:py-4 hover:no-underline",
+								children: /* @__PURE__ */ jsxs("div", {
+									className: "flex items-center gap-3 sm:gap-4",
+									children: [/* @__PURE__ */ jsx("div", {
+										className: "flex size-9 sm:size-11 shrink-0 items-center justify-center rounded-xl border border-primary/20 bg-primary/10 text-primary transition-colors group-data-[state=open]:bg-primary group-data-[state=open]:text-primary-foreground",
+										children: /* @__PURE__ */ jsx(Icon, {
+											className: "size-4 sm:size-5",
+											strokeWidth: 1.75
+										})
+									}), /* @__PURE__ */ jsxs("div", {
+										className: "flex flex-col gap-0.5",
+										children: [/* @__PURE__ */ jsxs("span", {
+											className: "font-mono text-[11px] sm:text-xs font-bold uppercase tracking-widest text-primary",
+											children: ["Protocol ", item.step]
+										}), /* @__PURE__ */ jsx("span", {
+											className: "font-heading text-base sm:text-lg md:text-xl font-black uppercase tracking-tight text-foreground group-hover:text-primary transition-colors leading-snug",
+											children: item.title
+										})]
+									})]
+								})
+							}), /* @__PURE__ */ jsx(AccordionContent, {
+								className: "pb-4 sm:pb-5 pt-1 sm:pt-2",
+								children: /* @__PURE__ */ jsx("div", {
+									className: "border-t border-border/60 pt-3.5 sm:pt-4 pl-0 sm:pl-15 text-muted-foreground leading-relaxed text-sm sm:text-base",
+									children: item.content
+								})
+							})]
+						}, index);
+					})
+				})
+			})]
 		}) })
-	});
+	})] });
 }
 //#endregion
 //#region resources/js/pages/safety.tsx

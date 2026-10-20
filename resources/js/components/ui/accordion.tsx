@@ -68,7 +68,10 @@ export function AccordionItem({
 
     return (
         <AccordionItemContext.Provider value={{ value, isOpen }}>
-            <div className={cn("group border-b border-border last:border-b-0", className)}>
+            <div
+                data-state={isOpen ? "open" : "closed"}
+                className={cn("group border-b border-border last:border-b-0", className)}
+            >
                 {children}
             </div>
         </AccordionItemContext.Provider>
@@ -91,17 +94,24 @@ export function AccordionTrigger({
             onClick={() => toggleValue(value)}
             aria-expanded={isOpen}
             className={cn(
-                "flex w-full items-center justify-between text-left font-bold transition-all hover:text-primary cursor-pointer",
+                "flex w-full items-center justify-between gap-4 text-left font-bold transition-all hover:text-primary cursor-pointer",
                 className
             )}
         >
-            <span>{children}</span>
-            <ChevronDown
+            <div className="flex-1">{children}</div>
+            <span
                 className={cn(
-                    "h-5 w-5 shrink-0 text-muted-foreground transition-transform duration-300 group-hover:text-primary",
-                    isOpen && "rotate-180 text-primary"
+                    "flex size-9 shrink-0 items-center justify-center rounded-xl border border-border bg-muted/60 text-muted-foreground transition-all duration-300 group-hover:border-primary/40 group-hover:text-primary",
+                    isOpen && "border-primary bg-primary text-primary-foreground group-hover:text-primary-foreground shadow-sm shadow-primary/25"
                 )}
-            />
+            >
+                <ChevronDown
+                    className={cn(
+                        "size-4 transition-transform duration-300",
+                        isOpen && "rotate-180"
+                    )}
+                />
+            </span>
         </button>
     );
 }

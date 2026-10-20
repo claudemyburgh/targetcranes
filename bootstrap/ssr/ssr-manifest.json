@@ -8,7 +8,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/images/IMG-20261008-WA0040.webp": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -29,7 +29,7 @@
     "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp"
   ],
   "resources/images/abnormal-crane-cutout.webp": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -41,7 +41,7 @@
     "/build/assets/black-white-EH1MbV7t.webp"
   ],
   "resources/images/black-white.webp": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -53,7 +53,7 @@
     "/build/assets/black-white-EH1MbV7t.webp"
   ],
   "resources/images/const.webp": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -70,7 +70,7 @@
     "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp"
   ],
   "resources/images/hero-4k-16x9.webp": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -82,7 +82,7 @@
     "/build/assets/black-white-EH1MbV7t.webp"
   ],
   "resources/images/panorama.webp": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -94,11 +94,11 @@
     "/build/assets/black-white-EH1MbV7t.webp"
   ],
   "resources/images/safety.webp": [
-    "/build/assets/safety-JWwik427.js",
+    "/build/assets/safety-BavtOkCE.js",
     "/build/assets/safety-DiS-cmeU.webp"
   ],
   "resources/images/tall-2.webp": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -110,7 +110,7 @@
     "/build/assets/black-white-EH1MbV7t.webp"
   ],
   "resources/images/tall.webp": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -122,7 +122,19 @@
     "/build/assets/black-white-EH1MbV7t.webp"
   ],
   "resources/images/welcome.webp": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
+    "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
+    "/build/assets/panorama-BH1CJntt.webp",
+    "/build/assets/welcome-CKlmCNJ6.webp",
+    "/build/assets/abnormal-crane-cutout-ajq8LULo.webp",
+    "/build/assets/tall-CSHx5bdJ.webp",
+    "/build/assets/const-CEQ22tYR.webp",
+    "/build/assets/tall-2-Be5qM-Xc.webp",
+    "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.webp",
+    "/build/assets/black-white-EH1MbV7t.webp"
+  ],
+  "resources/js/components/LightRays.tsx": [
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -155,7 +167,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/hero.tsx": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -167,7 +179,7 @@
     "/build/assets/black-white-EH1MbV7t.webp"
   ],
   "resources/js/components/home-hero-split.tsx": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -179,7 +191,7 @@
     "/build/assets/black-white-EH1MbV7t.webp"
   ],
   "resources/js/components/home-safety-practices-section.tsx": [
-    "/build/assets/safety-JWwik427.js",
+    "/build/assets/safety-BavtOkCE.js",
     "/build/assets/safety-DiS-cmeU.webp"
   ],
   "resources/js/components/logo.tsx": [
@@ -190,7 +202,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/nationwide-service.tsx": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -209,7 +221,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/project-success-4.tsx": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -224,7 +236,7 @@
     "/build/assets/seo-BEU1r1nv.js"
   ],
   "resources/js/components/service-areas-alt-3.tsx": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -236,7 +248,7 @@
     "/build/assets/black-white-EH1MbV7t.webp"
   ],
   "resources/js/components/stats.tsx": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -255,7 +267,7 @@
     "/build/assets/marker-icon-hN30_KVU.png"
   ],
   "resources/js/components/ui/accordion.tsx": [
-    "/build/assets/safety-JWwik427.js",
+    "/build/assets/safety-BavtOkCE.js",
     "/build/assets/safety-DiS-cmeU.webp"
   ],
   "resources/js/components/ui/button.tsx": [
@@ -279,7 +291,7 @@
     "/build/assets/contact-us-Bnv8S_qA.js"
   ],
   "resources/js/components/ui/misc/section-heading.tsx": [
-    "/build/assets/safety-JWwik427.js",
+    "/build/assets/safety-BavtOkCE.js",
     "/build/assets/safety-DiS-cmeU.webp"
   ],
   "resources/js/components/ui/misc/section-label.tsx": [
@@ -314,7 +326,7 @@
     "/build/assets/contact-us-Bnv8S_qA.js"
   ],
   "resources/js/components/who-we-are.tsx": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -349,7 +361,7 @@
     "/build/assets/contact-us-Bnv8S_qA.js"
   ],
   "resources/js/pages/home.tsx": [
-    "/build/assets/home-D3eoA8Lw.js",
+    "/build/assets/home-BXNfqlFt.js",
     "/build/assets/hero-4k-16x9-D5sU2X7e.webp",
     "/build/assets/panorama-BH1CJntt.webp",
     "/build/assets/welcome-CKlmCNJ6.webp",
@@ -364,7 +376,7 @@
     "/build/assets/privacy-policy-D6cnbsPy.js"
   ],
   "resources/js/pages/safety.tsx": [
-    "/build/assets/safety-JWwik427.js",
+    "/build/assets/safety-BavtOkCE.js",
     "/build/assets/safety-DiS-cmeU.webp"
   ],
   "resources/js/pages/terms-of-service.tsx": [
