@@ -1,5 +1,6 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
+import DotPattern from "@/components/ui/misc/dot-pattern.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 import {Tabs} from "@/components/ui/tabs.tsx";
 import {Anchor, HardHat, Pickaxe, Wind} from "lucide-react";
@@ -84,6 +85,9 @@ function ServiceAreasAlt4() {
 
     return (
         <section className="py-24 bg-background relative overflow-x-clip">
+            <div aria-hidden={true} className="pointer-events-none absolute inset-0 overflow-hidden z-0">
+                <DotPattern corner="top-right"/>
+            </div>
             {/* Sticky background crane cutout */}
             <div aria-hidden={true} className="pointer-events-none absolute inset-0 z-0">
                 <div className="sticky top-0 h-svh w-full overflow-hidden">

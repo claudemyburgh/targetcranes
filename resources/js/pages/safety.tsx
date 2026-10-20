@@ -2,6 +2,7 @@ import AppLayout from "@/layouts/app-layout";
 import {Seo} from "@/components/seo";
 import Wrapper from "@/components/ui/misc/wrapper";
 import SectionLabel from "@/components/ui/misc/section-label";
+import DotPattern from "@/components/ui/misc/dot-pattern";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
 import HomeSafetyPracticesSection from "@/components/home-safety-practices-section";
 import {Link} from "@inertiajs/react";
@@ -32,8 +33,9 @@ export default function Safety() {
             />
 
             {/* Page Header / Hero */}
-            <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-background border-b border-border">
-                <Wrapper>
+            <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-background border-b border-border relative overflow-hidden">
+                <DotPattern corner="top-right"/>
+                <Wrapper className="relative z-10">
                     <div className="max-w-4xl space-y-6">
                         <SectionLabel className="mb-4">Safety &amp; Compliance</SectionLabel>
 
@@ -126,8 +128,9 @@ export default function Safety() {
             <HomeSafetyPracticesSection/>
 
             {/* Statutory Compliance & Standards Section */}
-            <section className="py-20 lg:py-28 bg-background">
-                <Wrapper>
+            <section className="py-20 lg:py-28 bg-background relative overflow-hidden">
+                <DotPattern corner="bottom-right"/>
+                <Wrapper className="relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                         <div className="lg:col-span-5">
                             <div

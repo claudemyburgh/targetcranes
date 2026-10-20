@@ -1,6 +1,7 @@
 import Wrapper from "@/components/ui/misc/wrapper";
 import SectionHeading from "@/components/ui/misc/section-heading";
 import SectionLabel from "@/components/ui/misc/section-label";
+import DotPattern from "@/components/ui/misc/dot-pattern";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
 import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion";
 import {AlertOctagon, Compass, FileCheck2, HardHat, Scale, ShieldCheck} from "lucide-react";
@@ -122,6 +123,7 @@ export function HomeSafetyPracticesSection() {
         <>
             {/* Section 1: Core Safety Philosophy + Right-Edge Full-Height Cutout Image */}
             <section className="relative bg-muted/30 border-b border-border overflow-hidden">
+                <DotPattern corner="top-left"/>
                 <img
                     src={imgSafety}
                     alt="Target Cranes Precision Safety Operations"
@@ -164,8 +166,11 @@ export function HomeSafetyPracticesSection() {
             </section>
 
             {/* Section 2: Dedicated Restyled Safety Protocols Accordion Section */}
-            <section className="py-16 sm:py-20 lg:py-28 bg-background border-b border-border">
-                <Wrapper>
+            <section className="py-16 sm:py-20 lg:py-28 bg-background border-b border-border relative overflow-x-clip">
+                <div aria-hidden={true} className="pointer-events-none absolute inset-0 overflow-hidden z-0">
+                    <DotPattern corner="bottom-left"/>
+                </div>
+                <Wrapper className="relative z-10">
                     <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start">
                         {/* Left Sticky Column */}
                         <div className="lg:w-5/12 lg:sticky lg:top-32 space-y-4 sm:space-y-6">

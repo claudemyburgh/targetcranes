@@ -1,6 +1,7 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
+import {siteStats} from "@/lib/site-stats.ts";
 // @ts-ignore
 import bgImg from "../../images/black-white.webp";
 
@@ -43,17 +44,17 @@ export function NationwideService() {
 
                         <div className="grid gap-6 mt-8">
                             <div className="flex flex-col gap-1">
-                                <span className="text-3xl font-black font-heading tracking-tight text-primary">35+ Years of Experience</span>
+                                <span className="text-3xl font-black font-heading tracking-tight text-primary">{siteStats.yearsInBusiness} Years of Experience</span>
                                 <p className="text-muted-foreground">Providing exceptional crane services across
                                     multiple industries.</p>
                             </div>
                             <div className="flex flex-col gap-1">
-                                <span className="text-3xl font-black font-heading tracking-tight text-primary">1000+ Successful Projects</span>
+                                <span className="text-3xl font-black font-heading tracking-tight text-primary">{siteStats.successfulProjects} Successful Projects</span>
                                 <p className="text-muted-foreground">Completed with precision and safety, ranging from
                                     small-scale lifts to major infrastructure projects.</p>
                             </div>
                             <div className="flex flex-col gap-1">
-                                <span className="text-3xl font-black font-heading tracking-tight text-primary">24/7 Availability</span>
+                                <span className="text-3xl font-black font-heading tracking-tight text-primary">{siteStats.availability} Availability</span>
                                 <p className="text-muted-foreground">Ready to respond to your lifting needs anytime, day
                                     or night.</p>
                             </div>

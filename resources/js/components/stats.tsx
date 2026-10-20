@@ -3,22 +3,23 @@ import {Award, Clock, HardHat} from "lucide-react";
 // @ts-ignore
 import panoramaImg from "../../images/panorama.webp";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
+import {siteStats} from "@/lib/site-stats.ts";
 
 const statsData = [
     {
         icon: Award,
-        value: "35+",
+        value: siteStats.yearsInBusiness,
         label: "Years of Experience",
 
     },
     {
         icon: HardHat,
-        value: "1000+",
+        value: siteStats.successfulProjects,
         label: "Successful Projects",
     },
     {
         icon: Clock,
-        value: "24/7",
+        value: siteStats.availability,
         label: "Availability",
     }
 ];

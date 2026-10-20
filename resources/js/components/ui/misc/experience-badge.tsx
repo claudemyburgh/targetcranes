@@ -1,3 +1,5 @@
+import {siteStats} from "@/lib/site-stats";
+
 export default function ExperienceBadge({className = ""}: { className?: string }) {
     return (
         <div
@@ -8,7 +10,7 @@ export default function ExperienceBadge({className = ""}: { className?: string }
                     className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-white"></span>
             </span>
-            <span className="font-semibold tracking-wider uppercase text-xs">53 YEARS MANAGEMENT EXPERIENCE</span>
+            <span className="font-semibold tracking-wider uppercase text-xs">{siteStats.combinedExperienceYears} YEARS MANAGEMENT EXPERIENCE</span>
         </div>
     );
 }

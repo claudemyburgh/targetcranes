@@ -2,8 +2,10 @@ import AppLayout from "@/layouts/app-layout";
 import {Seo} from "@/components/seo";
 import Wrapper from "@/components/ui/misc/wrapper";
 import SectionLabel from "@/components/ui/misc/section-label";
+import DotPattern from "@/components/ui/misc/dot-pattern";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
-import {Award, HardHat, MapPin, ShieldCheck, Wrench} from "lucide-react";
+import {siteStats} from "@/lib/site-stats";
+import {Award, HardHat} from "lucide-react";
 
 // @ts-ignore
 import aboutHeroImg from "@/../images/cutom-lines.webp";
@@ -17,12 +19,14 @@ export default function AboutUs() {
         <AppLayout>
             <Seo
                 title="About Us"
-                description="Learn about Target Cranes, our company origins in Cape Town, 53 years of combined management experience, and our uncompromising commitment to safety and precision lifting."
+                description={`Learn about Target Cranes, our company origins in Cape Town, ${siteStats.combinedExperienceYears} years of combined management experience, and our uncompromising commitment to safety and precision lifting.`}
             />
 
             {/* Hero / Overview */}
-            <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-background">
-                <Wrapper>
+            <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-background relative overflow-hidden">
+                <DotPattern corner="top-right"/>
+                <DotPattern corner="bottom-left"/>
+                <Wrapper className="relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                         <div className="lg:col-span-7 space-y-6">
                             <SectionLabel className="mb-4">Company Overview</SectionLabel>
@@ -70,8 +74,9 @@ export default function AboutUs() {
             </section>
 
             {/* Company Heritage & Leadership */}
-            <section className="py-20 lg:py-28 bg-muted/40 border-y border-border">
-                <Wrapper>
+            <section className="py-20 lg:py-28 bg-muted/40 border-y border-border relative overflow-hidden">
+                <DotPattern corner="bottom-right"/>
+                <Wrapper className="relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                         <div className="lg:col-span-5 order-2 lg:order-1">
                             <div
@@ -88,7 +93,7 @@ export default function AboutUs() {
                             <SectionLabel className="mb-2">Leadership &amp; Pedigree</SectionLabel>
 
                             <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black font-heading tracking-tight uppercase text-foreground">
-                                53 Years Combined Management Experience
+                                {siteStats.combinedExperienceYears} Years Combined Management Experience
                             </h2>
 
                             <div className="space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed">
@@ -111,7 +116,7 @@ export default function AboutUs() {
                             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 pt-4">
                                 <div className="rounded-2xl border border-border bg-card p-5 space-y-2">
                                     <Award className="w-6 h-6 text-primary"/>
-                                    <h3 className="font-bold font-heading uppercase text-sm text-foreground">25+ Years
+                                    <h3 className="font-bold font-heading uppercase text-sm text-foreground">{siteStats.yearsInBusiness} Years
                                         Track Record</h3>
                                     <p className="text-xs text-muted-foreground leading-relaxed">
                                         Established company reputation delivering lifts for major national contractors.
@@ -132,73 +137,7 @@ export default function AboutUs() {
                 </Wrapper>
             </section>
 
-            {/* Safety & Standards */}
-            <section className="py-20 lg:py-28 bg-background">
-                <Wrapper>
-                    <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-                        <div className="lg:col-span-7 space-y-6">
-                            <SectionLabel className="mb-2">Safety Culture</SectionLabel>
-
-                            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black font-heading tracking-tight uppercase text-foreground">
-                                Safety Without Compromise
-                            </h2>
-
-                            <div className="space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed">
-                                <p>
-                                    In heavy lifting, precision is the foundation of safety. All Target Cranes
-                                    operations comply with the South African Occupational Health and Safety Act 85 of
-                                    1993 (OHSA), Construction Regulations, and applicable SANS lifting codes.
-                                </p>
-                                <p>
-                                    Every piece of equipment-from telescopic booms and outrigger load pads to
-                                    spreader beams and wire ropes-undergoes regular third-party load testing and
-                                    mandatory daily pre-operation inspections.
-                                </p>
-                            </div>
-
-                            <div className="space-y-3 pt-2">
-                                <div className="flex items-start gap-3">
-                                    <ShieldCheck className="w-5 h-5 text-primary shrink-0 mt-1"/>
-                                    <p className="text-sm sm:text-base text-muted-foreground">
-                                        <strong className="text-foreground">Engineered Risk
-                                            Assessments:</strong> Detailed RAMS (Risk Assessments and Method Statements)
-                                        tailored to site hazards.
-                                    </p>
-                                </div>
-                                <div className="flex items-start gap-3">
-                                    <Wrench className="w-5 h-5 text-primary shrink-0 mt-1"/>
-                                    <p className="text-sm sm:text-base text-muted-foreground">
-                                        <strong className="text-foreground">In-House Maintenance:</strong> Dedicated
-                                        workshop protocols ensuring maximum fleet reliability and zero preventable
-                                        downtime.
-                                    </p>
-                                </div>
-                                <div className="flex items-start gap-3">
-                                    <MapPin className="w-5 h-5 text-primary shrink-0 mt-1"/>
-                                    <p className="text-sm sm:text-base text-muted-foreground">
-                                        <strong className="text-foreground">Strategic Bellville South
-                                            Depot:</strong> Central yard with direct highway access to Cape Town
-                                        Harbour, Saldanha Bay, and regional corridors.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="lg:col-span-5">
-                            <div
-                                className="relative aspect-[4/5] w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card">
-                                <img
-                                    src={teamImg}
-                                    alt="Target Cranes team conducting pre-lift safety checks"
-                                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                                />
-                            </div>
-                        </div>
-                    </div>
-                </Wrapper>
-            </section>
-
-
+           
         </AppLayout>
     );
 }

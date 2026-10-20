@@ -1,5 +1,6 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
+import DotPattern from "@/components/ui/misc/dot-pattern.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
 import whoWeAreImage from "@/../images/welcome.webp";
@@ -7,7 +8,8 @@ import whoWeAreImage from "@/../images/welcome.webp";
 export default function WhoWeAre() {
     return (
         <section className="py-24 bg-muted overflow-hidden isolate relative">
-            <Wrapper>
+            <DotPattern corner="top-left"/>
+            <Wrapper className="relative z-10">
                 <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 items-center">
                     <div className="lg:col-span-5">
                         <SectionLabel className="mb-8">Our Approach</SectionLabel>

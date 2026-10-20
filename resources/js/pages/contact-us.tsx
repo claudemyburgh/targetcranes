@@ -4,6 +4,7 @@ import {Seo} from '@/components/seo';
 import AppLayout from "@/layouts/app-layout";
 import Wrapper from "@/components/ui/misc/wrapper";
 import SectionLabel from "@/components/ui/misc/section-label";
+import DotPattern from "@/components/ui/misc/dot-pattern";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
 import {Input} from "@/components/ui/input";
 import {Textarea} from "@/components/ui/textarea";
@@ -54,8 +55,10 @@ function ContactUs() {
                 description="Get in touch with Target Cranes for 24/7 mobile crane hire, heavy rigging, and precision lifting across South Africa. Call 063 673 7500 or email enquiries@targetcranes.co.za."
             />
 
-            <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-background">
-                <Wrapper>
+            <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-background relative overflow-hidden">
+                <DotPattern corner="top-right"/>
+                <DotPattern corner="bottom-left"/>
+                <Wrapper className="relative z-10">
                     {/* Header */}
                     <div className="max-w-3xl mb-12 lg:mb-16">
                         <SectionLabel className="mb-4">Get In Touch</SectionLabel>

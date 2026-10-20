@@ -1,5 +1,6 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
+import DotPattern from "@/components/ui/misc/dot-pattern.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
 import img1 from "@/../images/tall.webp";
@@ -12,8 +13,10 @@ import img4 from "@/../images/IMG-20261008-WA0040.webp";
 
 function ProjectSuccess4() {
     return (
-        <section className="bg-muted py-24 lg:py-32">
-            <Wrapper>
+        <section className="bg-muted py-24 lg:py-32 relative overflow-hidden">
+            <DotPattern corner="top-right"/>
+            <DotPattern corner="bottom-left"/>
+            <Wrapper className="relative z-10">
                 <div className="max-w-4xl mb-16 lg:mb-24">
                     <SectionLabel className="mb-8">Planning &amp; Execution</SectionLabel>
                     <h2>
