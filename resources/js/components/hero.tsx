@@ -1,6 +1,5 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import {useEffect, useState} from "react";
-import ExperienceBadge from "@/components/ui/misc/experience-badge.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 // @ts-ignore
 import heroImage from "@/../images/hero-4k-16x9.webp";
@@ -15,7 +14,8 @@ function Hero() {
     }, []);
 
     return (
-        <section className="h-svh pb-12 pt-24 w-full max-w-full relative overflow-clip bg-foreground dark:bg-background">
+        <section
+            className="h-svh pb-12 pt-24 w-full max-w-full relative overflow-clip bg-foreground dark:bg-background">
             <div
                 className="absolute inset-0 w-full h-full transform-gpu"
                 style={{
@@ -31,11 +31,12 @@ function Hero() {
 
             </div>
 
-            <div className="absolute top-28 md:top-32 inset-x-0 flex justify-center z-20 pointer-events-none">
-                <ExperienceBadge/>
-            </div>
+            {/*<div className="absolute top-28 md:top-32 inset-x-0 flex justify-center z-20 pointer-events-none">*/}
+            {/*    <ExperienceBadge/>*/}
+            {/*</div>*/}
 
-            <Wrapper className="relative z-10 text-white flex items-end justify-center md:justify-start h-full pb-6 sm:pb-8">
+            <Wrapper
+                className="relative z-10 text-white flex items-end justify-center md:justify-start h-full pb-6 sm:pb-8">
 
                 <div className="drop-shadow-black drop-shadow-xl max-w-4xl max-md:text-center">
                     <h2 className="text-xl hidden md:block font-heading tracking-widest opacity-0 animate-[slide-up-fade_1s_ease-out_forwards]">

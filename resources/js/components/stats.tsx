@@ -7,13 +7,13 @@ import SectionLabel from "@/components/ui/misc/section-label.tsx";
 const statsData = [
     {
         icon: Award,
-        value: "25+",
+        value: "35+",
         label: "Years of Experience",
 
     },
     {
         icon: HardHat,
-        value: "500+",
+        value: "1000+",
         label: "Successful Projects",
     },
     {

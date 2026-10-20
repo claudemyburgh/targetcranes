@@ -1,4 +1,4 @@
-import { a as contactUs, i as SwipeTitle, l as buttonVariants, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-BR4aQ0FH.js";
+import { a as contactUs, i as SwipeTitle, l as buttonVariants, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-BQKdFE9p.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { t as IMG_20261008_WA0042_default } from "./IMG-20261008-WA0042-GyVLJorL.js";
 import { Link } from "@inertiajs/react";
@@ -97,7 +97,7 @@ function AccordionContent({ className, children }) {
 }
 //#endregion
 //#region resources/images/safety.webp
-var safety_default = "/build/assets/safety-C8xlhPCl.webp";
+var safety_default = "/build/assets/safety-DiS-cmeU.webp";
 //#endregion
 //#region resources/js/components/home-safety-practices-section.tsx
 var safetyItems = [
@@ -189,7 +189,7 @@ function HomeSafetyPracticesSection() {
 							]
 						}),
 						/* @__PURE__ */ jsx("div", {
-							className: "pt-2",
+							className: "pt-4",
 							children: /* @__PURE__ */ jsx(Accordion, {
 								className: "border-t-0",
 								children: safetyItems.map((item, index) => /* @__PURE__ */ jsxs(AccordionItem, {

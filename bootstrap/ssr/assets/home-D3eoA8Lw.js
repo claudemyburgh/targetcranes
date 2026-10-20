@@ -1,22 +1,8 @@
-import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-BR4aQ0FH.js";
+import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-BQKdFE9p.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { useEffect, useState } from "react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
 import { Anchor, Award, ClipboardCheck, Clock, HardHat, Pickaxe, ShieldCheck, Truck, Wind } from "lucide-react";
-//#region resources/js/components/ui/misc/experience-badge.tsx
-function ExperienceBadge({ className = "" }) {
-	return /* @__PURE__ */ jsxs("div", {
-		className: `opacity-0 animate-[slide-up-fade_1s_ease-out_forwards] inline-flex items-center gap-2 rounded-full border border-primary/30 bg-linear-to-r from-primary/50 to-primary/50 px-4 py-1.5 text-white shadow-[0_0_15px_rgba(255,255,255,0.1)] backdrop-blur-md ${className}`,
-		children: [/* @__PURE__ */ jsxs("span", {
-			className: "relative flex h-2 w-2",
-			children: [/* @__PURE__ */ jsx("span", { className: "animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75" }), /* @__PURE__ */ jsx("span", { className: "relative inline-flex rounded-full h-2 w-2 bg-white" })]
-		}), /* @__PURE__ */ jsx("span", {
-			className: "font-semibold tracking-wider uppercase text-xs",
-			children: "53 YEARS MANAGEMENT EXPERIENCE"
-		})]
-	});
-}
-//#endregion
 //#region resources/images/hero-4k-16x9.webp
 var hero_4k_16x9_default = "/build/assets/hero-4k-16x9-D5sU2X7e.webp";
 //#endregion
@@ -42,10 +28,6 @@ function Hero() {
 					alt: "Target Cranes - Mobile Crane Hire & Managed Lifting",
 					className: "w-full h-full mx-auto object-cover object-center -translate-y-8 md:translate-y-0"
 				})
-			}),
-			/* @__PURE__ */ jsx("div", {
-				className: "absolute top-28 md:top-32 inset-x-0 flex justify-center z-20 pointer-events-none",
-				children: /* @__PURE__ */ jsx(ExperienceBadge, {})
 			}),
 			/* @__PURE__ */ jsx(Wrapper, {
 				className: "relative z-10 text-white flex items-end justify-center md:justify-start h-full pb-6 sm:pb-8",
@@ -87,12 +69,12 @@ var panorama_default = "/build/assets/panorama-BH1CJntt.webp";
 var statsData = [
 	{
 		icon: Award,
-		value: "25+",
+		value: "35+",
 		label: "Years of Experience"
 	},
 	{
 		icon: HardHat,
-		value: "500+",
+		value: "1000+",
 		label: "Successful Projects"
 	},
 	{
@@ -474,7 +456,7 @@ function NationwideService() {
 									className: "flex flex-col gap-1",
 									children: [/* @__PURE__ */ jsx("span", {
 										className: "text-3xl font-black font-heading tracking-tight text-primary",
-										children: "25+ Years of Experience"
+										children: "35+ Years of Experience"
 									}), /* @__PURE__ */ jsx("p", {
 										className: "text-muted-foreground",
 										children: "Providing exceptional crane services across multiple industries."
@@ -484,7 +466,7 @@ function NationwideService() {
 									className: "flex flex-col gap-1",
 									children: [/* @__PURE__ */ jsx("span", {
 										className: "text-3xl font-black font-heading tracking-tight text-primary",
-										children: "500+ Successful Projects"
+										children: "1000+ Successful Projects"
 									}), /* @__PURE__ */ jsx("p", {
 										className: "text-muted-foreground",
 										children: "Completed with precision and safety, ranging from small-scale lifts to major infrastructure projects."

@@ -43,12 +43,12 @@ export function NationwideService() {
 
                         <div className="grid gap-6 mt-8">
                             <div className="flex flex-col gap-1">
-                                <span className="text-3xl font-black font-heading tracking-tight text-primary">25+ Years of Experience</span>
+                                <span className="text-3xl font-black font-heading tracking-tight text-primary">35+ Years of Experience</span>
                                 <p className="text-muted-foreground">Providing exceptional crane services across
                                     multiple industries.</p>
                             </div>
                             <div className="flex flex-col gap-1">
-                                <span className="text-3xl font-black font-heading tracking-tight text-primary">500+ Successful Projects</span>
+                                <span className="text-3xl font-black font-heading tracking-tight text-primary">1000+ Successful Projects</span>
                                 <p className="text-muted-foreground">Completed with precision and safety, ranging from
                                     small-scale lifts to major infrastructure projects.</p>
                             </div>
