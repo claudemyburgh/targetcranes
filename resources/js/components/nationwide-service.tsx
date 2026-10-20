@@ -16,8 +16,10 @@ export function NationwideService() {
                     backgroundImage: `url(${bgImg})`,
                     backgroundSize: 'cover',
                     backgroundPosition: 'center',
-                    maskImage: 'radial-gradient(ellipse at center, black 40%, transparent 80%)',
-                    WebkitMaskImage: 'radial-gradient(ellipse at center, black 40%, transparent 80%)'
+                    maskImage: 'linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%), linear-gradient(to right, black 60%, transparent 100%)',
+                    WebkitMaskImage: 'linear-gradient(to bottom, transparent 0%, black 20%, black 80%, transparent 100%), linear-gradient(to right, black 60%, transparent 100%)',
+                    maskComposite: 'intersect',
+                    WebkitMaskComposite: 'source-in',
                 }}
             />
             <Wrapper className="relative z-10">

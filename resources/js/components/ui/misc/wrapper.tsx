@@ -1,11 +1,11 @@
-import { cn } from '@/lib/utils';
+import {cn} from '@/lib/utils';
 
 export default function Wrapper({
-    className,
-    as,
-    children,
-    ...props
-}: {
+                                    className,
+                                    as,
+                                    children,
+                                    ...props
+                                }: {
     className?: string;
     as?: React.ElementType;
     children: React.ReactNode;
