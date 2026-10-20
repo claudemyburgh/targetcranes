@@ -1,5 +1,7 @@
 import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-BQKdFE9p.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
+import { t as DotPattern } from "./dot-pattern-DPLcDuTR.js";
+import { t as siteStats } from "./site-stats-DFlp--Vg.js";
 import { useEffect, useRef, useState } from "react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
 import { Anchor, Award, ClipboardCheck, Clock, HardHat, Pickaxe, ShieldCheck, Truck, Wind } from "lucide-react";
@@ -633,17 +635,17 @@ var panorama_default = "/build/assets/panorama-BH1CJntt.webp";
 var statsData = [
 	{
 		icon: Award,
-		value: "35+",
+		value: siteStats.yearsInBusiness,
 		label: "Years of Experience"
 	},
 	{
 		icon: HardHat,
-		value: "1000+",
+		value: siteStats.successfulProjects,
 		label: "Successful Projects"
 	},
 	{
 		icon: Clock,
-		value: "24/7",
+		value: siteStats.availability,
 		label: "Availability"
 	}
 ];
@@ -719,38 +721,41 @@ var welcome_default = "/build/assets/welcome-CKlmCNJ6.webp";
 //#endregion
 //#region resources/js/components/who-we-are.tsx
 function WhoWeAre() {
-	return /* @__PURE__ */ jsx("section", {
+	return /* @__PURE__ */ jsxs("section", {
 		className: "py-24 bg-muted overflow-hidden isolate relative",
-		children: /* @__PURE__ */ jsx(Wrapper, { children: /* @__PURE__ */ jsxs("div", {
-			className: "grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 items-center",
-			children: [/* @__PURE__ */ jsxs("div", {
-				className: "lg:col-span-5",
-				children: [
-					/* @__PURE__ */ jsx(SectionLabel, {
-						className: "mb-8",
-						children: "Our Approach"
-					}),
-					/* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
-						className: "text-4xl md:text-6xl z-0 relative font-black font-heading tracking-tighter uppercase mb-6 text-balance",
-						children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Every Lift Starts With" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
-							className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
-							children: "Understanding The Job"
-						}) })]
-					}) }),
-					/* @__PURE__ */ jsxs("div", {
-						className: "space-y-4 text-muted-foreground text-lg leading-relaxed max-w-2xl",
-						children: [/* @__PURE__ */ jsx("p", { children: "No two lifting projects present the same conditions. The load, available space, site access and work schedule all shape the approach." }), /* @__PURE__ */ jsx("p", { children: "At Target Cranes, we take time to understand those details before work begins, so the lifting plan fits the job in front of us." })]
+		children: [/* @__PURE__ */ jsx(DotPattern, { corner: "top-left" }), /* @__PURE__ */ jsx(Wrapper, {
+			className: "relative z-10",
+			children: /* @__PURE__ */ jsxs("div", {
+				className: "grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 items-center",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "lg:col-span-5",
+					children: [
+						/* @__PURE__ */ jsx(SectionLabel, {
+							className: "mb-8",
+							children: "Our Approach"
+						}),
+						/* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
+							className: "text-4xl md:text-6xl z-0 relative font-black font-heading tracking-tighter uppercase mb-6 text-balance",
+							children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Every Lift Starts With" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
+								className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
+								children: "Understanding The Job"
+							}) })]
+						}) }),
+						/* @__PURE__ */ jsxs("div", {
+							className: "space-y-4 text-muted-foreground text-lg leading-relaxed max-w-2xl",
+							children: [/* @__PURE__ */ jsx("p", { children: "No two lifting projects present the same conditions. The load, available space, site access and work schedule all shape the approach." }), /* @__PURE__ */ jsx("p", { children: "At Target Cranes, we take time to understand those details before work begins, so the lifting plan fits the job in front of us." })]
+						})
+					]
+				}), /* @__PURE__ */ jsx("div", {
+					className: "lg:col-span-7 z-10 relative flex items-center justify-center lg:justify-end",
+					children: /* @__PURE__ */ jsx("img", {
+						src: welcome_default,
+						alt: "Target Cranes operations",
+						className: "w-full max-w-3xl lg:max-w-none h-auto object-contain drop-shadow-2xl lg:scale-115 xl:scale-125 origin-center lg:origin-right  "
 					})
-				]
-			}), /* @__PURE__ */ jsx("div", {
-				className: "lg:col-span-7 z-10 relative flex items-center justify-center lg:justify-end",
-				children: /* @__PURE__ */ jsx("img", {
-					src: welcome_default,
-					alt: "Target Cranes operations",
-					className: "w-full max-w-3xl lg:max-w-none h-auto object-contain drop-shadow-2xl lg:scale-115 xl:scale-125 origin-center lg:origin-right  "
-				})
-			})]
-		}) })
+				})]
+			})
+		})]
 	});
 }
 //#endregion
@@ -894,80 +899,87 @@ var IMG_20261008_WA0040_default = "/build/assets/IMG-20261008-WA0040-Cbx-jvQW.we
 //#endregion
 //#region resources/js/components/project-success-4.tsx
 function ProjectSuccess4() {
-	return /* @__PURE__ */ jsx("section", {
-		className: "bg-muted py-24 lg:py-32",
-		children: /* @__PURE__ */ jsxs(Wrapper, { children: [/* @__PURE__ */ jsxs("div", {
-			className: "max-w-4xl mb-16 lg:mb-24",
-			children: [/* @__PURE__ */ jsx(SectionLabel, {
-				className: "mb-8",
-				children: "Planning & Execution"
-			}), /* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
-				className: "text-5xl md:text-7xl font-black font-heading text-foreground drop-shadow-sm uppercase tracking-tight leading-[1.1]",
-				children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Preparation Makes" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
-					className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
-					children: "The Difference"
-				}) })]
-			}) })]
-		}), /* @__PURE__ */ jsxs("div", {
-			className: "grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-start",
-			children: [/* @__PURE__ */ jsxs("div", {
-				className: "lg:col-span-5 space-y-6 text-base sm:text-lg text-muted-foreground leading-relaxed font-normal",
-				children: [
-					/* @__PURE__ */ jsx("p", { children: "A crane is only one part of a successful operation. Behind each lift is a process of assessing the site, selecting suitable equipment and coordinating the people involved. For more complex work, that preparation can include detailed lift plans, method studies and crane configurations." }),
-					/* @__PURE__ */ jsx("p", { children: "Our aim is to give clients a clear path from the first discussion to the completed lift one built on practical planning and communication throughout the job." }),
-					/* @__PURE__ */ jsxs("div", {
-						className: "pt-2 border-t border-border/60 space-y-4",
+	return /* @__PURE__ */ jsxs("section", {
+		className: "bg-muted py-24 lg:py-32 relative overflow-hidden",
+		children: [
+			/* @__PURE__ */ jsx(DotPattern, { corner: "top-right" }),
+			/* @__PURE__ */ jsx(DotPattern, { corner: "bottom-left" }),
+			/* @__PURE__ */ jsxs(Wrapper, {
+				className: "relative z-10",
+				children: [/* @__PURE__ */ jsxs("div", {
+					className: "max-w-4xl mb-16 lg:mb-24",
+					children: [/* @__PURE__ */ jsx(SectionLabel, {
+						className: "mb-8",
+						children: "Planning & Execution"
+					}), /* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
+						className: "text-5xl md:text-7xl font-black font-heading text-foreground drop-shadow-sm uppercase tracking-tight leading-[1.1]",
+						children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Preparation Makes" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
+							className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
+							children: "The Difference"
+						}) })]
+					}) })]
+				}), /* @__PURE__ */ jsxs("div", {
+					className: "grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-24 items-start",
+					children: [/* @__PURE__ */ jsxs("div", {
+						className: "lg:col-span-5 space-y-6 text-base sm:text-lg text-muted-foreground leading-relaxed font-normal",
 						children: [
-							/* @__PURE__ */ jsx("h3", {
-								className: "text-xl font-bold font-heading uppercase text-foreground",
-								children: "A Partner On Site"
-							}),
-							/* @__PURE__ */ jsx("p", { children: "Lifting work often happens alongside other teams and deadlines. We work with clients and site teams to understand the wider project, communicate the plan and respond to the conditions on the ground." }),
-							/* @__PURE__ */ jsx("p", { children: "Whether the requirement is straightforward or technically demanding, we bring the same attention to preparation and execution." })
+							/* @__PURE__ */ jsx("p", { children: "A crane is only one part of a successful operation. Behind each lift is a process of assessing the site, selecting suitable equipment and coordinating the people involved. For more complex work, that preparation can include detailed lift plans, method studies and crane configurations." }),
+							/* @__PURE__ */ jsx("p", { children: "Our aim is to give clients a clear path from the first discussion to the completed lift one built on practical planning and communication throughout the job." }),
+							/* @__PURE__ */ jsxs("div", {
+								className: "pt-2 border-t border-border/60 space-y-4",
+								children: [
+									/* @__PURE__ */ jsx("h3", {
+										className: "text-xl font-bold font-heading uppercase text-foreground",
+										children: "A Partner On Site"
+									}),
+									/* @__PURE__ */ jsx("p", { children: "Lifting work often happens alongside other teams and deadlines. We work with clients and site teams to understand the wider project, communicate the plan and respond to the conditions on the ground." }),
+									/* @__PURE__ */ jsx("p", { children: "Whether the requirement is straightforward or technically demanding, we bring the same attention to preparation and execution." })
+								]
+							})
 						]
-					})
-				]
-			}), /* @__PURE__ */ jsx("div", {
-				className: "lg:col-span-7 h-full",
-				children: /* @__PURE__ */ jsxs("div", {
-					className: "grid grid-cols-2 grid-rows-3 gap-3 md:gap-4 h-[400px] md:h-[500px] lg:h-full lg:min-h-[600px]",
-					children: [
-						/* @__PURE__ */ jsx("div", {
-							className: "col-span-1 row-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
-							children: /* @__PURE__ */ jsx("img", {
-								src: tall_default,
-								className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
-								alt: "Crane operation 1"
-							})
-						}),
-						/* @__PURE__ */ jsx("div", {
-							className: "col-span-1 row-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
-							children: /* @__PURE__ */ jsx("img", {
-								src: const_default,
-								className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
-								alt: "Crane operation 2"
-							})
-						}),
-						/* @__PURE__ */ jsx("div", {
-							className: "col-span-1 row-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
-							children: /* @__PURE__ */ jsx("img", {
-								src: tall_2_default,
-								className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
-								alt: "Crane operation 3"
-							})
-						}),
-						/* @__PURE__ */ jsx("div", {
-							className: "col-span-1 row-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
-							children: /* @__PURE__ */ jsx("img", {
-								src: IMG_20261008_WA0040_default,
-								className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
-								alt: "Crane operation 4"
-							})
+					}), /* @__PURE__ */ jsx("div", {
+						className: "lg:col-span-7 h-full",
+						children: /* @__PURE__ */ jsxs("div", {
+							className: "grid grid-cols-2 grid-rows-3 gap-3 md:gap-4 h-[400px] md:h-[500px] lg:h-full lg:min-h-[600px]",
+							children: [
+								/* @__PURE__ */ jsx("div", {
+									className: "col-span-1 row-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
+									children: /* @__PURE__ */ jsx("img", {
+										src: tall_default,
+										className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
+										alt: "Crane operation 1"
+									})
+								}),
+								/* @__PURE__ */ jsx("div", {
+									className: "col-span-1 row-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
+									children: /* @__PURE__ */ jsx("img", {
+										src: const_default,
+										className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
+										alt: "Crane operation 2"
+									})
+								}),
+								/* @__PURE__ */ jsx("div", {
+									className: "col-span-1 row-span-2 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
+									children: /* @__PURE__ */ jsx("img", {
+										src: tall_2_default,
+										className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
+										alt: "Crane operation 3"
+									})
+								}),
+								/* @__PURE__ */ jsx("div", {
+									className: "col-span-1 row-span-1 relative rounded-2xl md:rounded-3xl overflow-hidden shadow-lg group",
+									children: /* @__PURE__ */ jsx("img", {
+										src: IMG_20261008_WA0040_default,
+										className: "absolute inset-0 w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105",
+										alt: "Crane operation 4"
+									})
+								})
+							]
 						})
-					]
-				})
-			})]
-		})] })
+					})]
+				})]
+			})
+		]
 	});
 }
 //#endregion
@@ -1018,9 +1030,9 @@ function NationwideService() {
 							children: [
 								/* @__PURE__ */ jsxs("div", {
 									className: "flex flex-col gap-1",
-									children: [/* @__PURE__ */ jsx("span", {
+									children: [/* @__PURE__ */ jsxs("span", {
 										className: "text-3xl font-black font-heading tracking-tight text-primary",
-										children: "35+ Years of Experience"
+										children: [siteStats.yearsInBusiness, " Years of Experience"]
 									}), /* @__PURE__ */ jsx("p", {
 										className: "text-muted-foreground",
 										children: "Providing exceptional crane services across multiple industries."
@@ -1028,9 +1040,9 @@ function NationwideService() {
 								}),
 								/* @__PURE__ */ jsxs("div", {
 									className: "flex flex-col gap-1",
-									children: [/* @__PURE__ */ jsx("span", {
+									children: [/* @__PURE__ */ jsxs("span", {
 										className: "text-3xl font-black font-heading tracking-tight text-primary",
-										children: "1000+ Successful Projects"
+										children: [siteStats.successfulProjects, " Successful Projects"]
 									}), /* @__PURE__ */ jsx("p", {
 										className: "text-muted-foreground",
 										children: "Completed with precision and safety, ranging from small-scale lifts to major infrastructure projects."
@@ -1038,9 +1050,9 @@ function NationwideService() {
 								}),
 								/* @__PURE__ */ jsxs("div", {
 									className: "flex flex-col gap-1",
-									children: [/* @__PURE__ */ jsx("span", {
+									children: [/* @__PURE__ */ jsxs("span", {
 										className: "text-3xl font-black font-heading tracking-tight text-primary",
-										children: "24/7 Availability"
+										children: [siteStats.availability, " Availability"]
 									}), /* @__PURE__ */ jsx("p", {
 										className: "text-muted-foreground",
 										children: "Ready to respond to your lifting needs anytime, day or night."

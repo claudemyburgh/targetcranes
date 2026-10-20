@@ -1,0 +1,1 @@
+var e={yearsInBusiness:`35+`,combinedExperienceYears:100,successfulProjects:`1000+`,availability:`24/7`};export{e as t};
