@@ -16,7 +16,7 @@ export function Footer() {
                             <Logo className="h-8 w-auto"/>
                         </Link>
                         <p className="text-muted-foreground text-sm leading-relaxed max-w-sm">
-                            Specialized mobile crane hire, heavy rigging, and precision lifting services across Cape
+                            Specialised mobile crane hire, heavy rigging, and precision lifting services across Cape
                             Town and South Africa.
                         </p>
                         {/* Social Links */}
@@ -39,7 +39,7 @@ export function Footer() {
                             >
                                 <WhatsAppIcon className="w-4 h-4 fill-current"/>
                             </a>
-                  
+
                         </div>
                     </div>
 

@@ -47,7 +47,7 @@ export function Accordion({
 
     return (
         <AccordionContext.Provider value={{ openValue, toggleValue }}>
-            <div className={cn("divide-y divide-border border-y border-border", className)}>
+            <div className={cn("divide-y divide-border border-b border-border", className)}>
                 {children}
             </div>
         </AccordionContext.Provider>

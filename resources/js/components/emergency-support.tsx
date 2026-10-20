@@ -1,7 +1,6 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
 import {PhoneCall} from "lucide-react";
-import Grainient from "@/components/Grainient.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
 import {contactUs} from "@/routes";
 
@@ -23,30 +22,7 @@ export function EmergencySupport() {
             {/*/>*/}
             <div
                 className="absolute top-1/2 -translate-y-1/2 -right-24 size-270 opacity-40 pointer-events-none mix-blend-plus-lighter mask-[radial-gradient(circle_at_center,black_10%,transparent_70%)]">
-                <Grainient
-                    color1="#b91c1c"
-                    color2="#ea580c"
-                    color3="#f97316"
-                    timeSpeed={4}
-                    colorBalance={-0.11}
-                    warpStrength={1.55}
-                    warpFrequency={3.7}
-                    warpSpeed={7}
-                    warpAmplitude={76}
-                    blendAngle={0}
-                    blendSoftness={0.09}
-                    rotationAmount={510}
-                    noiseScale={1.25}
-                    grainAmount={0.07}
-                    grainScale={2.2}
-                    grainAnimated={false}
-                    contrast={1.5}
-                    gamma={1}
-                    saturation={1}
-                    centerX={0.44}
-                    centerY={0.46}
-                    zoom={0.75}
-                />
+
             </div>
             <Wrapper className="relative z-10">
                 <div className="flex flex-col lg:flex-row items-start lg:items-center gap-12 justify-between">

@@ -1,4 +1,4 @@
-import { n as SectionLabel, s as Wrapper, t as AppLayout } from "./app-layout-BQ2CY4dG.js";
+import { n as SectionLabel, s as Wrapper, t as AppLayout } from "./app-layout-BR4aQ0FH.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { jsx, jsxs } from "react/jsx-runtime";
 import { Database, Eye, Globe, Lock, Mail, Shield, UserCheck } from "lucide-react";
@@ -59,7 +59,7 @@ function PrivacyPolicy() {
 						}),
 						/* @__PURE__ */ jsx("p", {
 							className: "text-muted-foreground leading-relaxed text-sm md:text-base",
-							children: "Target Cranes is a specialized mobile crane hire and managed lifting service provider based at Fabriek St, Bellville South, Cape Town, 7530, South Africa."
+							children: "Target Cranes is a specialised mobile crane hire and managed lifting service provider based at Fabriek St, Bellville South, Cape Town, 7530, South Africa."
 						})
 					]
 				}),

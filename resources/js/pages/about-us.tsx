@@ -94,7 +94,7 @@ export default function AboutUs() {
                             <div className="space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed">
                                 <p>
                                     Target Cranes brings together more than five decades of collective leadership across
-                                    heavy rigging, mobile crane operations, civil engineering, and specialized
+                                    heavy rigging, mobile crane operations, civil engineering, and specialised
                                     transport.
                                 </p>
                                 <p>

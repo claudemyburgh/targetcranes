@@ -1,4 +1,4 @@
-import { a as contactUs, i as SwipeTitle, l as buttonVariants, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-BQ2CY4dG.js";
+import { a as contactUs, i as SwipeTitle, l as buttonVariants, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-BR4aQ0FH.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { t as IMG_20261008_WA0042_default } from "./IMG-20261008-WA0042-GyVLJorL.js";
 import { Link } from "@inertiajs/react";
@@ -52,7 +52,7 @@ function Accordion({ children, className, defaultValue, collapsible = true }) {
 			toggleValue
 		},
 		children: /* @__PURE__ */ jsx("div", {
-			className: cn("divide-y divide-border border-y border-border", className),
+			className: cn("divide-y divide-border border-b border-border", className),
 			children
 		})
 	});
@@ -190,20 +190,23 @@ function HomeSafetyPracticesSection() {
 						}),
 						/* @__PURE__ */ jsx("div", {
 							className: "pt-2",
-							children: /* @__PURE__ */ jsx(Accordion, { children: safetyItems.map((item, index) => /* @__PURE__ */ jsxs(AccordionItem, {
-								value: `item-${index}`,
-								className: "py-2",
-								children: [/* @__PURE__ */ jsx(AccordionTrigger, {
-									className: "text-left font-bold text-lg py-5 hover:no-underline hover:text-primary transition-colors",
-									children: item.title
-								}), /* @__PURE__ */ jsx(AccordionContent, {
-									className: "pb-6",
-									children: /* @__PURE__ */ jsx("div", {
-										className: "text-muted-foreground leading-relaxed text-base max-w-none",
-										children: item.content
-									})
-								})]
-							}, index)) })
+							children: /* @__PURE__ */ jsx(Accordion, {
+								className: "border-t-0",
+								children: safetyItems.map((item, index) => /* @__PURE__ */ jsxs(AccordionItem, {
+									value: `item-${index}`,
+									className: "py-2",
+									children: [/* @__PURE__ */ jsx(AccordionTrigger, {
+										className: "text-left font-bold text-lg py-5 hover:no-underline hover:text-primary transition-colors",
+										children: item.title
+									}), /* @__PURE__ */ jsx(AccordionContent, {
+										className: "pb-6",
+										children: /* @__PURE__ */ jsx("div", {
+											className: "text-muted-foreground leading-relaxed text-base max-w-none",
+											children: item.content
+										})
+									})]
+								}, index))
+							})
 						})
 					]
 				}),
@@ -238,7 +241,7 @@ function Safety() {
 					}) }),
 					/* @__PURE__ */ jsx("p", {
 						className: "text-lg sm:text-xl text-muted-foreground leading-relaxed font-medium",
-						children: "In heavy rigging and mobile crane operations, safety isn’t a secondary checklist it is the very foundation upon which every lift is engineered, mobilized, and executed across South Africa."
+						children: "In heavy rigging and mobile crane operations, safety isn’t a secondary checklist it is the very foundation upon which every lift is engineered, mobilised, and executed across South Africa."
 					})
 				]
 			}), /* @__PURE__ */ jsxs("div", {

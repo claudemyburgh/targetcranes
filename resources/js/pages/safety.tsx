@@ -52,7 +52,7 @@ export default function Safety() {
 
                         <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed font-medium">
                             In heavy rigging and mobile crane operations, safety isn&rsquo;t a secondary checklist it is
-                            the very foundation upon which every lift is engineered, mobilized, and executed across
+                            the very foundation upon which every lift is engineered, mobilised, and executed across
                             South Africa.
                         </p>
                     </div>

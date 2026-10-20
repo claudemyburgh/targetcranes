@@ -1,4 +1,4 @@
-import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-BQ2CY4dG.js";
+import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-BR4aQ0FH.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { t as IMG_20261008_WA0042_default } from "./IMG-20261008-WA0042-GyVLJorL.js";
 import { jsx, jsxs } from "react/jsx-runtime";
@@ -84,7 +84,7 @@ function AboutUs() {
 						/* @__PURE__ */ jsxs("div", {
 							className: "space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed",
 							children: [
-								/* @__PURE__ */ jsx("p", { children: "Target Cranes brings together more than five decades of collective leadership across heavy rigging, mobile crane operations, civil engineering, and specialized transport." }),
+								/* @__PURE__ */ jsx("p", { children: "Target Cranes brings together more than five decades of collective leadership across heavy rigging, mobile crane operations, civil engineering, and specialised transport." }),
 								/* @__PURE__ */ jsx("p", { children: "Our senior management and project supervisors have guided lifting contracts across mining infrastructure, maritime dry-docks, power stations, and landmark commercial developments across the African continent." }),
 								/* @__PURE__ */ jsx("p", {
 									className: "text-foreground font-medium pt-2",

@@ -1,4 +1,4 @@
-import { c as Button, i as SwipeTitle, n as SectionLabel, o as queryParams, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-BQ2CY4dG.js";
+import { c as Button, i as SwipeTitle, n as SectionLabel, o as queryParams, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-BR4aQ0FH.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { useForm, usePage } from "@inertiajs/react";
 import { useState } from "react";
@@ -109,7 +109,7 @@ function ContactUs() {
 				}) }),
 				/* @__PURE__ */ jsx("p", {
 					className: "text-lg md:text-xl text-muted-foreground leading-relaxed mt-4",
-					children: "Have an upcoming project, need specialized lifting capacities, or require 24/7 emergency support? Reach out to our team directly or fill out the form below."
+					children: "Have an upcoming project, need specialised lifting capacities, or require 24/7 emergency support? Reach out to our team directly or fill out the form below."
 				})
 			]
 		}), /* @__PURE__ */ jsxs("div", {

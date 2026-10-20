@@ -153,7 +153,7 @@ export function HomeSafetyPracticesSection() {
                         </div>
 
                         <div className="pt-2">
-                            <Accordion>
+                            <Accordion className="border-t-0">
                                 {safetyItems.map((item, index) => (
                                     <AccordionItem
                                         key={index}
