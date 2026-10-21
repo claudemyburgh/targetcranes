@@ -10,16 +10,7 @@ import {contactUs} from "@/routes";
 export function EmergencySupport() {
     return (
         <section className="bg-primary/5 border-t border-primary/10 py-16 lg:py-24 relative overflow-hidden ">
-            {/*<div*/}
-            {/*    className="absolute top-0 left-0 w-full h-full lg:w-1/2 pointer-events-none z-0 opacity-10 dark:opacity-20"*/}
-            {/*    style={{*/}
-            {/*        backgroundImage: `url(${bgImg})`,*/}
-            {/*        backgroundSize: 'cover',*/}
-            {/*        backgroundPosition: 'center',*/}
-            {/*        maskImage: 'radial-gradient(ellipse at center, black 40%, transparent 80%)',*/}
-            {/*        WebkitMaskImage: 'radial-gradient(ellipse at center, black 40%, transparent 80%)'*/}
-            {/*    }}*/}
-            {/*/>*/}
+
             <div
                 className="absolute top-1/2 -translate-y-1/2 -right-24 size-270 opacity-40 pointer-events-none mix-blend-plus-lighter mask-[radial-gradient(circle_at_center,black_10%,transparent_70%)]">
 

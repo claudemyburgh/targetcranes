@@ -7,15 +7,21 @@ import whoWeAreImage from "@/../images/welcome.webp";
 
 export default function WhoWeAre() {
     return (
-        <section className="py-24 bg-muted overflow-hidden isolate relative">
+        <section className="relative bg-muted/30 border-b border-border overflow-hidden">
             <DotPattern corner="top-left"/>
+            <img
+                src={whoWeAreImage}
+                alt="Target Cranes operations"
+                className="pointer-events-none select-none absolute inset-y-0 right-0 h-full w-auto max-w-none object-cover object-left translate-x-1/4 sm:translate-x-12 lg:translate-x-16 xl:translate-x-0 opacity-15 dark:opacity-20 lg:opacity-100 drop-shadow-black z-0"
+            />
+
             <Wrapper className="relative z-10">
-                <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 items-center">
-                    <div className="lg:col-span-5">
-                        <SectionLabel className="mb-8">Our Approach</SectionLabel>
+                <div className="lg:w-2/3 xl:w-[70%] py-16 sm:py-20 lg:py-28 space-y-6 sm:space-y-8">
+                    <div className="space-y-4">
+                        <SectionLabel>Our Approach</SectionLabel>
                         <h2>
                             <SwipeTitle
-                                className="text-4xl md:text-6xl z-0 relative font-black font-heading tracking-tighter uppercase mb-6 text-balance">
+                                className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black font-heading tracking-tighter uppercase text-foreground text-balance">
                                 <SwipeLine>Every Lift Starts With</SwipeLine>
                                 <SwipeLine>
                                     <span
@@ -25,23 +31,17 @@ export default function WhoWeAre() {
                                 </SwipeLine>
                             </SwipeTitle>
                         </h2>
-                        <div className="space-y-4 text-muted-foreground text-lg leading-relaxed max-w-2xl">
-                            <p>
-                                No two lifting projects present the same conditions. The load, available space, site
-                                access and work schedule all shape the approach.
-                            </p>
-                            <p>
-                                At Target Cranes, we take time to understand those details before work begins, so the
-                                lifting plan fits the job in front of us.
-                            </p>
-                        </div>
                     </div>
-                    <div className="lg:col-span-7 z-10 relative flex items-center justify-center lg:justify-end">
-                        <img
-                            src={whoWeAreImage}
-                            alt="Target Cranes operations"
-                            className="w-full max-w-3xl lg:max-w-none h-auto object-contain drop-shadow-2xl lg:scale-115 xl:scale-125 origin-center lg:origin-right  "
-                        />
+
+                    <div className="text-muted-foreground text-base sm:text-lg leading-relaxed space-y-5 sm:space-y-6 max-w-2xl">
+                        <p>
+                            No two lifting projects present the same conditions. The load, available space, site
+                            access and work schedule all shape the approach.
+                        </p>
+                        <p>
+                            At Target Cranes, we take time to understand those details before work begins, so the
+                            lifting plan fits the job in front of us.
+                        </p>
                     </div>
                 </div>
             </Wrapper>

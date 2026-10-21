@@ -59,9 +59,9 @@ createServer((page) => createInertiaApp({
 	render: ReactDOMServer.renderToString,
 	title: (title) => title ? `${title} | ${appName}` : `${appName} | Crane Hire & Managed Lifting in South Africa`,
 	resolve: (name) => resolvePageComponent(`./pages/${name}.tsx`, /* #__PURE__ */ Object.assign({
-		"./pages/about-us.tsx": () => import("./assets/about-us-CTLCX_jz.js"),
+		"./pages/about-us.tsx": () => import("./assets/about-us-Dt8kBvPg.js"),
 		"./pages/contact-us.tsx": () => import("./assets/contact-us-DykqHTZ5.js"),
-		"./pages/home.tsx": () => import("./assets/home-Bhn4JdGf.js"),
+		"./pages/home.tsx": () => import("./assets/home-CNfY46rA.js"),
 		"./pages/privacy-policy.tsx": () => import("./assets/privacy-policy-D6cnbsPy.js"),
 		"./pages/safety.tsx": () => import("./assets/safety-aQvFvN5n.js"),
 		"./pages/terms-of-service.tsx": () => import("./assets/terms-of-service-BYIB9PJc.js"),

@@ -59,7 +59,7 @@ export default function AboutUs() {
 
                         <div className="lg:col-span-5">
                             <div
-                                className="relative aspect-[4/5] w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card">
+                                className="relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card">
                                 <img
                                     src={aboutHeroImg}
                                     alt="Target Cranes fleet and operations"
@@ -80,7 +80,7 @@ export default function AboutUs() {
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                         <div className="lg:col-span-5 order-2 lg:order-1">
                             <div
-                                className="relative aspect-[4/5] w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card">
+                                className="relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card">
                                 <img
                                     src={depotImg}
                                     alt="Target Cranes Bellville South depot"
@@ -92,8 +92,15 @@ export default function AboutUs() {
                         <div className="lg:col-span-7 order-1 lg:order-2 space-y-6">
                             <SectionLabel className="mb-2">Leadership &amp; Pedigree</SectionLabel>
 
-                            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black font-heading tracking-tight uppercase text-foreground">
-                                {siteStats.combinedExperienceYears} Years Combined Management Experience
+                            <h2>
+                                <SwipeTitle className="text-3xl sm:text-4xl lg:text-5xl font-black font-heading tracking-tight uppercase text-foreground">
+                                    <SwipeLine>{siteStats.combinedExperienceYears}+ Years Combined</SwipeLine>
+                                    <SwipeLine>
+                                        <span className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">
+                                            Management Experience
+                                        </span>
+                                    </SwipeLine>
+                                </SwipeTitle>
                             </h2>
 
                             <div className="space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed">
@@ -137,7 +144,7 @@ export default function AboutUs() {
                 </Wrapper>
             </section>
 
-           
+
         </AppLayout>
     );
 }

@@ -52,7 +52,7 @@ function AboutUs() {
 						}), /* @__PURE__ */ jsx("div", {
 							className: "lg:col-span-5",
 							children: /* @__PURE__ */ jsxs("div", {
-								className: "relative aspect-[4/5] w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card",
+								className: "relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card",
 								children: [/* @__PURE__ */ jsx("img", {
 									src: cutom_lines_default,
 									alt: "Target Cranes fleet and operations",
@@ -73,7 +73,7 @@ function AboutUs() {
 					children: [/* @__PURE__ */ jsx("div", {
 						className: "lg:col-span-5 order-2 lg:order-1",
 						children: /* @__PURE__ */ jsx("div", {
-							className: "relative aspect-[4/5] w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card",
+							className: "relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card",
 							children: /* @__PURE__ */ jsx("img", {
 								src: IMG_20261008_WA0045_default,
 								alt: "Target Cranes Bellville South depot",
@@ -87,10 +87,13 @@ function AboutUs() {
 								className: "mb-2",
 								children: "Leadership & Pedigree"
 							}),
-							/* @__PURE__ */ jsxs("h2", {
+							/* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
 								className: "text-3xl sm:text-4xl lg:text-5xl font-black font-heading tracking-tight uppercase text-foreground",
-								children: [siteStats.combinedExperienceYears, " Years Combined Management Experience"]
-							}),
+								children: [/* @__PURE__ */ jsxs(SwipeLine, { children: [siteStats.combinedExperienceYears, "+ Years Combined"] }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
+									className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
+									children: "Management Experience"
+								}) })]
+							}) }),
 							/* @__PURE__ */ jsxs("div", {
 								className: "space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed",
 								children: [

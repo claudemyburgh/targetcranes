@@ -9,41 +9,36 @@ const services = [
     {
         title: "Maritime",
         paragraphs: [
-            "The maritime industry has become an integral part of our service offering, with our specialised services supporting some of the most established names across the recreational and commercial marine sectors.",
-            "We have developed extensive experience in the transportation of magnificent luxury yachts, catamarans and vessels of extraordinary proportions. From shipyards to launch destinations and beyond, we take on the responsibility of moving these substantial and highly valuable loads, reflecting the scale of our involvement in this specialised field.",
-            "Our work extends into the wider requirements of the marine sector, supporting shipyards and engineering companies during new vessel developments, major refits, repairs and maintenance programmes. We recognise the importance of keeping work progressing, particularly when substantial equipment needs to be moved between facilities or critical work is being undertaken to prepare a vessel for its return to service.",
-            "With an established presence in this sector, extensive fleet capacity and specialised resources, we provide comprehensive, end-to-end transport solutions for requirements ranging from individual heavy loads to entire vessels."
+            "Our experience in the maritime industry spans many shipyard, port, and offshore projects.",
+            "Whether it’s vessel launches, dry-dock work, or harbour operations, we take pride in playing a part in projects that support the ongoing growth of the maritime sector.",
+
         ],
         icon: Anchor
     },
     {
         title: "CONSTRUCTION & CIVIL ENGINEERING",
         paragraphs: [
-            "Major construction and civil engineering projects require substantial transport support, and this is an area in which we have developed a strong and established presence.",
-            "Our heavy haulage services play an important role across a broad spectrum of construction and infrastructure developments, catering to the diverse requirements of an industry where the size and nature of loads can vary considerably. Bridge construction is a particularly established area of our work, with extensive experience transporting exceptionally long and heavy precast concrete beams for major installations.",
-            "Our involvement extends throughout the construction sector, providing the transport capacity required across various phases of development. We understand how closely transportation is connected to the work taking place on site, particularly when the arrival of a substantial load forms an important part of the next phase of construction.",
-            "With the resources to support individual heavy loads and long-term contracts involving multiple loads over extended periods, we offer the versatility needed to serve a broad range of requirements. Our services extend well beyond any single type of construction project, allowing us to remain involved in developments of varying scale and complexity."
+            "With years of experience in the construction sector, we’ve contributed to many of the nation’s most notable infrastructure and building projects.",
+            "From large-scale civil works to landmark high-rise developments, our team provides complete crane hire solutions that keep progress on track.",
+            "Supported by a versatile fleet and the capability to handle both everyday and specialised lifting requirements, we remain a trusted partner to the construction industry."
         ],
         icon: HardHat
     },
     {
         title: "Renewable Energy",
         paragraphs: [
-            "Renewable energy is an industry we firmly believe in and proudly support, recognising the vital role it plays in strengthening our energy infrastructure, driving economic growth and creating opportunities for the future.",
-            "Over the years, we have established ourselves as a trusted partner within this rapidly expanding sector, playing an important role in some of the largest renewable energy projects. Our involvement extends across both new installations and the expansion of existing facilities, supporting transport requirements of varying scale and duration.",
-            "We have been heavily involved in the transportation of essential equipment for major wind farm installations, supporting both newly established facilities and the expansion of existing ones. With turbine components reaching extraordinary lengths and weights, these projects represent some of the most substantial work within our industry. Our involvement also extends across solar energy and large-scale battery storage installations, supporting the continued growth of renewable energy infrastructure.",
-            "Our work within this sector goes beyond individual transport requirements. We have supported major contracts involving multiple loads, where our continued involvement contributes to bringing new energy facilities into operation and expanding existing generating capacity.",
-            "As investment in renewable energy continues to grow, we remain firmly committed to supporting this sector and the opportunities it brings. We take pride in playing our part in strengthening the energy infrastructure that supports our economy, our industries and future generations."
+            "We’re proud to be part of renewable energy projects that are transforming Africa’s power landscape. ",
+            "From wind and solar installations to hydro developments, our crane hire services provide the strength and reliability needed for large-scale energy work. ",
+            "Supported by specialised equipment and a dedicated team, we continue to play a role in building a cleaner, more sustainable future.",
         ],
         icon: Wind
     },
     {
         title: "Mining",
         paragraphs: [
-            "Our work within the mining sector has seen us take on heavy haulage and abnormal transport assignments of considerable scale, supporting the movement of industrial machinery and specialised equipment across a broad range of mining activities.",
-            "We work with mining companies and the businesses that service them, providing the transport capacity required for major plant installations, the expansion of mining facilities and the relocation of valuable machinery. Our involvement extends to ongoing requirements as well as larger assignments where multiple loads form part of a wider scope of work.",
-            "Our transport services help bridge the distance between equipment suppliers, engineering facilities and the mines that depend on them. We recognise that the timely arrival of essential machinery can have a direct bearing on production schedules, planned shutdowns and the completion of important work on site.",
-            "We have built our service around more than the ability to carry heavy loads. Our continued involvement in this sector reflects the breadth of work we are equipped to undertake and our ability to meet the changing requirements of an industry where specialised heavy haulage remains essential."
+            "With extensive experience in the mining sector, we’ve supported operations that drive growth and development across the industry. ",
+            "From installing heavy plant infrastructure to relocating oversized machinery, our team provides dependable crane hire solutions designed for the unique demands of mining. ",
+            "Equipped with specialised gear and the capability to perform in the toughest conditions, we continue to deliver lifting services that keep projects moving and remain a reliable partner to mining operations across the region."
         ],
         icon: Pickaxe
     }
@@ -102,7 +97,8 @@ function ServiceAreasAlt3() {
                                     className="flex flex-col gap-6 rounded-3xl border border-border bg-card/85 backdrop-blur-xs p-8 md:p-10 shadow-sm"
                                 >
                                     <div className="flex items-center gap-4">
-                                        <div className="bg-primary/10 p-4 rounded-2xl border border-primary/20 shrink-0">
+                                        <div
+                                            className="bg-primary/10 p-4 rounded-2xl border border-primary/20 shrink-0">
                                             <Icon className="w-8 h-8 text-primary" strokeWidth={1.5}/>
                                         </div>
                                         <h3 className="text-3xl font-black font-heading uppercase text-foreground">

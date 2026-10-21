@@ -17,6 +17,7 @@ function Home() {
 
             <WhoWeAre/>
             <Stats/>
+            {/*<ServiceAreasAlt1/>*/}
             <ServiceAreasAlt3/>
             <ProjectSuccess4/>
             <NationwideService/>
