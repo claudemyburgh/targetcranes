@@ -1,5 +1,5 @@
 import {cn} from "@/lib/utils";
-import React from "react";
+import React, {useRef, useState} from "react";
 
 interface StackedCardProps {
     children: React.ReactNode;
@@ -12,29 +12,91 @@ export function StackedCard({
                                 className,
                                 cardClassName,
                             }: StackedCardProps) {
+    const containerRef = useRef<HTMLDivElement>(null);
+    const [pointer, setPointer] = useState({x: 0, y: 0, active: false});
+
+    const handlePointerMove = (e: React.PointerEvent<HTMLDivElement>) => {
+        const rect = containerRef.current?.getBoundingClientRect();
+        if (!rect) return;
+        const nx = ((e.clientX - rect.left) / rect.width) * 2 - 1;
+        const ny = ((e.clientY - rect.top) / rect.height) * 2 - 1;
+        setPointer({x: nx, y: ny, active: true});
+    };
+
+    const handlePointerLeave = () => {
+        setPointer({x: 0, y: 0, active: false});
+    };
+
+    const rotateX = pointer.active ? -pointer.y * 6 : 0;
+    const rotateY = pointer.active ? pointer.x * 6 : 0;
+    const glareX = 50 + pointer.x * 35;
+    const glareY = 50 + pointer.y * 35;
+
     return (
-        <div className={cn("group/stack relative isolate p-3 sm:p-4", className)}>
-            {/* 2nd backing card (--primary, top-right counter-tilted plate) */}
+        <div
+            ref={containerRef}
+            onPointerMove={handlePointerMove}
+            onPointerLeave={handlePointerLeave}
+            className={cn("group/stack relative isolate pt-8 perspective-[1200px]", className)}
+        >
+            {/* 2nd backing card (--primary, furthest back, smaller & higher) */}
             <div
                 aria-hidden="true"
+                style={{
+                    transform: `translate3d(${pointer.x * -6}px, ${pointer.active ? -32 : -26}px, -40px) scale(0.88)`,
+                }}
                 className={cn(
-                    "pointer-events-none absolute inset-3 sm:inset-4 -z-20 rounded-3xl bg-linear-to-bl from-primary via-[color-mix(in_oklch,var(--primary),black_25%)] to-zinc-950 border border-white/10 rotate-3 translate-x-2.5 -translate-y-2.5 shadow-xl shadow-primary/25 transition-all duration-500 ease-out group-hover/stack:rotate-5 group-hover/stack:translate-x-4 group-hover/stack:-translate-y-3.5",
+                    "pointer-events-none absolute inset-x-0 top-8 bottom-0 -z-20 rounded-3xl origin-top",
+                    "bg-linear-to-r from-[color-mix(in_oklch,var(--primary),black_35%)] via-primary to-[color-mix(in_oklch,var(--primary),black_35%)]",
+                    "border border-white/20 shadow-[0_-10px_30px_-10px_rgba(185,35,53,0.45)]",
+                    "transition-transform duration-300 ease-out",
                     cardClassName
                 )}
-            />
+            >
+                <div className="absolute inset-x-6 top-0 h-px bg-linear-to-r from-transparent via-white/50 to-transparent" />
+            </div>
 
-            {/* 1st backing card (--secondary, bottom-left tilted plate) */}
+            {/* 1st backing card (--secondary, middle layer, scaled down & shifted up) */}
             <div
                 aria-hidden="true"
+                style={{
+                    transform: `translate3d(${pointer.x * -3}px, ${pointer.active ? -16 : -13}px, -20px) scale(0.94)`,
+                }}
                 className={cn(
-                    "pointer-events-none absolute inset-3 sm:inset-4 -z-10 rounded-3xl bg-linear-to-tr from-secondary via-[color-mix(in_oklch,var(--secondary),black_30%)] to-zinc-950 border border-white/10 -rotate-2 -translate-x-2.5 translate-y-2.5 shadow-2xl shadow-black/35 transition-all duration-500 ease-out group-hover/stack:-rotate-4 group-hover/stack:-translate-x-4 group-hover/stack:translate-y-3.5",
+                    "pointer-events-none absolute inset-x-0 top-8 bottom-0 -z-10 rounded-3xl origin-top",
+                    "bg-linear-to-r from-[color-mix(in_oklch,var(--secondary),black_40%)] via-secondary to-[color-mix(in_oklch,var(--secondary),black_40%)]",
+                    "border border-white/20 shadow-[0_-8px_28px_-12px_rgba(0,0,0,0.55)]",
+                    "transition-transform duration-300 ease-out",
                     cardClassName
                 )}
-            />
+            >
+                <div className="absolute inset-x-6 top-0 h-px bg-linear-to-r from-transparent via-white/40 to-transparent" />
+            </div>
 
-            {/* Main content */}
-            <div className="relative z-10 transition-transform duration-500 ease-out group-hover/stack:-translate-y-0.5">
+            {/* Main foreground card with 3D tilt & interactive specular reflection */}
+            <div
+                style={{
+                    transform: `rotateX(${rotateX}deg) rotateY(${rotateY}deg) translate3d(0, ${pointer.active ? -2 : 0}px, 0)`,
+                }}
+                className="relative z-10 rounded-3xl shadow-[0_22px_45px_-15px_rgba(0,0,0,0.5)] transition-transform duration-300 ease-out transform-3d"
+            >
                 {children}
+
+                {/* Interactive reflective glare overlay */}
+                <div
+                    aria-hidden="true"
+                    style={{
+                        background: `radial-gradient(circle at ${glareX}% ${glareY}%, rgba(255,255,255,0.28) 0%, rgba(255,255,255,0.06) 35%, transparent 65%)`,
+                        opacity: pointer.active ? 1 : 0,
+                    }}
+                    className="pointer-events-none absolute inset-0 z-20 rounded-3xl transition-opacity duration-300 mix-blend-overlay"
+                />
+
+                {/* Subtle metallic rim highlight */}
+                <div
+                    aria-hidden="true"
+                    className="pointer-events-none absolute inset-0 z-20 rounded-3xl ring-1 ring-inset ring-white/20"
+                />
             </div>
         </div>
     );
