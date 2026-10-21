@@ -3,12 +3,13 @@ import {Seo} from "@/components/seo";
 import Wrapper from "@/components/ui/misc/wrapper";
 import SectionLabel from "@/components/ui/misc/section-label";
 import DotPattern from "@/components/ui/misc/dot-pattern";
+import StackedCard from "@/components/ui/misc/stacked-card";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
 import {siteStats} from "@/lib/site-stats";
 import {Award, HardHat} from "lucide-react";
 
 // @ts-ignore
-import aboutHeroImg from "@/../images/cutom-lines.webp";
+import aboutHeroImg from "@/../images/dirt.webp";
 // @ts-ignore
 import depotImg from "@/../images/IMG-20261008-WA0045.webp";
 // @ts-ignore
@@ -58,16 +59,18 @@ export default function AboutUs() {
                         </div>
 
                         <div className="lg:col-span-5">
-                            <div
-                                className="relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card">
-                                <img
-                                    src={aboutHeroImg}
-                                    alt="Target Cranes fleet and operations"
-                                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                                />
+                            <StackedCard>
                                 <div
-                                    className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent pointer-events-none"/>
-                            </div>
+                                    className="relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card">
+                                    <img
+                                        src={aboutHeroImg}
+                                        alt="Target Cranes fleet and operations"
+                                        className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                                    />
+                                    <div
+                                        className="absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent pointer-events-none"/>
+                                </div>
+                            </StackedCard>
                         </div>
                     </div>
                 </Wrapper>
@@ -79,24 +82,28 @@ export default function AboutUs() {
                 <Wrapper className="relative z-10">
                     <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
                         <div className="lg:col-span-5 order-2 lg:order-1">
-                            <div
-                                className="relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card">
-                                <img
-                                    src={depotImg}
-                                    alt="Target Cranes Bellville South depot"
-                                    className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
-                                />
-                            </div>
+                            <StackedCard>
+                                <div
+                                    className="relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card">
+                                    <img
+                                        src={depotImg}
+                                        alt="Target Cranes Bellville South depot"
+                                        className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
+                                    />
+                                </div>
+                            </StackedCard>
                         </div>
 
                         <div className="lg:col-span-7 order-1 lg:order-2 space-y-6">
                             <SectionLabel className="mb-2">Leadership &amp; Pedigree</SectionLabel>
 
                             <h2>
-                                <SwipeTitle className="text-3xl sm:text-4xl lg:text-5xl font-black font-heading tracking-tight uppercase text-foreground">
+                                <SwipeTitle
+                                    className="text-3xl sm:text-4xl lg:text-5xl font-black font-heading tracking-tight uppercase text-foreground">
                                     <SwipeLine>{siteStats.combinedExperienceYears}+ Years Combined</SwipeLine>
                                     <SwipeLine>
-                                        <span className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">
+                                        <span
+                                            className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">
                                             Management Experience
                                         </span>
                                     </SwipeLine>

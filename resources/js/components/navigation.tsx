@@ -19,7 +19,7 @@ export function Navigation() {
     const currentPath = (url.split('?')[0] || '/').replace(/\/+$/, '') || '/';
 
     return (
-        <nav className="border-b border-border bg-background/75 backdrop-blur-md fixed w-full top-0 z-40">
+        <nav className="border-b border-border bg-background/85 backdrop-blur-md fixed w-full top-0 z-40">
             <Wrapper>
                 <div className="flex justify-between h-16 items-center">
                     <div className="flex items-center">
