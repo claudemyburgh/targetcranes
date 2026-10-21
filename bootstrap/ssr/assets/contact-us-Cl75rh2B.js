@@ -1,6 +1,6 @@
-import { c as Button, i as SwipeTitle, n as SectionLabel, o as queryParams, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-BQKdFE9p.js";
+import { c as Button, i as SwipeTitle, n as SectionLabel, o as queryParams, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-x3gZBI6e.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
-import { t as DotPattern } from "./dot-pattern-DPLcDuTR.js";
+import { t as DotPattern } from "./dot-pattern-CDRsZR4W.js";
 import { useForm, usePage } from "@inertiajs/react";
 import { useState } from "react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";

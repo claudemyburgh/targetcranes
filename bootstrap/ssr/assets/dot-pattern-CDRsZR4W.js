@@ -1,4 +1,4 @@
-import { u as cn } from "./app-layout-BQKdFE9p.js";
+import { u as cn } from "./app-layout-x3gZBI6e.js";
 import { jsx } from "react/jsx-runtime";
 //#region resources/images/dot-pattern.svg
 var dot_pattern_default = "/build/assets/dot-pattern-wkNqCRmb.svg";

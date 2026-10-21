@@ -1,4 +1,4 @@
-import { n as SectionLabel, s as Wrapper, t as AppLayout } from "./app-layout-BQKdFE9p.js";
+import { n as SectionLabel, s as Wrapper, t as AppLayout } from "./app-layout-x3gZBI6e.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
 import { jsx, jsxs } from "react/jsx-runtime";
 import { Database, Eye, Globe, Lock, Mail, Shield, UserCheck } from "lucide-react";

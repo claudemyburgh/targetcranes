@@ -153,7 +153,7 @@ function Logo(props) {
 				d: "M43.9,27.4h0l-9.1-9.1c-1.4-1.4-3.1-2-4.9-2H6.9C3.2,16.3.1,19.3.1,23.1s3,6.8,6.8,6.8h20.4l5.3,5.3v23.2c0,3.7,3,6.8,6.8,6.8s6.8-3,6.8-6.8v-26c0-1.9-.8-3.7-2.1-4.9h-.2v-.1ZM39.9,25.5h-.7.7ZM41.2,25.8h0ZM40.6,25.6h-.2.2Z"
 			}),
 			/* @__PURE__ */ jsx("path", {
-				fill: "oklch(0.4086 0.024 253.1)",
+				className: "fill-secondary",
 				d: "M88,29.8l3.2,3.2h15.6v-.8c0-1.9-.8-3.7-2.1-4.9h0l-9.1-9.1c-1.4-1.4-3.2-2-5.1-2h-34.6c-3.7,0-6.8,3-6.8,6.8v25.9c0,1.9.8,3.7,2.1,4.9h0l8.8,8.8.3.3c1.3,1.3,2.9,1.9,4.6,2h31.9c4.9,0,8.9-4,8.9-8.9v-3.8c0-.5-.4-.8-.8-.8h-36.9l-5.4-5.4h0v-16.3h25.4v.1Z"
 			}),
 			/* @__PURE__ */ jsx("path", {
@@ -616,7 +616,7 @@ function Navigation() {
 	const { url } = usePage();
 	const currentPath = (url.split("?")[0] || "/").replace(/\/+$/, "") || "/";
 	return /* @__PURE__ */ jsx("nav", {
-		className: "border-b border-border bg-background/75 backdrop-blur-md fixed w-full top-0 z-40",
+		className: "border-b border-border bg-background/85 backdrop-blur-md fixed w-full top-0 z-40",
 		children: /* @__PURE__ */ jsx(Wrapper, { children: /* @__PURE__ */ jsxs("div", {
 			className: "flex justify-between h-16 items-center",
 			children: [/* @__PURE__ */ jsx("div", {
@@ -909,8 +909,11 @@ function SectionLabel({ children, className }) {
 //#region resources/js/components/emergency-support.tsx
 function EmergencySupport() {
 	return /* @__PURE__ */ jsxs("section", {
-		className: "bg-primary/5 border-t border-primary/10 py-16 lg:py-24 relative overflow-hidden ",
-		children: [/* @__PURE__ */ jsx("div", { className: "absolute top-1/2 -translate-y-1/2 -right-24 size-270 opacity-40 pointer-events-none mix-blend-plus-lighter mask-[radial-gradient(circle_at_center,black_10%,transparent_70%)]" }), /* @__PURE__ */ jsx(Wrapper, {
+		className: "relative overflow-hidden py-16 lg:py-24 bg-linear-to-br from-zinc-950 via-primary/95 to-primary text-white border-y border-white/10",
+		children: [/* @__PURE__ */ jsx("div", {
+			"aria-hidden": true,
+			className: "pointer-events-none opacity-20 absolute inset-0 bg-[radial-gradient(circle,#ffffff40_2px,transparent_2px)] bg-size-[16px_16px] mask-[radial-gradient(ellipse_at_top_right,black_35%,transparent_60%)]"
+		}), /* @__PURE__ */ jsx(Wrapper, {
 			className: "relative z-10",
 			children: /* @__PURE__ */ jsxs("div", {
 				className: "flex flex-col lg:flex-row items-start lg:items-center gap-12 justify-between",
@@ -918,21 +921,18 @@ function EmergencySupport() {
 					className: "max-w-3xl",
 					children: [
 						/* @__PURE__ */ jsx(SectionLabel, {
-							className: "mb-8",
+							className: "mb-8 text-white",
 							children: "Emergencies can happen anytime"
 						}),
 						/* @__PURE__ */ jsx("h2", {
 							className: "mb-6",
 							children: /* @__PURE__ */ jsx(SwipeTitle, {
-								className: "text-4xl md:text-6xl font-black font-heading tracking-tighter uppercase text-balance",
-								children: /* @__PURE__ */ jsxs(SwipeLine, { children: ["24/7 ", /* @__PURE__ */ jsx("span", {
-									className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
-									children: "SERVICE SUPPORT"
-								})] })
+								className: "text-4xl md:text-6xl font-black font-heading tracking-tighter uppercase text-white text-balance",
+								children: /* @__PURE__ */ jsx(SwipeLine, { children: "24/7 SERVICE SUPPORT" })
 							})
 						}),
 						/* @__PURE__ */ jsx("p", {
-							className: "text-lg md:text-xl text-muted-foreground leading-relaxed max-w-2xl",
+							className: "text-lg md:text-xl text-white/85 leading-relaxed max-w-2xl",
 							children: "That’s why we offer 24/7 emergency response services for urgent lifting needs. Whether it’s an equipment failure or an unforeseen event, we’re here to provide immediate support, minimizing downtime and potential losses."
 						})
 					]
@@ -940,7 +940,7 @@ function EmergencySupport() {
 					className: "shrink-0 w-full lg:w-auto",
 					children: /* @__PURE__ */ jsxs("a", {
 						href: contactUs.url(),
-						className: "inline-flex items-center justify-center gap-3 rounded-full bg-primary hover:bg-primary/90 dark:bg-white dark:hover:bg-white/90 text-primary-foreground dark:text-black px-8 py-5 font-bold uppercase tracking-wider transition-all hover:scale-105 shadow-xl shadow-primary/20 hover:shadow-primary/40 dark:shadow-white/10 dark:hover:shadow-white/20",
+						className: "inline-flex items-center justify-center gap-3 rounded-full bg-linear-to-b from-secondary to-[color-mix(in_oklch,var(--secondary),black_35%)] hover:opacity-95 text-secondary-foreground px-8 py-5 font-bold uppercase tracking-wider transition-all hover:scale-105 shadow-xl shadow-black/25 hover:shadow-black/40 border border-white/15",
 						children: [/* @__PURE__ */ jsx(PhoneCall, {
 							size: 24,
 							className: "animate-pulse"

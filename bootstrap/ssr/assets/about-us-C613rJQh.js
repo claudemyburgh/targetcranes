@@ -1,11 +1,12 @@
-import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-BQKdFE9p.js";
+import { i as SwipeTitle, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout } from "./app-layout-x3gZBI6e.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
-import { t as DotPattern } from "./dot-pattern-DPLcDuTR.js";
+import { t as DotPattern } from "./dot-pattern-CDRsZR4W.js";
+import { t as StackedCard } from "./stacked-card-wrMFNMQU.js";
 import { t as siteStats } from "./site-stats-DFlp--Vg.js";
 import { jsx, jsxs } from "react/jsx-runtime";
 import { Award, HardHat } from "lucide-react";
-//#region resources/images/cutom-lines.webp
-var cutom_lines_default = "/build/assets/cutom-lines-CdMc1SBz.webp";
+//#region resources/images/dirt.webp
+var dirt_default = "/build/assets/dirt-sDf2k5Bx.webp";
 //#endregion
 //#region resources/images/IMG-20261008-WA0045.webp
 var IMG_20261008_WA0045_default = "/build/assets/IMG-20261008-WA0045-BbohHFdG.webp";
@@ -51,14 +52,14 @@ function AboutUs() {
 							]
 						}), /* @__PURE__ */ jsx("div", {
 							className: "lg:col-span-5",
-							children: /* @__PURE__ */ jsxs("div", {
+							children: /* @__PURE__ */ jsx(StackedCard, { children: /* @__PURE__ */ jsxs("div", {
 								className: "relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card",
 								children: [/* @__PURE__ */ jsx("img", {
-									src: cutom_lines_default,
+									src: dirt_default,
 									alt: "Target Cranes fleet and operations",
 									className: "w-full h-full object-cover transition-transform duration-700 hover:scale-105"
 								}), /* @__PURE__ */ jsx("div", { className: "absolute inset-0 bg-linear-to-t from-black/40 via-transparent to-transparent pointer-events-none" })]
-							})
+							}) })
 						})]
 					})
 				})
@@ -72,14 +73,14 @@ function AboutUs() {
 					className: "grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center",
 					children: [/* @__PURE__ */ jsx("div", {
 						className: "lg:col-span-5 order-2 lg:order-1",
-						children: /* @__PURE__ */ jsx("div", {
+						children: /* @__PURE__ */ jsx(StackedCard, { children: /* @__PURE__ */ jsx("div", {
 							className: "relative aspect-4/5 w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card",
 							children: /* @__PURE__ */ jsx("img", {
 								src: IMG_20261008_WA0045_default,
 								alt: "Target Cranes Bellville South depot",
 								className: "w-full h-full object-cover transition-transform duration-700 hover:scale-105"
 							})
-						})
+						}) })
 					}), /* @__PURE__ */ jsxs("div", {
 						className: "lg:col-span-7 order-1 lg:order-2 space-y-6",
 						children: [

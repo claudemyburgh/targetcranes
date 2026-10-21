@@ -1,6 +1,7 @@
-import { a as contactUs, i as SwipeTitle, l as buttonVariants, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-BQKdFE9p.js";
+import { a as contactUs, i as SwipeTitle, l as buttonVariants, n as SectionLabel, r as SwipeLine, s as Wrapper, t as AppLayout, u as cn } from "./app-layout-x3gZBI6e.js";
 import { t as Seo } from "./seo-BEU1r1nv.js";
-import { t as DotPattern } from "./dot-pattern-DPLcDuTR.js";
+import { t as DotPattern } from "./dot-pattern-CDRsZR4W.js";
+import { t as StackedCard } from "./stacked-card-wrMFNMQU.js";
 import { Link } from "@inertiajs/react";
 import * as React$1 from "react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
@@ -393,7 +394,7 @@ function Safety() {
 					className: "grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center",
 					children: [/* @__PURE__ */ jsx("div", {
 						className: "lg:col-span-5",
-						children: /* @__PURE__ */ jsxs("div", {
+						children: /* @__PURE__ */ jsx(StackedCard, { children: /* @__PURE__ */ jsxs("div", {
 							className: "relative aspect-[4/5] w-full rounded-3xl overflow-hidden border border-border shadow-xl bg-card",
 							children: [
 								/* @__PURE__ */ jsx("img", {
@@ -413,7 +414,7 @@ function Safety() {
 									})]
 								})
 							]
-						})
+						}) })
 					}), /* @__PURE__ */ jsxs("div", {
 						className: "lg:col-span-7 space-y-6",
 						children: [
