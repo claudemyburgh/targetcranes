@@ -6,7 +6,7 @@ import DotPattern from "@/components/ui/misc/dot-pattern";
 import StackedCard from "@/components/ui/misc/stacked-card";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
 import {siteStats} from "@/lib/site-stats";
-import {Anchor, Award, ClipboardCheck, Compass, HardHat, Pickaxe, ShieldCheck, Truck, Wind} from "lucide-react";
+import {Award, Building2, CalendarClock, ClipboardCheck, Clock, Compass, HardHat, ShieldCheck, Truck} from "lucide-react";
 
 // @ts-ignore
 import aboutHeroImg from "@/../images/dirt.webp";
@@ -21,7 +21,7 @@ export default function AboutUs() {
         <AppLayout>
             <Seo
                 title="About Us"
-                description={`Learn about Target Cranes, our company origins in Cape Town, ${siteStats.combinedExperienceYears} years of combined management experience, and our uncompromising commitment to safety and precision lifting.`}
+                description={`Learn about Target Cranes, our company origins in Cape Town, ${siteStats.combinedExperienceYears} years of combined management experience, and our flexible short- and long-term mobile crane rental services across South Africa.`}
             />
 
             {/* Hero / Overview */}
@@ -47,15 +47,16 @@ export default function AboutUs() {
                             </h2>
 
                             <p className="text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl font-medium">
-                                Headquartered in Bellville South, Cape Town, Target Cranes provides precision mobile
-                                crane hire, heavy rigging, and managed lifting operations to South Africa&rsquo;s most
-                                demanding industries.
+                                Headquartered in Bellville South, Cape Town, Target Cranes provides flexible short- and
+                                long-term mobile crane hire, heavy rigging, and managed lifting operations across all
+                                industries in South Africa.
                             </p>
 
                             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl">
-                                From routine equipment installations to complex multi-crane industrial lifts, our
-                                operations are defined by rigorous preparation, verified equipment reliability, and
-                                close collaboration with on-site contractors.
+                                We are never limited to a single sector. From quick once-off equipment lifts and
+                                short-term crane rentals to long-term contract deployments and complex multi-crane
+                                operations, our work is defined by rigorous preparation, verified equipment reliability,
+                                and close collaboration with on-site teams.
                             </p>
                         </div>
 
@@ -82,44 +83,44 @@ export default function AboutUs() {
                 texts={[
                     <>
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
-                            <Truck className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Mobile &amp; All-Terrain Crane Hire</span>
+                            <Building2 className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Bellville South Headquarters</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
-                            <ClipboardCheck className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Engineered Lift Planning</span>
+                            <Truck className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Modern Multi-Axle Crane Fleet</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
                             <Compass className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Heavy Rigging &amp; Site Surveys</span>
+                            <span>Detailed Pre-Lift Site Evaluations</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
                             <ShieldCheck className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Certified Safety Compliance</span>
+                            <span>Comprehensive Liability &amp; Equipment Cover</span>
                         </span>
                     </>,
                     <>
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
-                            <Anchor className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Maritime &amp; Port Operations</span>
-                        </span>
-                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
-                        <span className="inline-flex items-center gap-4 uppercase font-heading">
                             <HardHat className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Construction &amp; Civil Engineering</span>
+                            <span>Dedicated On-Site Lift Supervisors</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
-                            <Wind className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Renewable Energy Installations</span>
+                            <ClipboardCheck className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Audit-Ready Contractor Documentation</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
-                            <Pickaxe className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Mining &amp; Heavy Plant Infrastructure</span>
+                            <CalendarClock className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Flexible Short- &amp; Long-Term Packages</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <Clock className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Western Cape &amp; Nationwide Dispatch</span>
                         </span>
                     </>
                 ]}
@@ -161,14 +162,14 @@ export default function AboutUs() {
 
                             <div className="space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed">
                                 <p>
-                                    Target Cranes brings together more than five decades of collective leadership across
-                                    heavy rigging, mobile crane operations, civil engineering, and specialised
-                                    transport.
+                                    Target Cranes brings together more than a century of collective leadership across
+                                    short- and long-term mobile crane rental, heavy rigging, engineered lifting, and
+                                    specialised transport.
                                 </p>
                                 <p>
-                                    Our senior management and project supervisors have guided lifting contracts across
-                                    mining infrastructure, maritime dry-docks, power stations, and landmark commercial
-                                    developments across the African continent.
+                                    Our senior management and project supervisors have guided lifting contracts of every
+                                    scale. We support commercial, industrial, civil, infrastructure, marine, energy,
+                                    manufacturing, and bespoke projects across the African continent.
                                 </p>
                                 <p className="text-foreground font-medium pt-2">
                                     This depth of practical knowledge ensures that before wheels roll or outriggers

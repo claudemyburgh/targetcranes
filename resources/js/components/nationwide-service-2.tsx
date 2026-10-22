@@ -13,7 +13,7 @@ const nationwideStats = [
         icon: Award,
         value: siteStats.yearsInBusiness,
         label: "Years in Business",
-        description: "Providing exceptional mobile crane hire and heavy rigging services across multiple industries.",
+        description: "Providing flexible short- and long-term mobile crane rental and heavy rigging services across all industries.",
     },
     {
         number: "02",
@@ -34,7 +34,7 @@ const nationwideStats = [
         icon: Clock,
         value: siteStats.availability,
         label: "Operational Availability",
-        description: "Ready to mobilize and respond to your scheduled or emergency lifting requirements anytime, day or night.",
+        description: "Ready to mobilise and respond to your scheduled or emergency lifting requirements anytime, day or night.",
     },
 ];
 
@@ -79,8 +79,8 @@ export function NationwideService2() {
                         </h2>
 
                         <p className="text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-                            These stats help showcase Target Cranes&rsquo; experience, capabilities, and commitment to
-                            safety and customer satisfaction, making a strong impression on potential clients.
+                            From our main depot in Bellville South, Cape Town, we mobilise mobile cranes and rigging
+                            crews to project sites across the Western Cape and throughout South Africa.
                         </p>
                     </div>
 

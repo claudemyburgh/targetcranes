@@ -1,0 +1,72 @@
+================================================================================
+PAGE: CONTACT US (resources/js/pages/contact-us.tsx)
+================================================================================
+
+SEO Metadata:
+- Title: Contact Us
+- Description: Get in touch with Target Cranes for 24/7 mobile crane hire, heavy rigging, and precision lifting across South Africa. Call 063 673 7500 or email enquiries@targetcranes.co.za.
+
+
+--------------------------------------------------------------------------------
+SECTION 1: PAGE HEADER
+--------------------------------------------------------------------------------
+Section Label:
+Get In Touch
+
+Heading:
+Ready To Lift? Contact Target Cranes
+
+Intro Copy:
+Require short- or long-term mobile crane rental, specialised lifting capacities across any industry, or 24/7 emergency support? Reach out to our team directly or fill out the form below.
+
+
+--------------------------------------------------------------------------------
+SECTION 2: DIRECT ASSISTANCE (LEFT COLUMN)
+--------------------------------------------------------------------------------
+Heading:
+Direct Assistance
+
+Description:
+Our operational team and mobile crane dispatchers are available around the clock.
+
+Contact Channels:
+1. Call Us Directly
+   - Phone: 063 673 7500
+   - Note: 24/7 Mobile & Emergency Support
+
+2. Email Enquiries
+   - Email: enquiries@targetcranes.co.za
+   - Note: Quotations, safety files & specs
+
+3. Main Depot & Offices
+   - Address Line 1: Fabriek St, Bellville South
+   - Address Line 2: Cape Town, 7530, South Africa
+
+4. Operating Hours
+   - Availability: 24/7 Availability
+   - Note: Rapid mobilisation nationwide
+
+
+--------------------------------------------------------------------------------
+SECTION 3: CONTACT FORM (RIGHT COLUMN)
+--------------------------------------------------------------------------------
+Heading:
+Send Us A Message
+
+Description:
+Complete the form below and an experienced rigging consultant will respond as soon as possible.
+
+Form Fields:
+- Full Name * (Placeholder: "e.g. John Doe")
+- Email Address * (Placeholder: "e.g. john@company.co.za")
+- Phone Number [Optional] (Placeholder: "e.g. 063 673 7500")
+- Subject * (Placeholder: "e.g. Crane Hire Quotation")
+- Message & Project Details * (Placeholder: "Provide details about your lifting requirements, location, estimated dates, load weights...")
+
+Submit Button:
+- Default: Send Message
+- Processing: Sending Message...
+
+Success Confirmation Message:
+- Heading: Thank you for contacting us!
+- Body: We have received your message and will get back to you as soon as possible. A confirmation has also been sent to your email address.

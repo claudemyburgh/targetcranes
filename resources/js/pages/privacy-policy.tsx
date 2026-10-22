@@ -155,7 +155,7 @@ export default function PrivacyPolicy() {
                             </div>
                             <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                                 If you leave a comment, the comment and its metadata are retained indefinitely. This is
-                                so we can recognize and approve any follow-up comments automatically instead of holding
+                                so we can recognise and approve any follow-up comments automatically instead of holding
                                 them in a moderation queue.
                             </p>
                             <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
@@ -200,7 +200,7 @@ export default function PrivacyPolicy() {
                             <div className="flex items-center gap-3 text-primary">
                                 <Mail className="w-6 h-6 shrink-0"/>
                                 <h2 className="text-xl font-bold font-heading uppercase text-foreground">Contact & POPIA
-                                    Inquiries</h2>
+                                    Enquiries</h2>
                             </div>
                             <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
                                 If you have questions regarding this Privacy Policy, your personal data, or wish to

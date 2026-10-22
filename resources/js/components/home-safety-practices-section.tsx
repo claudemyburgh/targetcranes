@@ -60,7 +60,8 @@ export const safetyItems = [
                 </p>
                 <p>
                     Ongoing competency assessments and defensive operational training ensure dependable execution across
-                    maritime ports, mining yards, power generation plants, and congested civil construction sites.
+                    every industry and site environment, whether on a short-term crane rental or a long-term project
+                    deployment.
                 </p>
             </div>
         ),
@@ -72,7 +73,7 @@ export const safetyItems = [
         content: (
             <div className="space-y-3">
                 <p>
-                    Prior to mobilization, we issue tailored Risk Assessments and Method Statements (RAMS) structured
+                    Prior to mobilisation, we issue tailored Risk Assessments and Method Statements (RAMS) structured
                     around your project&rsquo;s exact site constraints and operational envelope.
                 </p>
                 <p>
@@ -237,7 +238,7 @@ export function HomeSafetyPracticesSection() {
                                 </SwipeTitle>
                             </h2>
                             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                                Every mobile crane deployment follows six non-negotiable operational safeguards—from
+                                Every mobile crane deployment follows six non-negotiable operational safeguards, from
                                 initial ground bearing verification and statutory load testing to on-site exclusion
                                 zones and unconditional Stop Work Authority.
                             </p>

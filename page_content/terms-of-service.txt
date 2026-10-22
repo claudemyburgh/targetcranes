@@ -1,0 +1,119 @@
+================================================================================
+PAGE: TERMS OF SERVICE (resources/js/pages/terms-of-service.tsx)
+================================================================================
+
+SEO Metadata:
+- Title: Terms of Service
+- Description: Terms of Service for Target Cranes (Pty) Ltd. General terms and conditions governing mobile crane hire, lifting operations, quotations, safety, and website use.
+
+
+--------------------------------------------------------------------------------
+SECTION 1: PAGE HEADER
+--------------------------------------------------------------------------------
+Section Label:
+Legal Agreements
+
+Heading:
+Terms of Service
+
+Intro Copy:
+These Terms of Service govern your use of the Target Cranes website (targetcranes.co.za) and set forth standard conditions for mobile crane hire, rigging, transport, and engineered lifting solutions provided by Target Cranes (Pty) Ltd.
+
+
+--------------------------------------------------------------------------------
+SECTION 2: 1. ACCEPTANCE OF TERMS
+--------------------------------------------------------------------------------
+Heading:
+1. Acceptance of Terms
+
+Body Copy:
+By accessing this website or engaging Target Cranes (Pty) Ltd (“Target Cranes”, “we”, “us”) for equipment hire, lift engineering, or operational services, you agree to be bound by these Terms of Service and our standard Crane Hire Agreement. If you do not accept these terms in full, please do not use our site or services.
+
+
+--------------------------------------------------------------------------------
+SECTION 3: 2. QUOTATIONS, PRICING & BOOKINGS
+--------------------------------------------------------------------------------
+Heading:
+2. Quotations, Pricing & Bookings
+
+Terms List:
+- Quote Validity: Formal quotations remain valid for 30 calendar days from the date of issue unless specified otherwise in writing.
+- Accuracy of Lift Data: Pricing is calculated based on client-provided specifications (load weight, boom reach, ground conditions, access constraints, and scheduled duration). Discrepancies between quoted specifications and actual on-site conditions may result in rate adjustments.
+- Hire Options: Rates are quoted on either a “Wet Hire” basis (including certified crane operator and optional riggers) or “Dry Hire” (bare machine hire for qualified, approved commercial contractors).
+
+
+--------------------------------------------------------------------------------
+SECTION 4: 3. SITE ACCESS, GROUND INTEGRITY & CLEARANCES
+--------------------------------------------------------------------------------
+Heading:
+3. Site Access, Ground Integrity & Clearances
+
+Body Copy:
+The client is responsible for ensuring clear, stable, and unhindered access to the lift position suitable for heavy multi-axle all-terrain mobile cranes.
+
+- Ground Bearing Capacity: The client must verify and confirm that ground surfaces (compacted earth, paved yards, suspended slabs) are capable of supporting full crane axle loadings and maximum outrigger point loads. Target Cranes provides outrigger pads and mats, but does not accept liability for failure of subsurface infrastructure (drains, pipes, cables, voids) not disclosed prior to setup.
+- Overhead Hazards: Safe working distances from overhead powerlines and surrounding structures must be strictly maintained in compliance with South African safety regulations.
+
+
+--------------------------------------------------------------------------------
+SECTION 5: 4. SAFETY REGULATIONS & OPERATOR AUTHORITY
+--------------------------------------------------------------------------------
+Heading:
+4. Safety Regulations & Operator Authority
+
+Body Copy:
+Safety is paramount in all lifting operations. Operations are conducted under the Occupational Health and Safety Act 85 of 1993 (OHSA), Construction Regulations, and relevant SANS codes of practice.
+
+Subheading:
+Final Lift Authority
+
+Subheading Copy:
+The appointed Target Cranes operator and lift supervisor hold absolute, overriding authority to halt, postpone, or reject any lifting operation if weather conditions (wind speed exceeding crane manufacturer limits, lightning storms), ground instability, or unsafe rigging compromise the safety of personnel or assets.
+
+
+--------------------------------------------------------------------------------
+SECTION 6: 5. WEATHER DELAYS & CANCELLATIONS
+--------------------------------------------------------------------------------
+Heading:
+5. Weather Delays & Cancellations
+
+Body Copy:
+When a crane has dispatched to site and operations are delayed due to client site readiness, permit delays, or inclement weather beyond our control, standard hourly standby rates will apply as per the confirmed quotation.
+
+Notice of cancellation must be communicated in writing within the timeframes stipulated in the project booking agreement to avoid cancellation and mobilisation fees.
+
+
+--------------------------------------------------------------------------------
+SECTION 7: 6. LIMITATION OF LIABILITY & INSURANCE
+--------------------------------------------------------------------------------
+Heading:
+6. Limitation of Liability & Insurance
+
+Body Copy:
+Target Cranes maintains comprehensive public liability and equipment insurance. Unless explicitly agreed in writing under a full turnkey engineered lift package, the client remains responsible for insuring all goods, machinery, or structures being lifted (“hook insurance” / goods-in-transit cover). Target Cranes shall not be held liable for indirect, consequential, or economic loss resulting from project downtime or delays.
+
+
+--------------------------------------------------------------------------------
+SECTION 8: 7. GOVERNING LAW & JURISDICTION
+--------------------------------------------------------------------------------
+Heading:
+7. Governing Law & Jurisdiction
+
+Body Copy:
+These Terms and any disputes arising from website use or contractual lifting services are governed by and construed in accordance with the laws of the Republic of South Africa. The parties submit to the exclusive jurisdiction of the Western Cape High Court, Cape Town.
+
+
+--------------------------------------------------------------------------------
+SECTION 9: ENQUIRIES & CONTRACT INFORMATION
+--------------------------------------------------------------------------------
+Heading:
+Enquiries & Contract Information
+
+Body Copy:
+For enquiries regarding our terms, machine hiring agreements, or site safety plans:
+
+Contact Details:
+- Company: Target Cranes (Pty) Ltd
+- Email: enquiries@targetcranes.co.za
+- Phone: 063 673 7500
+- Depot Address: Fabriek St, Bellville South, Cape Town, 7530

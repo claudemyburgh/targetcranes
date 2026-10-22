@@ -41,7 +41,7 @@ function ServiceAreas() {
                     </h2>
                     <p className="text-lg text-muted-foreground">
                         We provide specialised lifting services across a variety of sectors. 
-                        <strong> Note that we are not limited to these services</strong>—our versatile fleet and experienced team are equipped to handle unique lifting requirements in almost any industry.
+                        <strong> Note that we are not limited to these services.</strong> Our versatile fleet and experienced team are equipped to handle unique lifting requirements in almost any industry.
                     </p>
                 </div>
                 

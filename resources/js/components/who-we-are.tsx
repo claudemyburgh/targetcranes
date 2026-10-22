@@ -28,11 +28,12 @@ export default function WhoWeAre() {
                         <div className="space-y-4 text-muted-foreground text-lg leading-relaxed max-w-2xl">
                             <p>
                                 No two lifting projects present the same conditions. The load, available space, site
-                                access and work schedule all shape the approach.
+                                access and work schedule all shape the approach, whether you require a short-term crane
+                                rental or a long-term hire package.
                             </p>
                             <p>
-                                At Target Cranes, we take time to understand those details before work begins, so the
-                                lifting plan fits the job in front of us.
+                                At Target Cranes, we support clients across every industry and take time to understand
+                                those details before work begins, so the lifting plan fits the job in front of us.
                             </p>
                         </div>
                     </div>

@@ -1,0 +1,62 @@
+================================================================================
+PAGE: ABOUT US (resources/js/pages/about-us.tsx)
+================================================================================
+
+SEO Metadata:
+- Title: About Us
+- Description: Learn about Target Cranes, our company origins in Cape Town, 100 years of combined management experience, and our flexible short- and long-term mobile crane rental services across South Africa.
+
+
+--------------------------------------------------------------------------------
+SECTION 1: COMPANY OVERVIEW / HERO
+--------------------------------------------------------------------------------
+Section Label:
+Company Overview
+
+Heading:
+Built On Experience, Trusted Across South Africa
+
+Body Copy:
+Headquartered in Bellville South, Cape Town, Target Cranes provides flexible short- and long-term mobile crane hire, heavy rigging, and managed lifting operations across all industries in South Africa.
+
+We are never limited to a single sector. From quick once-off equipment lifts and short-term crane rentals to long-term contract deployments and complex multi-crane operations, our work is defined by rigorous preparation, verified equipment reliability, and close collaboration with on-site teams.
+
+
+--------------------------------------------------------------------------------
+SECTION 2: SCROLL DIVIDER (resources/js/components/scroll-divider.tsx)
+--------------------------------------------------------------------------------
+Row 1:
+- Mobile & All-Terrain Crane Rental
+- Short- & Long-Term Crane Hire
+- Engineered Lift Planning
+- Certified Safety Compliance
+
+Row 2:
+- Turnkey Managed Lifting
+- Heavy Rigging & Site Surveys
+- Serving All Industries & Sectors
+- 24/7 Nationwide Mobilisation
+
+
+--------------------------------------------------------------------------------
+SECTION 3: COMPANY HERITAGE & LEADERSHIP
+--------------------------------------------------------------------------------
+Section Label:
+Leadership & Pedigree
+
+Heading:
+100+ Years Combined Management Experience
+
+Body Copy:
+Target Cranes brings together more than a century of collective leadership across short- and long-term mobile crane rental, heavy rigging, engineered lifting, and specialised transport.
+
+Our senior management and project supervisors have guided lifting contracts of every scale. We support commercial, industrial, civil, infrastructure, marine, energy, manufacturing, and bespoke projects across the African continent.
+
+This depth of practical knowledge ensures that before wheels roll or outriggers extend, your lift has been evaluated by professionals who understand site realities.
+
+Feature Cards:
+1. 35+ Years in Business
+   Established company reputation delivering lifts for major national contractors.
+
+2. Certified Personnel
+   Accredited crane operators, master riggers, and dedicated on-site lift supervisors.

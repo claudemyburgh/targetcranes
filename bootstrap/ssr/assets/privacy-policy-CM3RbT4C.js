@@ -152,7 +152,7 @@ function PrivacyPolicy() {
 						}),
 						/* @__PURE__ */ jsx("p", {
 							className: "text-muted-foreground leading-relaxed text-sm md:text-base",
-							children: "If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue."
+							children: "If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognise and approve any follow-up comments automatically instead of holding them in a moderation queue."
 						}),
 						/* @__PURE__ */ jsx("p", {
 							className: "text-muted-foreground leading-relaxed text-sm md:text-base",
@@ -193,7 +193,7 @@ function PrivacyPolicy() {
 							className: "flex items-center gap-3 text-primary",
 							children: [/* @__PURE__ */ jsx(Mail, { className: "w-6 h-6 shrink-0" }), /* @__PURE__ */ jsx("h2", {
 								className: "text-xl font-bold font-heading uppercase text-foreground",
-								children: "Contact & POPIA Inquiries"
+								children: "Contact & POPIA Enquiries"
 							})]
 						}),
 						/* @__PURE__ */ jsx("p", {

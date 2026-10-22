@@ -1,0 +1,137 @@
+================================================================================
+PAGE: PRIVACY POLICY (resources/js/pages/privacy-policy.tsx)
+================================================================================
+
+SEO Metadata:
+- Title: Privacy Policy
+- Description: Target Cranes Privacy Policy. Learn how we handle, process, and protect your personal information in compliance with South African privacy standards (POPIA).
+
+
+--------------------------------------------------------------------------------
+SECTION 1: PAGE HEADER
+--------------------------------------------------------------------------------
+Section Label:
+Legal & Privacy
+
+Heading:
+Privacy Policy
+
+Intro Copy:
+Target Cranes (Pty) Ltd (“Target Cranes”, “we”, “us”, or “our”) is committed to protecting your privacy and ensuring your personal data is handled in a safe, transparent, and responsible manner in accordance with the Protection of Personal Information Act (POPIA) of South Africa.
+
+
+--------------------------------------------------------------------------------
+SECTION 2: WHO WE ARE
+--------------------------------------------------------------------------------
+Heading:
+Who We Are
+
+Body Copy:
+Our website address is: targetcranes.co.za.
+
+Target Cranes is a specialised mobile crane hire and managed lifting service provider based at Fabriek St, Bellville South, Cape Town, 7530, South Africa.
+
+
+--------------------------------------------------------------------------------
+SECTION 3: COMMENTS
+--------------------------------------------------------------------------------
+Heading:
+Comments
+
+Body Copy:
+When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor’s IP address and browser user agent string to help spam detection.
+
+
+--------------------------------------------------------------------------------
+SECTION 4: MEDIA
+--------------------------------------------------------------------------------
+Heading:
+Media
+
+Body Copy:
+If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.
+
+
+--------------------------------------------------------------------------------
+SECTION 5: COOKIES
+--------------------------------------------------------------------------------
+Heading:
+Cookies
+
+Body Copy:
+If you leave a comment on our site you may opt in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.
+
+If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.
+
+When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select “Remember Me”, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.
+
+If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.
+
+
+--------------------------------------------------------------------------------
+SECTION 6: EMBEDDED CONTENT FROM OTHER WEBSITES
+--------------------------------------------------------------------------------
+Heading:
+Embedded Content From Other Websites
+
+Body Copy:
+Articles and media on this site may include embedded content (e.g. videos, images, articles, interactive maps, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.
+
+These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+
+
+--------------------------------------------------------------------------------
+SECTION 7: WHO WE SHARE YOUR DATA WITH
+--------------------------------------------------------------------------------
+Heading:
+Who We Share Your Data With
+
+Body Copy:
+If you request a password reset, your IP address will be included in the reset email. We do not sell, rent, or lease customer data to third-party marketing companies. Data submitted via quotation and contact forms is solely used to facilitate crane hire services, lift assessments, and direct business communications.
+
+
+--------------------------------------------------------------------------------
+SECTION 8: HOW LONG WE RETAIN YOUR DATA
+--------------------------------------------------------------------------------
+Heading:
+How Long We Retain Your Data
+
+Body Copy:
+If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognise and approve any follow-up comments automatically instead of holding them in a moderation queue.
+
+For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.
+
+
+--------------------------------------------------------------------------------
+SECTION 9: WHAT RIGHTS YOU HAVE OVER YOUR DATA
+--------------------------------------------------------------------------------
+Heading:
+What Rights You Have Over Your Data
+
+Body Copy:
+If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, regulatory, or security purposes.
+
+
+--------------------------------------------------------------------------------
+SECTION 10: WHERE YOUR DATA IS SENT
+--------------------------------------------------------------------------------
+Heading:
+Where Your Data Is Sent
+
+Body Copy:
+Visitor comments and form enquiries may be checked through an automated spam detection service.
+
+
+--------------------------------------------------------------------------------
+SECTION 11: CONTACT & POPIA ENQUIRIES
+--------------------------------------------------------------------------------
+Heading:
+Contact & POPIA Enquiries
+
+Body Copy:
+If you have questions regarding this Privacy Policy, your personal data, or wish to exercise your rights under POPIA, please reach out directly:
+
+Contact Details:
+- Email: enquiries@targetcranes.co.za
+- Phone: 063 673 7500
+- Address: Fabriek St, Bellville South, Cape Town, 7530, South Africa

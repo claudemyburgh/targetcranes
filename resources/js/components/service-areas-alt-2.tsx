@@ -48,7 +48,7 @@ function ServiceAreasAlt2() {
                         </h2>
                         <p className="text-lg text-muted-foreground mb-12">
                             We provide specialised lifting services across a variety of sectors. 
-                            <strong className="text-foreground"> Note that we are not limited to these services</strong>—our versatile fleet and experienced team are equipped to handle unique requirements in almost any industry.
+                            <strong className="text-foreground"> Note that we are not limited to these services.</strong> Our versatile fleet and experienced team are equipped to handle unique requirements in almost any industry.
                         </p>
                         
                         <div className="flex flex-col gap-2">

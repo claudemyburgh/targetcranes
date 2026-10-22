@@ -75,9 +75,9 @@ function ContactUs() {
                             </SwipeTitle>
                         </h2>
                         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mt-4">
-                            Have an upcoming project, need specialised lifting capacities, or require 24/7 emergency
-                            support?
-                            Reach out to our team directly or fill out the form below.
+                            Require short- or long-term mobile crane rental, specialised lifting capacities across any
+                            industry, or 24/7 emergency support? Reach out to our team directly or fill out the form
+                            below.
                         </p>
                     </div>
 
@@ -136,7 +136,7 @@ function ContactUs() {
                                         <div>
                                             <span
                                                 className="text-xs font-semibold uppercase tracking-wider text-muted-foreground block">
-                                                Email Inquiries
+                                                Email Enquiries
                                             </span>
                                             <span
                                                 className="text-lg font-bold text-foreground group-hover:text-primary transition-colors break-all">
@@ -185,7 +185,7 @@ function ContactUs() {
                                                 24/7 Availability
                                             </p>
                                             <p className="text-sm text-muted-foreground">
-                                                Rapid mobilization nationwide
+                                                Rapid mobilisation nationwide
                                             </p>
                                         </div>
                                     </div>

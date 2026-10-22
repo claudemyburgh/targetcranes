@@ -140,7 +140,7 @@ function TermsOfService() {
 						}),
 						/* @__PURE__ */ jsx("p", {
 							className: "text-muted-foreground leading-relaxed text-sm md:text-base",
-							children: "Notice of cancellation must be communicated in writing within the timeframes stipulated in the project booking agreement to avoid cancellation and mobilization fees."
+							children: "Notice of cancellation must be communicated in writing within the timeframes stipulated in the project booking agreement to avoid cancellation and mobilisation fees."
 						})
 					]
 				}),
@@ -182,7 +182,7 @@ function TermsOfService() {
 						}),
 						/* @__PURE__ */ jsx("p", {
 							className: "text-muted-foreground leading-relaxed text-sm md:text-base",
-							children: "For inquiries regarding our terms, machine hiring agreements, or site safety plans:"
+							children: "For enquiries regarding our terms, machine hiring agreements, or site safety plans:"
 						}),
 						/* @__PURE__ */ jsxs("div", {
 							className: "text-sm font-medium space-y-1 text-foreground",

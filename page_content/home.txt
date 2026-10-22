@@ -1,0 +1,167 @@
+================================================================================
+PAGE: HOME (resources/js/pages/home.tsx)
+================================================================================
+
+--------------------------------------------------------------------------------
+SECTION 1: HERO (resources/js/components/hero.tsx)
+--------------------------------------------------------------------------------
+Subheading:
+THE TRUSTED NAME BEHIND
+
+Heading:
+THE NATIONS HEAVIEST LIFTS
+
+
+--------------------------------------------------------------------------------
+SECTION 2: END-TO-END LIFTING PARTNER (resources/js/components/home-hero-split.tsx)
+--------------------------------------------------------------------------------
+Section Label:
+End-to-End Lifting Partner
+
+Heading:
+Short- & Long-Term Crane Hire Across Every Sector
+
+Description:
+From quick short-term crane rentals to long-term project deployments, Target Cranes delivers turnkey lifting solutions tailored to your site, load, and schedule across any industry.
+
+Pillars:
+1. Short- & Long-Term Hire
+   Flexible mobile and all-terrain crane rental available for once-off lifts, short-term jobs, or long-term projects.
+
+2. Engineered Lift Plans
+   Thorough site surveys, load calculations, and rigging studies completed before the lift begins.
+
+3. All-Sector Capability
+   Certified operators, skilled riggers, and dedicated supervision supporting any industry or site environment.
+
+4. Uncompromising Safety
+   Strict compliance and zero-shortcut execution across routine lifts and complex heavy projects.
+
+
+--------------------------------------------------------------------------------
+SECTION 3: WHO WE ARE / OUR APPROACH (resources/js/components/who-we-are.tsx)
+--------------------------------------------------------------------------------
+Section Label:
+Our Approach
+
+Heading:
+Every Lift Starts With Understanding The Job
+
+Body Copy:
+No two lifting projects present the same conditions. The load, available space, site access and work schedule all shape the approach, whether you require a short-term crane rental or a long-term hire package.
+
+At Target Cranes, we support clients across every industry and take time to understand those details before work begins, so the lifting plan fits the job in front of us.
+
+
+--------------------------------------------------------------------------------
+SECTION 4: STATS / WHY TARGET CRANES (resources/js/components/stats.tsx)
+--------------------------------------------------------------------------------
+Section Label:
+Why Target Cranes
+
+Headline Statements:
+Measured movements.
+Clear communications.
+This is Target.
+
+Stats:
+- 35+ | Years in Business
+- 1000+ | Successful Projects
+- 24/7 | Availability
+
+
+--------------------------------------------------------------------------------
+SECTION 5: CRANE HIRE & SERVICES (resources/js/components/service-areas-alt-3.tsx)
+--------------------------------------------------------------------------------
+Section Label:
+Crane Hire & Services
+
+Heading:
+Flexible Crane Rental
+
+Intro Copy:
+We provide dependable short-term and long-term crane hire tailored to your schedule and project scope.
+
+We are not limited to any specific industry. Our versatile fleet and experienced team are equipped to handle everyday and specialised lifting requirements across any sector.
+
+Service Cards:
+1. Short- & Long-Term Crane Hire
+   We offer flexible mobile crane rental options structured around your project timeline and operational demands.
+   Whether you need a crane for a single-day lift, a short-term maintenance shutdown, or a long-term contract deployment, our fleet is available for reliable hire when and where you need it.
+
+2. Managed Lifting & Rigging
+   Beyond equipment rental, our team provides complete, end-to-end managed lifting solutions that keep your operations running safely and on schedule.
+   From site assessments and engineered lift plans to certified operators, master riggers, and on-site supervision, we handle both everyday lifts and complex multi-crane operations.
+
+3. Heavy Plant & Equipment Positioning
+   We handle the safe lifting, placement, and relocation of heavy machinery, structural components, containers, HVAC units, generators, and oversized loads.
+   Supported by certified rigging tackle and a versatile fleet, we configure the right crane and rigging setup for confined urban sites and large open workzones alike.
+
+4. Solutions For Every Industry
+   Our operations are never limited to a single sector. We support clients across commercial, industrial, civil, infrastructure, marine, energy, manufacturing, and general contracting environments.
+   Whatever your industry or lifting requirement, our adaptable fleet and experienced crew are equipped to deliver safe, dependable crane hire tailored to the job at hand.
+
+
+--------------------------------------------------------------------------------
+SECTION 6: SCROLL DIVIDER (resources/js/components/scroll-divider.tsx)
+--------------------------------------------------------------------------------
+Row 1:
+- Mobile & All-Terrain Crane Rental
+- Short- & Long-Term Crane Hire
+- Engineered Lift Planning
+- Certified Safety Compliance
+
+Row 2:
+- Turnkey Managed Lifting
+- Heavy Rigging & Site Surveys
+- Serving All Industries & Sectors
+- 24/7 Nationwide Mobilisation
+
+
+--------------------------------------------------------------------------------
+SECTION 7: PLANNING & EXECUTION (resources/js/components/project-success-4.tsx)
+--------------------------------------------------------------------------------
+Section Label:
+Planning & Execution
+
+Heading:
+Preparation Makes The Difference
+
+Body Copy:
+A crane is only one part of a successful operation. Behind each lift is a process of assessing the site, selecting suitable equipment and coordinating the people involved. For more complex work, that preparation can include detailed lift plans, method studies and crane configurations.
+
+Our aim is to give clients a clear path from the first discussion to the completed lift one built on practical planning and communication throughout the job.
+
+Subheading:
+A Partner On Site
+
+Subheading Copy:
+Lifting work often happens alongside other teams and deadlines. We work with clients and site teams to understand the wider project, communicate the plan and respond to the conditions on the ground.
+
+Whether the requirement is straightforward or technically demanding, we bring the same attention to preparation and execution.
+
+
+--------------------------------------------------------------------------------
+SECTION 8: TARGET CRANES IN SOUTH AFRICA (resources/js/components/nationwide-service-2.tsx)
+--------------------------------------------------------------------------------
+Section Label:
+Target Cranes in South Africa
+
+Heading:
+Target Cranes In South Africa
+
+Intro Copy:
+These stats help showcase Target Cranes’ experience, capabilities, and commitment to safety and customer satisfaction, making a strong impression on potential clients.
+
+Stats Grid:
+1. 35+ | Years in Business
+   Providing flexible short- and long-term mobile crane rental and heavy rigging services across all industries.
+
+2. 100+ | Years Management Experience
+   Collective senior leadership guiding complex lifting contracts and site operations nationwide.
+
+3. 1000+ | Successful Projects
+   Completed with precision and safety, ranging from routine commercial lifts to major infrastructure projects.
+
+4. 24/7 | Operational Availability
+   Ready to mobilise and respond to your scheduled or emergency lifting requirements anytime, day or night.

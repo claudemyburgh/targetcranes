@@ -91,8 +91,8 @@
       "_createLucideIcon-CY-5pxC7.js"
     ]
   },
-  "_site-stats-pWSRhNQH.js": {
-    "file": "assets/site-stats-pWSRhNQH.js",
+  "_site-stats-BO7mKN5G.js": {
+    "file": "assets/site-stats-BO7mKN5G.js",
     "name": "site-stats",
     "imports": [
       "_createLucideIcon-CY-5pxC7.js"
@@ -263,10 +263,6 @@
     "file": "assets/hero-4k-16x9-CHbFFFcj.webp",
     "src": "resources/images/hero-4k-16x9.webp"
   },
-  "resources/images/panorama.webp": {
-    "file": "assets/panorama-BH1CJntt.webp",
-    "src": "resources/images/panorama.webp"
-  },
   "resources/images/safety.webp": {
     "file": "assets/safety-DiS-cmeU.webp",
     "src": "resources/images/safety.webp"
@@ -284,7 +280,7 @@
     "src": "resources/images/welcome.webp"
   },
   "resources/js/app.tsx": {
-    "file": "assets/app-Bs_hB4LI.js",
+    "file": "assets/app-DNeiRq0P.js",
     "name": "app",
     "src": "resources/js/app.tsx",
     "isEntry": true,
@@ -326,14 +322,15 @@
     ]
   },
   "resources/js/pages/about-us.tsx": {
-    "file": "assets/about-us-A3P-a71S.js",
+    "file": "assets/about-us-YEH3oMQJ.js",
     "name": "about-us",
     "src": "resources/js/pages/about-us.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_createLucideIcon-CY-5pxC7.js",
-      "_site-stats-pWSRhNQH.js",
       "_scroll-divider-IXCoX3B4.js",
+      "_site-stats-BO7mKN5G.js",
+      "_clock-IR9ctGpX.js",
       "_compass-CL3Xsd6Z.js",
       "_app-layout-IAgdV6hi.js",
       "_truck-A4odAN1a.js",
@@ -347,7 +344,7 @@
     ]
   },
   "resources/js/pages/contact-us.tsx": {
-    "file": "assets/contact-us-DeRErpsp.js",
+    "file": "assets/contact-us-BDkucbJp.js",
     "name": "contact-us",
     "src": "resources/js/pages/contact-us.tsx",
     "isDynamicEntry": true,
@@ -362,15 +359,15 @@
     ]
   },
   "resources/js/pages/home.tsx": {
-    "file": "assets/home-DecDkqfB.js",
+    "file": "assets/home-D6gpwyym.js",
     "name": "home",
     "src": "resources/js/pages/home.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-BWaJ3C7D.js",
       "_createLucideIcon-CY-5pxC7.js",
-      "_site-stats-pWSRhNQH.js",
       "_scroll-divider-IXCoX3B4.js",
+      "_site-stats-BO7mKN5G.js",
       "_clock-IR9ctGpX.js",
       "_compass-CL3Xsd6Z.js",
       "_app-layout-IAgdV6hi.js",
@@ -380,7 +377,6 @@
     ],
     "assets": [
       "assets/hero-4k-16x9-CHbFFFcj.webp",
-      "assets/panorama-BH1CJntt.webp",
       "assets/welcome-CKlmCNJ6.webp",
       "assets/abnormal-crane-cutout-ajq8LULo.webp",
       "assets/tall-CSHx5bdJ.webp",
@@ -391,7 +387,7 @@
     ]
   },
   "resources/js/pages/privacy-policy.tsx": {
-    "file": "assets/privacy-policy-C6E7_LWA.js",
+    "file": "assets/privacy-policy-Ca7-E93y.js",
     "name": "privacy-policy",
     "src": "resources/js/pages/privacy-policy.tsx",
     "isDynamicEntry": true,
@@ -403,7 +399,7 @@
     ]
   },
   "resources/js/pages/safety.tsx": {
-    "file": "assets/safety-C3VCmZYc.js",
+    "file": "assets/safety-Cc4LoMFe.js",
     "name": "safety",
     "src": "resources/js/pages/safety.tsx",
     "isDynamicEntry": true,
@@ -426,7 +422,7 @@
     ]
   },
   "resources/js/pages/terms-of-service.tsx": {
-    "file": "assets/terms-of-service-Dhq39eJg.js",
+    "file": "assets/terms-of-service-D5JMfHU0.js",
     "name": "terms-of-service",
     "src": "resources/js/pages/terms-of-service.tsx",
     "isDynamicEntry": true,

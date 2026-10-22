@@ -38,15 +38,15 @@ export function NationwideService() {
                             </SwipeTitle>
                         </h2>
                         <p className="text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-                            These stats can help showcase Target Cranes&rsquo; experience, capabilities, and commitment
-                            to safety and customer satisfaction, making a strong impression on potential clients.
+                            From our main depot in Bellville South, Cape Town, we mobilise mobile cranes and rigging
+                            crews to project sites across the Western Cape and throughout South Africa.
                         </p>
 
                         <div className="grid gap-6 mt-8">
                             <div className="flex flex-col gap-1">
                                 <span className="text-3xl font-black font-heading tracking-tight text-primary">{siteStats.yearsInBusiness} Years in Business</span>
-                                <p className="text-muted-foreground">Providing exceptional crane services across
-                                    multiple industries.</p>
+                                <p className="text-muted-foreground">Providing short- and long-term crane rental services across
+                                    all industries.</p>
                             </div>
                             <div className="flex flex-col gap-1">
                                 <span className="text-3xl font-black font-heading tracking-tight text-primary">{siteStats.successfulProjects} Successful Projects</span>

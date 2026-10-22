@@ -131,7 +131,7 @@ var safetyItems = [
 		title: "TETA-Accredited Operators & Qualified Master Riggers",
 		content: /* @__PURE__ */ jsxs("div", {
 			className: "space-y-3",
-			children: [/* @__PURE__ */ jsx("p", { children: "Precision machinery requires verified expertise in the cab and on the ground. Our crane operators, master riggers, and lift directors hold full TETA accreditations and valid Annexure 3 medical fitness certificates." }), /* @__PURE__ */ jsx("p", { children: "Ongoing competency assessments and defensive operational training ensure dependable execution across maritime ports, mining yards, power generation plants, and congested civil construction sites." })]
+			children: [/* @__PURE__ */ jsx("p", { children: "Precision machinery requires verified expertise in the cab and on the ground. Our crane operators, master riggers, and lift directors hold full TETA accreditations and valid Annexure 3 medical fitness certificates." }), /* @__PURE__ */ jsx("p", { children: "Ongoing competency assessments and defensive operational training ensure dependable execution across every industry and site environment, whether on a short-term crane rental or a long-term project deployment." })]
 		})
 	},
 	{
@@ -140,7 +140,7 @@ var safetyItems = [
 		title: "Project-Specific RAMS & Daily Toolbox Briefings",
 		content: /* @__PURE__ */ jsxs("div", {
 			className: "space-y-3",
-			children: [/* @__PURE__ */ jsx("p", { children: "Prior to mobilization, we issue tailored Risk Assessments and Method Statements (RAMS) structured around your project’s exact site constraints and operational envelope." }), /* @__PURE__ */ jsx("p", { children: "Daily on-site toolbox sessions establish radio frequencies, banksman hand signals, blind-spot awareness, and barricaded exclusion zones before outriggers are deployed." })]
+			children: [/* @__PURE__ */ jsx("p", { children: "Prior to mobilisation, we issue tailored Risk Assessments and Method Statements (RAMS) structured around your project’s exact site constraints and operational envelope." }), /* @__PURE__ */ jsx("p", { children: "Daily on-site toolbox sessions establish radio frequencies, banksman hand signals, blind-spot awareness, and barricaded exclusion zones before outriggers are deployed." })]
 		})
 	},
 	{
@@ -323,7 +323,7 @@ function HomeSafetyPracticesSection() {
 							}) }),
 							/* @__PURE__ */ jsx("p", {
 								className: "text-base sm:text-lg text-muted-foreground leading-relaxed",
-								children: "Every mobile crane deployment follows six non-negotiable operational safeguards—from initial ground bearing verification and statutory load testing to on-site exclusion zones and unconditional Stop Work Authority."
+								children: "Every mobile crane deployment follows six non-negotiable operational safeguards, from initial ground bearing verification and statutory load testing to on-site exclusion zones and unconditional Stop Work Authority."
 							})
 						]
 					}), /* @__PURE__ */ jsx("div", {
@@ -522,7 +522,7 @@ function Safety() {
 							}),
 							/* @__PURE__ */ jsx("p", {
 								className: "text-base sm:text-lg text-muted-foreground leading-relaxed",
-								children: "Our health and safety management system is designed to integrate seamlessly with the stringent contractor safety policies of major civil, maritime, mining, and industrial project leaders in South Africa."
+								children: "Our health and safety management system is designed to integrate seamlessly with principal contractor safety policies across every industry and sector in South Africa. We support both short-term crane rentals and long-term project deployments."
 							}),
 							/* @__PURE__ */ jsxs("div", {
 								className: "space-y-4 pt-2",
@@ -579,7 +579,7 @@ function Safety() {
 					}),
 					/* @__PURE__ */ jsx("p", {
 						className: "text-base sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed",
-						children: "We provide comprehensive, audit-ready safety documentation including operator licenses, medicals, load test certificates, and lift plans tailored to your site requirements."
+						children: "We provide comprehensive, audit-ready safety documentation including operator licences, medicals, load test certificates, and lift plans tailored to your site requirements."
 					}),
 					/* @__PURE__ */ jsxs("div", {
 						className: "flex flex-col sm:flex-row items-center justify-center gap-4 pt-4",

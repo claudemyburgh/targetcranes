@@ -6,8 +6,8 @@ import {ClipboardCheck, HardHat, ShieldCheck, Truck} from "lucide-react";
 const pillars = [
     {
         icon: Truck,
-        title: "Right-Sized Fleet",
-        description: "Modern mobile and all-terrain cranes matched precisely to your load, reach, and site access."
+        title: "Short- & Long-Term Hire",
+        description: "Flexible mobile and all-terrain crane rental available for once-off lifts, short-term jobs, or long-term projects."
     },
     {
         icon: ClipboardCheck,
@@ -16,8 +16,8 @@ const pillars = [
     },
     {
         icon: HardHat,
-        title: "Managed Operations",
-        description: "Certified operators, skilled riggers, and dedicated supervision keeping your schedule on track."
+        title: "All-Sector Capability",
+        description: "Certified operators, skilled riggers, and dedicated supervision supporting any industry or site environment."
     },
     {
         icon: ShieldCheck,
@@ -44,13 +44,13 @@ function HomeHeroSplit() {
                             <h2>
                                 <SwipeTitle
                                     className="text-2xl sm:text-3xl md:text-4xl font-black font-heading tracking-tighter uppercase text-white text-balance">
-                                    <SwipeLine>Precision Equipment &amp; Engineered Lift Planning</SwipeLine>
+                                    <SwipeLine>Short- &amp; Long-Term Crane Hire Across Every Sector</SwipeLine>
                                 </SwipeTitle>
                             </h2>
                         </div>
                         <p className="max-w-xl text-sm sm:text-base leading-relaxed text-white/85">
-                            From routine commercial lifts to complex multi-crane projects, Target Cranes delivers
-                            turnkey lifting solutions tailored to your site, load, and schedule.
+                            From quick short-term crane rentals to long-term project deployments, Target Cranes delivers
+                            turnkey lifting solutions tailored to your site, load, and schedule across any industry.
                         </p>
                     </div>
 

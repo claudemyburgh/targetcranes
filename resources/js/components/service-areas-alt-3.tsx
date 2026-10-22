@@ -1,46 +1,42 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import SectionLabel from "@/components/ui/misc/section-label.tsx";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title.tsx";
-import {Anchor, HardHat, Pickaxe, Wind} from "lucide-react";
+import {Building2, CalendarClock, Compass, HardHat} from "lucide-react";
 // @ts-ignore
 import craneCutoutImg from "@/../images/abnormal-crane-cutout.webp";
 
 const services = [
     {
-        title: "Maritime",
+        title: "Short- & Long-Term Crane Hire",
         paragraphs: [
-            "Our experience in the maritime industry spans many shipyard, port, and offshore projects.",
-            "Whether it’s vessel launches, dry-dock work, or harbour operations, we take pride in playing a part in projects that support the ongoing growth of the maritime sector.",
-
+            "We offer flexible mobile crane rental options structured around your project timeline and operational demands.",
+            "Whether you need a crane for a single-day lift, a short-term maintenance shutdown, or a long-term contract deployment, our fleet is available for reliable hire when and where you need it."
         ],
-        icon: Anchor
+        icon: CalendarClock
     },
     {
-        title: "CONSTRUCTION & CIVIL ENGINEERING",
+        title: "Managed Lifting & Rigging",
         paragraphs: [
-            "With years of experience in the construction sector, we’ve contributed to many of the nation’s most notable infrastructure and building projects.",
-            "From large-scale civil works to landmark high-rise developments, our team provides complete crane hire solutions that keep progress on track.",
-            "Supported by a versatile fleet and the capability to handle both everyday and specialised lifting requirements, we remain a trusted partner to the construction industry."
+            "Beyond equipment rental, our team provides complete, end-to-end managed lifting solutions that keep your operations running safely and on schedule.",
+            "From site assessments and engineered lift plans to certified operators, master riggers, and on-site supervision, we handle both everyday lifts and complex multi-crane operations."
         ],
         icon: HardHat
     },
     {
-        title: "Renewable Energy",
+        title: "Heavy Plant & Equipment Positioning",
         paragraphs: [
-            "We’re proud to be part of renewable energy projects that are transforming Africa’s power landscape. ",
-            "From wind and solar installations to hydro developments, our crane hire services provide the strength and reliability needed for large-scale energy work. ",
-            "Supported by specialised equipment and a dedicated team, we continue to play a role in building a cleaner, more sustainable future.",
+            "We handle the safe lifting, placement, and relocation of heavy machinery, structural components, containers, HVAC units, generators, and oversized loads.",
+            "Supported by certified rigging tackle and a versatile fleet, we configure the right crane and rigging setup for confined urban sites and large open workzones alike."
         ],
-        icon: Wind
+        icon: Compass
     },
     {
-        title: "Mining",
+        title: "Solutions For Every Industry",
         paragraphs: [
-            "With extensive experience in the mining sector, we’ve supported operations that drive growth and development across the industry. ",
-            "From installing heavy plant infrastructure to relocating oversized machinery, our team provides dependable crane hire solutions designed for the unique demands of mining. ",
-            "Equipped with specialised gear and the capability to perform in the toughest conditions, we continue to deliver lifting services that keep projects moving and remain a reliable partner to mining operations across the region."
+            "Our operations are never limited to a single sector. We support clients across commercial, industrial, civil, infrastructure, marine, energy, manufacturing, and general contracting environments.",
+            "Whatever your industry or lifting requirement, our adaptable fleet and experienced crew are equipped to deliver safe, dependable crane hire tailored to the job at hand."
         ],
-        icon: Pickaxe
+        icon: Building2
     }
 ];
 
@@ -66,24 +62,21 @@ function ServiceAreasAlt3() {
 
                     {/* Left Sticky Column */}
                     <div className="lg:w-1/3 lg:sticky lg:top-32 flex flex-col">
-                        <SectionLabel className="mb-8">Industry</SectionLabel>
+                        <SectionLabel className="mb-8">Crane Hire &amp; Services</SectionLabel>
                         <h2>
                             <SwipeTitle
                                 className="text-4xl md:text-6xl font-black font-heading tracking-tight uppercase mb-6 text-foreground drop-shadow-sm">
-                                <SwipeLine>Service</SwipeLine>
+                                <SwipeLine>Flexible</SwipeLine>
                                 <SwipeLine>
                                     <span
-                                        className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">Areas</span>
+                                        className="bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent">Crane Rental</span>
                                 </SwipeLine>
                             </SwipeTitle>
                         </h2>
                         <p className="text-lg text-muted-foreground leading-relaxed">
-                            We provide specialised lifting services across a variety of sectors.
+                            We provide dependable <strong className="text-foreground">short-term and long-term crane hire</strong> tailored to your schedule and project scope.
                             <br/><br/>
-                            <strong className="text-foreground"> Note that we are not limited to these
-                                services</strong> our
-                            versatile fleet and experienced team are equipped to handle unique lifting requirements in
-                            almost any industry.
+                            <strong className="text-foreground">We are not limited to any specific industry.</strong> Our versatile fleet and experienced team are equipped to handle everyday and specialised lifting requirements across any sector.
                         </p>
                     </div>
 

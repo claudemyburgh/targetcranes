@@ -109,7 +109,7 @@ export default function TermsOfService() {
                                 When a crane has dispatched to site and operations are delayed due to client site readiness, permit delays, or inclement weather beyond our control, standard hourly standby rates will apply as per the confirmed quotation.
                             </p>
                             <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                                Notice of cancellation must be communicated in writing within the timeframes stipulated in the project booking agreement to avoid cancellation and mobilization fees.
+                                Notice of cancellation must be communicated in writing within the timeframes stipulated in the project booking agreement to avoid cancellation and mobilisation fees.
                             </p>
                         </div>
 
@@ -142,7 +142,7 @@ export default function TermsOfService() {
                                 <h2 className="text-xl font-bold font-heading uppercase text-foreground">Enquiries &amp; Contract Information</h2>
                             </div>
                             <p className="text-muted-foreground leading-relaxed text-sm md:text-base">
-                                For inquiries regarding our terms, machine hiring agreements, or site safety plans:
+                                For enquiries regarding our terms, machine hiring agreements, or site safety plans:
                             </p>
                             <div className="text-sm font-medium space-y-1 text-foreground">
                                 <p>Company: Target Cranes (Pty) Ltd</p>

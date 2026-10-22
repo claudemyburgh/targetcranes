@@ -5,7 +5,7 @@ import { t as siteStats } from "./site-stats-B-HyFZiV.js";
 import { t as ScrollDivider } from "./scroll-divider-DKzPqdoI.js";
 import { useEffect, useRef, useState } from "react";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
-import { Anchor, Award, ClipboardCheck, Clock, Compass, HardHat, Pickaxe, ShieldCheck, Truck, Wind } from "lucide-react";
+import { Award, Building2, CalendarClock, ClipboardCheck, Clock, Compass, HardHat, ShieldCheck, Truck } from "lucide-react";
 // resources/images/hero-4k-16x9.webp
 var hero_4k_16x9_default = "/build/assets/hero-4k-16x9-CHbFFFcj.webp";
 // resources/js/components/LightRays.tsx
@@ -626,92 +626,6 @@ function Hero() {
 		]
 	});
 }
-// resources/images/panorama.webp
-var panorama_default = "/build/assets/panorama-BH1CJntt.webp";
-// resources/js/components/stats.tsx
-var statsData = [
-	{
-		icon: Award,
-		value: siteStats.yearsInBusiness,
-		label: "Years in Business"
-	},
-	{
-		icon: HardHat,
-		value: siteStats.successfulProjects,
-		label: "Successful Projects"
-	},
-	{
-		icon: Clock,
-		value: siteStats.availability,
-		label: "Availability"
-	}
-];
-function Stats() {
-	return /* @__PURE__ */ jsxs("section", {
-		className: "relative bg-foreground dark:bg-background text-white pb-6 md:pb-12 pt-16 md:pt-24 border-y border-primary overflow-hidden",
-		children: [/* @__PURE__ */ jsx("div", {
-			className: "absolute inset-0 z-0 pointer-events-none ",
-			style: {
-				backgroundImage: `url(${panorama_default})`,
-				backgroundSize: "cover",
-				backgroundPosition: "center",
-				maskImage: "linear-gradient(to top, transparent 0%, black 75%)",
-				WebkitMaskImage: "linear-gradient(to top, transparent 0%, black 75%)"
-			}
-		}), /* @__PURE__ */ jsx(Wrapper, {
-			className: "relative z-10",
-			children: /* @__PURE__ */ jsxs("div", {
-				className: "flex flex-col lg:flex-row gap-12 lg:gap-8 items-center",
-				children: [/* @__PURE__ */ jsx("div", {
-					className: "w-full lg:w-2/5 flex",
-					children: /* @__PURE__ */ jsxs("div", {
-						className: "flex flex-col space-y-2 text-left font-heading uppercase font-black text-3xl lg:text-4xl tracking-tighter leading-tight",
-						children: [
-							/* @__PURE__ */ jsx(SectionLabel, {
-								className: `text-white`,
-								children: "Why Target Cranes"
-							}),
-							/* @__PURE__ */ jsx("span", {
-								className: "text-white",
-								children: "Measured movements."
-							}),
-							/* @__PURE__ */ jsx("span", {
-								className: "text-white",
-								children: "Clear communications."
-							}),
-							/* @__PURE__ */ jsx("span", {
-								className: `text-primary`,
-								children: "This is Target."
-							})
-						]
-					})
-				}), /* @__PURE__ */ jsx("div", {
-					className: "w-full lg:w-3/5",
-					children: /* @__PURE__ */ jsx("div", {
-						className: "grid grid-cols-1 sm:grid-cols-3 divide-y sm:divide-y-0 sm:divide-x divide-white/20 text-left w-full",
-						children: statsData.map((stat, index) => {
-							const Icon = stat.icon;
-							return /* @__PURE__ */ jsxs("div", {
-								className: "flex flex-col items-center justify-center space-y-2 py-8 sm:py-4 px-4 text-center",
-								children: [
-									/* @__PURE__ */ jsx(Icon, { className: "w-10 h-10 text-white mb-1" }),
-									/* @__PURE__ */ jsx("span", {
-										className: "text-4xl lg:text-5xl font-black font-heading tracking-tighter drop-shadow-sm whitespace-nowrap",
-										children: stat.value
-									}),
-									/* @__PURE__ */ jsx("span", {
-										className: "text-sm font-bold uppercase tracking-wider text-balance opacity-90",
-										children: stat.label
-									})
-								]
-							}, index);
-						})
-					})
-				})]
-			})
-		})]
-	});
-}
 // resources/images/welcome.webp
 var welcome_default = "/build/assets/welcome-CKlmCNJ6.webp";
 // resources/js/components/who-we-are.tsx
@@ -738,7 +652,7 @@ function WhoWeAre() {
 						}) }),
 						/* @__PURE__ */ jsxs("div", {
 							className: "space-y-4 text-muted-foreground text-lg leading-relaxed max-w-2xl",
-							children: [/* @__PURE__ */ jsx("p", { children: "No two lifting projects present the same conditions. The load, available space, site access and work schedule all shape the approach." }), /* @__PURE__ */ jsx("p", { children: "At Target Cranes, we take time to understand those details before work begins, so the lifting plan fits the job in front of us." })]
+							children: [/* @__PURE__ */ jsx("p", { children: "No two lifting projects present the same conditions. The load, available space, site access and work schedule all shape the approach, whether you require a short-term crane rental or a long-term hire package." }), /* @__PURE__ */ jsx("p", { children: "At Target Cranes, we support clients across every industry and take time to understand those details before work begins, so the lifting plan fits the job in front of us." })]
 						})
 					]
 				}), /* @__PURE__ */ jsx("div", {
@@ -758,36 +672,24 @@ var abnormal_crane_cutout_default = "/build/assets/abnormal-crane-cutout-ajq8LUL
 // resources/js/components/service-areas-alt-3.tsx
 var services = [
 	{
-		title: "Maritime",
-		paragraphs: ["Our experience in the maritime industry spans many shipyard, port, and offshore projects.", "Whether it’s vessel launches, dry-dock work, or harbour operations, we take pride in playing a part in projects that support the ongoing growth of the maritime sector."],
-		icon: Anchor
+		title: "Short- & Long-Term Crane Hire",
+		paragraphs: ["We offer flexible mobile crane rental options structured around your project timeline and operational demands.", "Whether you need a crane for a single-day lift, a short-term maintenance shutdown, or a long-term contract deployment, our fleet is available for reliable hire when and where you need it."],
+		icon: CalendarClock
 	},
 	{
-		title: "CONSTRUCTION & CIVIL ENGINEERING",
-		paragraphs: [
-			"With years of experience in the construction sector, we’ve contributed to many of the nation’s most notable infrastructure and building projects.",
-			"From large-scale civil works to landmark high-rise developments, our team provides complete crane hire solutions that keep progress on track.",
-			"Supported by a versatile fleet and the capability to handle both everyday and specialised lifting requirements, we remain a trusted partner to the construction industry."
-		],
+		title: "Managed Lifting & Rigging",
+		paragraphs: ["Beyond equipment rental, our team provides complete, end-to-end managed lifting solutions that keep your operations running safely and on schedule.", "From site assessments and engineered lift plans to certified operators, master riggers, and on-site supervision, we handle both everyday lifts and complex multi-crane operations."],
 		icon: HardHat
 	},
 	{
-		title: "Renewable Energy",
-		paragraphs: [
-			"We’re proud to be part of renewable energy projects that are transforming Africa’s power landscape. ",
-			"From wind and solar installations to hydro developments, our crane hire services provide the strength and reliability needed for large-scale energy work. ",
-			"Supported by specialised equipment and a dedicated team, we continue to play a role in building a cleaner, more sustainable future."
-		],
-		icon: Wind
+		title: "Heavy Plant & Equipment Positioning",
+		paragraphs: ["We handle the safe lifting, placement, and relocation of heavy machinery, structural components, containers, HVAC units, generators, and oversized loads.", "Supported by certified rigging tackle and a versatile fleet, we configure the right crane and rigging setup for confined urban sites and large open workzones alike."],
+		icon: Compass
 	},
 	{
-		title: "Mining",
-		paragraphs: [
-			"With extensive experience in the mining sector, we’ve supported operations that drive growth and development across the industry. ",
-			"From installing heavy plant infrastructure to relocating oversized machinery, our team provides dependable crane hire solutions designed for the unique demands of mining. ",
-			"Equipped with specialised gear and the capability to perform in the toughest conditions, we continue to deliver lifting services that keep projects moving and remain a reliable partner to mining operations across the region."
-		],
-		icon: Pickaxe
+		title: "Solutions For Every Industry",
+		paragraphs: ["Our operations are never limited to a single sector. We support clients across commercial, industrial, civil, infrastructure, marine, energy, manufacturing, and general contracting environments.", "Whatever your industry or lifting requirement, our adaptable fleet and experienced crew are equipped to deliver safe, dependable crane hire tailored to the job at hand."],
+		icon: Building2
 	}
 ];
 function ServiceAreasAlt3() {
@@ -816,26 +718,31 @@ function ServiceAreasAlt3() {
 					children: [
 						/* @__PURE__ */ jsx(SectionLabel, {
 							className: "mb-8",
-							children: "Industry"
+							children: "Crane Hire & Services"
 						}),
 						/* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsxs(SwipeTitle, {
 							className: "text-4xl md:text-6xl font-black font-heading tracking-tight uppercase mb-6 text-foreground drop-shadow-sm",
-							children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Service" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
+							children: [/* @__PURE__ */ jsx(SwipeLine, { children: "Flexible" }), /* @__PURE__ */ jsx(SwipeLine, { children: /* @__PURE__ */ jsx("span", {
 								className: "bg-linear-to-r from-primary to-primary inline-block px-1 bg-clip-text text-transparent",
-								children: "Areas"
+								children: "Crane Rental"
 							}) })]
 						}) }),
 						/* @__PURE__ */ jsxs("p", {
 							className: "text-lg text-muted-foreground leading-relaxed",
 							children: [
-								"We provide specialised lifting services across a variety of sectors.",
+								"We provide dependable ",
+								/* @__PURE__ */ jsx("strong", {
+									className: "text-foreground",
+									children: "short-term and long-term crane hire"
+								}),
+								" tailored to your schedule and project scope.",
 								/* @__PURE__ */ jsx("br", {}),
 								/* @__PURE__ */ jsx("br", {}),
 								/* @__PURE__ */ jsx("strong", {
 									className: "text-foreground",
-									children: " Note that we are not limited to these services"
+									children: "We are not limited to any specific industry."
 								}),
-								" our versatile fleet and experienced team are equipped to handle unique lifting requirements in almost any industry."
+								" Our versatile fleet and experienced team are equipped to handle everyday and specialised lifting requirements across any sector."
 							]
 						})
 					]
@@ -970,7 +877,7 @@ var nationwideStats = [
 		icon: Award,
 		value: siteStats.yearsInBusiness,
 		label: "Years in Business",
-		description: "Providing exceptional mobile crane hire and heavy rigging services across multiple industries."
+		description: "Providing flexible short- and long-term mobile crane rental and heavy rigging services across all industries."
 	},
 	{
 		number: "02",
@@ -991,7 +898,7 @@ var nationwideStats = [
 		icon: Clock,
 		value: siteStats.availability,
 		label: "Operational Availability",
-		description: "Ready to mobilize and respond to your scheduled or emergency lifting requirements anytime, day or night."
+		description: "Ready to mobilise and respond to your scheduled or emergency lifting requirements anytime, day or night."
 	}
 ];
 function NationwideService2() {
@@ -1031,7 +938,7 @@ function NationwideService2() {
 						}) }),
 						/* @__PURE__ */ jsx("p", {
 							className: "text-base sm:text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl",
-							children: "These stats help showcase Target Cranes’ experience, capabilities, and commitment to safety and customer satisfaction, making a strong impression on potential clients."
+							children: "From our main depot in Bellville South, Cape Town, we mobilise mobile cranes and rigging crews to project sites across the Western Cape and throughout South Africa."
 						})
 					]
 				}), /* @__PURE__ */ jsx("div", {
@@ -1080,8 +987,8 @@ function NationwideService2() {
 var pillars = [
 	{
 		icon: Truck,
-		title: "Right-Sized Fleet",
-		description: "Modern mobile and all-terrain cranes matched precisely to your load, reach, and site access."
+		title: "Short- & Long-Term Hire",
+		description: "Flexible mobile and all-terrain crane rental available for once-off lifts, short-term jobs, or long-term projects."
 	},
 	{
 		icon: ClipboardCheck,
@@ -1090,8 +997,8 @@ var pillars = [
 	},
 	{
 		icon: HardHat,
-		title: "Managed Operations",
-		description: "Certified operators, skilled riggers, and dedicated supervision keeping your schedule on track."
+		title: "All-Sector Capability",
+		description: "Certified operators, skilled riggers, and dedicated supervision supporting any industry or site environment."
 	},
 	{
 		icon: ShieldCheck,
@@ -1118,11 +1025,11 @@ function HomeHeroSplit() {
 							children: "End-to-End Lifting Partner"
 						}), /* @__PURE__ */ jsx("h2", { children: /* @__PURE__ */ jsx(SwipeTitle, {
 							className: "text-2xl sm:text-3xl md:text-4xl font-black font-heading tracking-tighter uppercase text-white text-balance",
-							children: /* @__PURE__ */ jsx(SwipeLine, { children: "Precision Equipment & Engineered Lift Planning" })
+							children: /* @__PURE__ */ jsx(SwipeLine, { children: "Short- & Long-Term Crane Hire Across Every Sector" })
 						}) })]
 					}), /* @__PURE__ */ jsx("p", {
 						className: "max-w-xl text-sm sm:text-base leading-relaxed text-white/85",
-						children: "From routine commercial lifts to complex multi-crane projects, Target Cranes delivers turnkey lifting solutions tailored to your site, load, and schedule."
+						children: "From quick short-term crane rentals to long-term project deployments, Target Cranes delivers turnkey lifting solutions tailored to your site, load, and schedule across any industry."
 					})]
 				}), /* @__PURE__ */ jsx("div", {
 					className: "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 pt-4 border-t border-white/15",
@@ -1161,7 +1068,6 @@ function Home() {
 		/* @__PURE__ */ jsx(Hero, {}),
 		/* @__PURE__ */ jsx(HomeHeroSplit, {}),
 		/* @__PURE__ */ jsx(WhoWeAre, {}),
-		/* @__PURE__ */ jsx(Stats, {}),
 		/* @__PURE__ */ jsx(ServiceAreasAlt3, {}),
 		/* @__PURE__ */ jsx(ScrollDivider, { texts: [/* @__PURE__ */ jsxs(Fragment, { children: [
 			/* @__PURE__ */ jsxs("span", {
@@ -1169,7 +1075,7 @@ function Home() {
 				children: [/* @__PURE__ */ jsx(Truck, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Mobile & All-Terrain Crane Hire" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Wet & Dry Crane Hire Options" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -1182,7 +1088,7 @@ function Home() {
 				children: [/* @__PURE__ */ jsx(ClipboardCheck, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Engineered Lift Planning" })]
+				}), /* @__PURE__ */ jsx("span", { children: "2D & 3D CAD Lift Studies" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -1195,7 +1101,7 @@ function Home() {
 				children: [/* @__PURE__ */ jsx(Compass, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Heavy Rigging & Site Surveys" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Machinery & Plant Relocation" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -1208,15 +1114,15 @@ function Home() {
 				children: [/* @__PURE__ */ jsx(ShieldCheck, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Certified Safety Compliance" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Certified Rigging & Spreader Beams" })]
 			})
 		] }), /* @__PURE__ */ jsxs(Fragment, { children: [
 			/* @__PURE__ */ jsxs("span", {
 				className: "inline-flex items-center gap-4 uppercase font-heading",
-				children: [/* @__PURE__ */ jsx(Anchor, {
+				children: [/* @__PURE__ */ jsx(Building2, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Maritime & Port Operations" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Structural Steel & Precast Lifts" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -1229,7 +1135,7 @@ function Home() {
 				children: [/* @__PURE__ */ jsx(HardHat, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Construction & Civil Engineering" })]
+				}), /* @__PURE__ */ jsx("span", { children: "HVAC, Generator & Vessel Placement" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -1239,10 +1145,10 @@ function Home() {
 			"\xA0",
 			/* @__PURE__ */ jsxs("span", {
 				className: "inline-flex items-center gap-4 uppercase font-heading",
-				children: [/* @__PURE__ */ jsx(Wind, {
+				children: [/* @__PURE__ */ jsx(CalendarClock, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Renewable Energy Installations" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Single-Day & Contract Deployments" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -1252,10 +1158,10 @@ function Home() {
 			"\xA0",
 			/* @__PURE__ */ jsxs("span", {
 				className: "inline-flex items-center gap-4 uppercase font-heading",
-				children: [/* @__PURE__ */ jsx(Pickaxe, {
+				children: [/* @__PURE__ */ jsx(Clock, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Mining & Heavy Plant Infrastructure" })]
+				}), /* @__PURE__ */ jsx("span", { children: "24/7 Emergency Callout Support" })]
 			})
 		] })] }),
 		/* @__PURE__ */ jsx(ProjectSuccess4, {}),

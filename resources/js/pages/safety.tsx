@@ -167,9 +167,9 @@ export default function Safety() {
                             </h2>
 
                             <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                                Our health and safety management system is designed to integrate seamlessly with the
-                                stringent contractor safety policies of major civil, maritime, mining, and industrial
-                                project leaders in South Africa.
+                                Our health and safety management system is designed to integrate seamlessly with
+                                principal contractor safety policies across every industry and sector in South Africa.
+                                We support both short-term crane rentals and long-term project deployments.
                             </p>
 
                             <div className="space-y-4 pt-2">
@@ -229,7 +229,7 @@ export default function Safety() {
                         </h2>
 
                         <p className="text-base sm:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-                            We provide comprehensive, audit-ready safety documentation including operator licenses,
+                            We provide comprehensive, audit-ready safety documentation including operator licences,
                             medicals, load test certificates, and lift plans tailored to your site requirements.
                         </p>
 

@@ -5,7 +5,7 @@ import { t as StackedCard } from "./stacked-card-CR-vy7ML.js";
 import { t as siteStats } from "./site-stats-B-HyFZiV.js";
 import { t as ScrollDivider } from "./scroll-divider-DKzPqdoI.js";
 import { Fragment, jsx, jsxs } from "react/jsx-runtime";
-import { Anchor, Award, ClipboardCheck, Compass, HardHat, Pickaxe, ShieldCheck, Truck, Wind } from "lucide-react";
+import { Award, Building2, CalendarClock, ClipboardCheck, Clock, Compass, HardHat, ShieldCheck, Truck } from "lucide-react";
 // resources/images/dirt.webp
 var dirt_default = "/build/assets/dirt-sDf2k5Bx.webp";
 // resources/images/IMG-20261008-WA0045.webp
@@ -15,7 +15,7 @@ function AboutUs() {
 	return /* @__PURE__ */ jsxs(AppLayout, { children: [
 		/* @__PURE__ */ jsx(Seo, {
 			title: "About Us",
-			description: `Learn about Target Cranes, our company origins in Cape Town, ${siteStats.combinedExperienceYears} years of combined management experience, and our uncompromising commitment to safety and precision lifting.`
+			description: `Learn about Target Cranes, our company origins in Cape Town, ${siteStats.combinedExperienceYears} years of combined management experience, and our flexible short- and long-term mobile crane rental services across South Africa.`
 		}),
 		/* @__PURE__ */ jsxs("section", {
 			className: "pt-28 pb-16 lg:pt-36 lg:pb-24 bg-background relative overflow-hidden",
@@ -42,11 +42,11 @@ function AboutUs() {
 								}) }),
 								/* @__PURE__ */ jsx("p", {
 									className: "text-lg sm:text-xl text-muted-foreground leading-relaxed max-w-2xl font-medium",
-									children: "Headquartered in Bellville South, Cape Town, Target Cranes provides precision mobile crane hire, heavy rigging, and managed lifting operations to South Africa’s most demanding industries."
+									children: "Headquartered in Bellville South, Cape Town, Target Cranes provides flexible short- and long-term mobile crane hire, heavy rigging, and managed lifting operations across all industries in South Africa."
 								}),
 								/* @__PURE__ */ jsx("p", {
 									className: "text-base sm:text-lg text-muted-foreground leading-relaxed max-w-2xl",
-									children: "From routine equipment installations to complex multi-crane industrial lifts, our operations are defined by rigorous preparation, verified equipment reliability, and close collaboration with on-site contractors."
+									children: "We are never limited to a single sector. From quick once-off equipment lifts and short-term crane rentals to long-term contract deployments and complex multi-crane operations, our work is defined by rigorous preparation, verified equipment reliability, and close collaboration with on-site teams."
 								})
 							]
 						}), /* @__PURE__ */ jsx("div", {
@@ -67,10 +67,10 @@ function AboutUs() {
 		/* @__PURE__ */ jsx(ScrollDivider, { texts: [/* @__PURE__ */ jsxs(Fragment, { children: [
 			/* @__PURE__ */ jsxs("span", {
 				className: "inline-flex items-center gap-4 uppercase font-heading",
-				children: [/* @__PURE__ */ jsx(Truck, {
+				children: [/* @__PURE__ */ jsx(Building2, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Mobile & All-Terrain Crane Hire" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Bellville South Headquarters" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -80,10 +80,10 @@ function AboutUs() {
 			"\xA0",
 			/* @__PURE__ */ jsxs("span", {
 				className: "inline-flex items-center gap-4 uppercase font-heading",
-				children: [/* @__PURE__ */ jsx(ClipboardCheck, {
+				children: [/* @__PURE__ */ jsx(Truck, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Engineered Lift Planning" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Modern Multi-Axle Crane Fleet" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -96,7 +96,7 @@ function AboutUs() {
 				children: [/* @__PURE__ */ jsx(Compass, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Heavy Rigging & Site Surveys" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Detailed Pre-Lift Site Evaluations" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -109,28 +109,15 @@ function AboutUs() {
 				children: [/* @__PURE__ */ jsx(ShieldCheck, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Certified Safety Compliance" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Comprehensive Liability & Equipment Cover" })]
 			})
 		] }), /* @__PURE__ */ jsxs(Fragment, { children: [
-			/* @__PURE__ */ jsxs("span", {
-				className: "inline-flex items-center gap-4 uppercase font-heading",
-				children: [/* @__PURE__ */ jsx(Anchor, {
-					className: "size-12 shrink-0",
-					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Maritime & Port Operations" })]
-			}),
-			"\xA0",
-			/* @__PURE__ */ jsx("span", {
-				className: "mx-3.75 inline-flex items-center",
-				children: "•"
-			}),
-			"\xA0",
 			/* @__PURE__ */ jsxs("span", {
 				className: "inline-flex items-center gap-4 uppercase font-heading",
 				children: [/* @__PURE__ */ jsx(HardHat, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Construction & Civil Engineering" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Dedicated On-Site Lift Supervisors" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -140,10 +127,10 @@ function AboutUs() {
 			"\xA0",
 			/* @__PURE__ */ jsxs("span", {
 				className: "inline-flex items-center gap-4 uppercase font-heading",
-				children: [/* @__PURE__ */ jsx(Wind, {
+				children: [/* @__PURE__ */ jsx(ClipboardCheck, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Renewable Energy Installations" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Audit-Ready Contractor Documentation" })]
 			}),
 			"\xA0",
 			/* @__PURE__ */ jsx("span", {
@@ -153,10 +140,23 @@ function AboutUs() {
 			"\xA0",
 			/* @__PURE__ */ jsxs("span", {
 				className: "inline-flex items-center gap-4 uppercase font-heading",
-				children: [/* @__PURE__ */ jsx(Pickaxe, {
+				children: [/* @__PURE__ */ jsx(CalendarClock, {
 					className: "size-12 shrink-0",
 					strokeWidth: 2.5
-				}), /* @__PURE__ */ jsx("span", { children: "Mining & Heavy Plant Infrastructure" })]
+				}), /* @__PURE__ */ jsx("span", { children: "Flexible Short- & Long-Term Packages" })]
+			}),
+			"\xA0",
+			/* @__PURE__ */ jsx("span", {
+				className: "mx-3.75 inline-flex items-center",
+				children: "•"
+			}),
+			"\xA0",
+			/* @__PURE__ */ jsxs("span", {
+				className: "inline-flex items-center gap-4 uppercase font-heading",
+				children: [/* @__PURE__ */ jsx(Clock, {
+					className: "size-12 shrink-0",
+					strokeWidth: 2.5
+				}), /* @__PURE__ */ jsx("span", { children: "Western Cape & Nationwide Dispatch" })]
 			})
 		] })] }),
 		/* @__PURE__ */ jsxs("section", {
@@ -192,8 +192,8 @@ function AboutUs() {
 							/* @__PURE__ */ jsxs("div", {
 								className: "space-y-4 text-base sm:text-lg text-muted-foreground leading-relaxed",
 								children: [
-									/* @__PURE__ */ jsx("p", { children: "Target Cranes brings together more than five decades of collective leadership across heavy rigging, mobile crane operations, civil engineering, and specialised transport." }),
-									/* @__PURE__ */ jsx("p", { children: "Our senior management and project supervisors have guided lifting contracts across mining infrastructure, maritime dry-docks, power stations, and landmark commercial developments across the African continent." }),
+									/* @__PURE__ */ jsx("p", { children: "Target Cranes brings together more than a century of collective leadership across short- and long-term mobile crane rental, heavy rigging, engineered lifting, and specialised transport." }),
+									/* @__PURE__ */ jsx("p", { children: "Our senior management and project supervisors have guided lifting contracts of every scale. We support commercial, industrial, civil, infrastructure, marine, energy, manufacturing, and bespoke projects across the African continent." }),
 									/* @__PURE__ */ jsx("p", {
 										className: "text-foreground font-medium pt-2",
 										children: "This depth of practical knowledge ensures that before wheels roll or outriggers extend, your lift has been evaluated by professionals who understand site realities."

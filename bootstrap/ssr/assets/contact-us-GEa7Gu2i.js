@@ -111,7 +111,7 @@ function ContactUs() {
 						}) }),
 						/* @__PURE__ */ jsx("p", {
 							className: "text-lg md:text-xl text-muted-foreground leading-relaxed mt-4",
-							children: "Have an upcoming project, need specialised lifting capacities, or require 24/7 emergency support? Reach out to our team directly or fill out the form below."
+							children: "Require short- or long-term mobile crane rental, specialised lifting capacities across any industry, or 24/7 emergency support? Reach out to our team directly or fill out the form below."
 						})
 					]
 				}), /* @__PURE__ */ jsxs("div", {
@@ -159,7 +159,7 @@ function ContactUs() {
 										}), /* @__PURE__ */ jsxs("div", { children: [
 											/* @__PURE__ */ jsx("span", {
 												className: "text-xs font-semibold uppercase tracking-wider text-muted-foreground block",
-												children: "Email Inquiries"
+												children: "Email Enquiries"
 											}),
 											/* @__PURE__ */ jsx("span", {
 												className: "text-lg font-bold text-foreground group-hover:text-primary transition-colors break-all",
@@ -207,7 +207,7 @@ function ContactUs() {
 											}),
 											/* @__PURE__ */ jsx("p", {
 												className: "text-sm text-muted-foreground",
-												children: "Rapid mobilization nationwide"
+												children: "Rapid mobilisation nationwide"
 											})
 										] })]
 									})

@@ -8,7 +8,7 @@ import NationwideService2 from "@/components/nationwide-service-2.tsx";
 import {Seo} from "@/components/seo.tsx";
 import HomeHeroSplit from "@/components/home-hero-split.tsx";
 import ScrollDivider from "@/components/scroll-divider.tsx";
-import {Anchor, ClipboardCheck, Compass, HardHat, Pickaxe, ShieldCheck, Truck, Wind} from "lucide-react";
+import {Building2, CalendarClock, ClipboardCheck, Clock, Compass, HardHat, ShieldCheck, Truck} from "lucide-react";
 
 function Home() {
     return (
@@ -18,7 +18,7 @@ function Home() {
             <HomeHeroSplit/>
 
             <WhoWeAre/>
-            <Stats/>
+            {/*<Stats/>*/}
             {/*<ServiceAreasAlt1/>*/}
             <ServiceAreasAlt3/>
             <ScrollDivider
@@ -26,43 +26,43 @@ function Home() {
                     <>
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
                             <Truck className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Mobile &amp; All-Terrain Crane Hire</span>
+                            <span>Wet &amp; Dry Crane Hire Options</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
                             <ClipboardCheck className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Engineered Lift Planning</span>
+                            <span>2D &amp; 3D CAD Lift Studies</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
                             <Compass className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Heavy Rigging &amp; Site Surveys</span>
+                            <span>Machinery &amp; Plant Relocation</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
                             <ShieldCheck className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Certified Safety Compliance</span>
+                            <span>Certified Rigging &amp; Spreader Beams</span>
                         </span>
                     </>,
                     <>
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
-                            <Anchor className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Maritime &amp; Port Operations</span>
+                            <Building2 className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Structural Steel &amp; Precast Lifts</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
                             <HardHat className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Construction &amp; Civil Engineering</span>
+                            <span>HVAC, Generator &amp; Vessel Placement</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
-                            <Wind className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Renewable Energy Installations</span>
+                            <CalendarClock className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Single-Day &amp; Contract Deployments</span>
                         </span>
                         &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
                         <span className="inline-flex items-center gap-4 uppercase font-heading">
-                            <Pickaxe className="size-12 shrink-0" strokeWidth={2.5}/>
-                            <span>Mining &amp; Heavy Plant Infrastructure</span>
+                            <Clock className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>24/7 Emergency Callout Support</span>
                         </span>
                     </>
                 ]}
