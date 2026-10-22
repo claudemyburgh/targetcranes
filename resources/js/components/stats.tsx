@@ -9,7 +9,7 @@ const statsData = [
     {
         icon: Award,
         value: siteStats.yearsInBusiness,
-        label: "Years of Experience",
+        label: "Years in Business",
 
     },
     {

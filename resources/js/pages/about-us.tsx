@@ -6,7 +6,7 @@ import DotPattern from "@/components/ui/misc/dot-pattern";
 import StackedCard from "@/components/ui/misc/stacked-card";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
 import {siteStats} from "@/lib/site-stats";
-import {Award, HardHat} from "lucide-react";
+import {Anchor, Award, ClipboardCheck, Compass, HardHat, Pickaxe, ShieldCheck, Truck, Wind} from "lucide-react";
 
 // @ts-ignore
 import aboutHeroImg from "@/../images/dirt.webp";
@@ -14,6 +14,7 @@ import aboutHeroImg from "@/../images/dirt.webp";
 import depotImg from "@/../images/IMG-20261008-WA0045.webp";
 // @ts-ignore
 import teamImg from "@/../images/IMG-20261008-WA0042.webp";
+import ScrollDivider from "@/components/scroll-divider.tsx";
 
 export default function AboutUs() {
     return (
@@ -76,6 +77,54 @@ export default function AboutUs() {
                 </Wrapper>
             </section>
 
+
+            <ScrollDivider
+                texts={[
+                    <>
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <Truck className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Mobile &amp; All-Terrain Crane Hire</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <ClipboardCheck className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Engineered Lift Planning</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <Compass className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Heavy Rigging &amp; Site Surveys</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <ShieldCheck className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Certified Safety Compliance</span>
+                        </span>
+                    </>,
+                    <>
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <Anchor className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Maritime &amp; Port Operations</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <HardHat className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Construction &amp; Civil Engineering</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <Wind className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Renewable Energy Installations</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <Pickaxe className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Mining &amp; Heavy Plant Infrastructure</span>
+                        </span>
+                    </>
+                ]}
+            />
+
             {/* Company Heritage & Leadership */}
             <section className="py-20 lg:py-28 bg-muted/40 border-y border-border relative overflow-hidden">
                 <DotPattern corner="bottom-right"/>
@@ -131,7 +180,7 @@ export default function AboutUs() {
                                 <div className="rounded-2xl border border-border bg-card p-5 space-y-2">
                                     <Award className="w-6 h-6 text-primary"/>
                                     <h3 className="font-bold font-heading uppercase text-sm text-foreground">{siteStats.yearsInBusiness} Years
-                                        Track Record</h3>
+                                        in Business</h3>
                                     <p className="text-xs text-muted-foreground leading-relaxed">
                                         Established company reputation delivering lifts for major national contractors.
                                     </p>

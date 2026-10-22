@@ -4,7 +4,8 @@ import SectionLabel from "@/components/ui/misc/section-label";
 import DotPattern from "@/components/ui/misc/dot-pattern";
 import {SwipeLine, SwipeTitle} from "@/components/ui/swipe-title";
 import {Accordion, AccordionContent, AccordionItem, AccordionTrigger} from "@/components/ui/accordion";
-import {AlertOctagon, Compass, FileCheck2, HardHat, Scale, ShieldCheck} from "lucide-react";
+import ScrollDivider from "@/components/scroll-divider";
+import {AlertOctagon, ClipboardCheck, Compass, FileCheck2, HardHat, Radio, Scale, ShieldCheck} from "lucide-react";
 import React from "react";
 
 // @ts-ignore
@@ -164,6 +165,54 @@ export function HomeSafetyPracticesSection() {
                     </div>
                 </Wrapper>
             </section>
+
+            {/* Core Practice Section (Floated Image with Shape-Outside + Exact Content + Accordion) */}
+            <ScrollDivider
+                texts={[
+                    <>
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <ShieldCheck className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>DMR 18 Statutory Load Testing</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <Scale className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>OHSA 85 of 1993 &amp; SANS Compliant</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <ClipboardCheck className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Certified Proof-Load Rigging Tackle</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <Compass className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>CAD-Engineered 2D/3D Lift Studies</span>
+                        </span>
+                    </>,
+                    <>
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <HardHat className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>TETA-Accredited Operators &amp; Riggers</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <FileCheck2 className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Site-Specific RAMS &amp; Toolbox Briefings</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <AlertOctagon className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Unconditional Stop Work Authority</span>
+                        </span>
+                        &nbsp;<span className="mx-3.75 inline-flex items-center">•</span>&nbsp;
+                        <span className="inline-flex items-center gap-4 uppercase font-heading">
+                            <Radio className="size-12 shrink-0" strokeWidth={2.5}/>
+                            <span>Verified Ground Bearing &amp; Exclusion Zones</span>
+                        </span>
+                    </>
+                ]}
+            />
 
             {/* Section 2: Dedicated Restyled Safety Protocols Accordion Section */}
             <section className="py-16 sm:py-20 lg:py-28 bg-background border-b border-border relative overflow-x-clip">

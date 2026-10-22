@@ -34,7 +34,8 @@ export default function Safety() {
             />
 
             {/* Page Header / Hero */}
-            <section className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-background border-b border-border relative overflow-hidden">
+            <section
+                className="pt-28 pb-16 lg:pt-36 lg:pb-24 bg-background border-b border-border relative overflow-hidden">
                 <DotPattern corner="top-right"/>
                 <Wrapper className="relative z-10">
                     <div className="max-w-4xl space-y-6">
@@ -125,7 +126,7 @@ export default function Safety() {
                 </Wrapper>
             </section>
 
-            {/* Core Practice Section (Floated Image with Shape-Outside + Exact Content + Accordion) */}
+           
             <HomeSafetyPracticesSection/>
 
             {/* Statutory Compliance & Standards Section */}

@@ -44,7 +44,7 @@ export function NationwideService() {
 
                         <div className="grid gap-6 mt-8">
                             <div className="flex flex-col gap-1">
-                                <span className="text-3xl font-black font-heading tracking-tight text-primary">{siteStats.yearsInBusiness} Years of Experience</span>
+                                <span className="text-3xl font-black font-heading tracking-tight text-primary">{siteStats.yearsInBusiness} Years in Business</span>
                                 <p className="text-muted-foreground">Providing exceptional crane services across
                                     multiple industries.</p>
                             </div>

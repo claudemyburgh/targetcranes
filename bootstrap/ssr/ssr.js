@@ -3,7 +3,7 @@ import createServer from "@inertiajs/react/server";
 import ReactDOMServer from "react-dom/server";
 import { createContext, useContext, useEffect, useState } from "react";
 import { jsx } from "react/jsx-runtime";
-//#region node_modules/laravel-vite-plugin/inertia-helpers/index.js
+// node_modules/laravel-vite-plugin/inertia-helpers/index.js
 async function resolvePageComponent(path, pages) {
 	for (const p of Array.isArray(path) ? path : [path]) {
 		const page = pages[p];
@@ -12,8 +12,7 @@ async function resolvePageComponent(path, pages) {
 	}
 	throw new Error(`Page not found: ${path}`);
 }
-//#endregion
-//#region resources/js/hooks/use-appearance.tsx
+// resources/js/hooks/use-appearance.tsx
 var AppearanceContext = createContext(void 0);
 function AppearanceProvider({ children }) {
 	const [appearance, setAppearance] = useState(() => {
@@ -51,23 +50,21 @@ function useAppearance() {
 	if (context === void 0) throw new Error("useAppearance must be used within an AppearanceProvider");
 	return context;
 }
-//#endregion
-//#region resources/js/ssr.tsx
+// resources/js/ssr.tsx
 var appName = "Target Cranes";
 createServer((page) => createInertiaApp({
 	page,
 	render: ReactDOMServer.renderToString,
 	title: (title) => title ? `${title} | ${appName}` : `${appName} | Crane Hire & Managed Lifting in South Africa`,
 	resolve: (name) => resolvePageComponent(`./pages/${name}.tsx`, /* #__PURE__ */ Object.assign({
-		"./pages/about-us.tsx": () => import("./assets/about-us-C613rJQh.js"),
-		"./pages/contact-us.tsx": () => import("./assets/contact-us-Cl75rh2B.js"),
-		"./pages/home.tsx": () => import("./assets/home-dnm_5KRO.js"),
-		"./pages/privacy-policy.tsx": () => import("./assets/privacy-policy-GXiNhH9B.js"),
-		"./pages/safety.tsx": () => import("./assets/safety-C_-qLn9k.js"),
-		"./pages/terms-of-service.tsx": () => import("./assets/terms-of-service-BtX49pji.js"),
-		"./pages/welcome.tsx": () => import("./assets/welcome-zt2mB_ii.js")
+		"./pages/about-us.tsx": () => import("./assets/about-us-9hi_EDnM.js"),
+		"./pages/contact-us.tsx": () => import("./assets/contact-us-v7-ejtG_.js"),
+		"./pages/home.tsx": () => import("./assets/home-D5AFfZWI.js"),
+		"./pages/privacy-policy.tsx": () => import("./assets/privacy-policy-BdyKOlBK.js"),
+		"./pages/safety.tsx": () => import("./assets/safety-BGovZy5V.js"),
+		"./pages/terms-of-service.tsx": () => import("./assets/terms-of-service-HtCBdkk6.js"),
+		"./pages/welcome.tsx": () => import("./assets/welcome-DLiHKYvm.js")
 	})),
 	setup: ({ App, props }) => /* @__PURE__ */ jsx(AppearanceProvider, { children: /* @__PURE__ */ jsx(App, { ...props }) })
 }));
-//#endregion
 export { useAppearance as t };
