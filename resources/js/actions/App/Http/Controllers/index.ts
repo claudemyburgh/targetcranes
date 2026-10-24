@@ -3,6 +3,7 @@ import AboutUsIndexController from './AboutUsIndexController'
 import SafetyIndexController from './SafetyIndexController'
 import ContactUsIndexController from './ContactUsIndexController'
 import ContactUsStoreController from './ContactUsStoreController'
+import FaqIndexController from './FaqIndexController'
 import PrivacyPolicyController from './PrivacyPolicyController'
 import TermsOfServiceController from './TermsOfServiceController'
 import SitemapController from './SitemapController'
@@ -12,6 +13,7 @@ AboutUsIndexController: Object.assign(AboutUsIndexController, AboutUsIndexContro
 SafetyIndexController: Object.assign(SafetyIndexController, SafetyIndexController),
 ContactUsIndexController: Object.assign(ContactUsIndexController, ContactUsIndexController),
 ContactUsStoreController: Object.assign(ContactUsStoreController, ContactUsStoreController),
+FaqIndexController: Object.assign(FaqIndexController, FaqIndexController),
 PrivacyPolicyController: Object.assign(PrivacyPolicyController, PrivacyPolicyController),
 TermsOfServiceController: Object.assign(TermsOfServiceController, TermsOfServiceController),
 SitemapController: Object.assign(SitemapController, SitemapController),

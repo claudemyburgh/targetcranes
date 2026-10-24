@@ -1,7 +1,7 @@
 import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import {Link} from "@inertiajs/react";
 import {Logo} from "./logo";
-import {aboutUs, contactUs, home, privacyPolicy, safety, termsOfService} from "@/routes";
+import {aboutUs, contactUs, faq, home, privacyPolicy, safety, termsOfService} from "@/routes";
 import {Mail, MapPin, Phone} from "lucide-react";
 
 export function Footer() {
@@ -65,6 +65,12 @@ export function Footer() {
                                 <Link href={safety.url()}
                                       className="text-muted-foreground hover:text-primary transition-colors">
                                     Safety
+                                </Link>
+                            </li>
+                            <li>
+                                <Link href={faq.url()}
+                                      className="text-muted-foreground hover:text-primary transition-colors">
+                                    FAQ
                                 </Link>
                             </li>
                             <li>

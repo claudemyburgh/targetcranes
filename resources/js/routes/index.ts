@@ -172,6 +172,49 @@ contactUs.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
 })
 
 /**
+* @see \App\Http\Controllers\FaqIndexController::__invoke
+ * @see app/Http/Controllers/FaqIndexController.php:15
+ * @route '/faq'
+ */
+export const faq = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: faq.url(options),
+    method: 'get',
+})
+
+faq.definition = {
+    methods: ["get","head"],
+    url: '/faq',
+} satisfies RouteDefinition<["get","head"]>
+
+/**
+* @see \App\Http\Controllers\FaqIndexController::__invoke
+ * @see app/Http/Controllers/FaqIndexController.php:15
+ * @route '/faq'
+ */
+faq.url = (options?: RouteQueryOptions) => {
+    return faq.definition.url + queryParams(options)
+}
+
+/**
+* @see \App\Http\Controllers\FaqIndexController::__invoke
+ * @see app/Http/Controllers/FaqIndexController.php:15
+ * @route '/faq'
+ */
+faq.get = (options?: RouteQueryOptions): RouteDefinition<'get'> => ({
+    url: faq.url(options),
+    method: 'get',
+})
+/**
+* @see \App\Http\Controllers\FaqIndexController::__invoke
+ * @see app/Http/Controllers/FaqIndexController.php:15
+ * @route '/faq'
+ */
+faq.head = (options?: RouteQueryOptions): RouteDefinition<'head'> => ({
+    url: faq.url(options),
+    method: 'head',
+})
+
+/**
 * @see \App\Http\Controllers\PrivacyPolicyController::__invoke
  * @see app/Http/Controllers/PrivacyPolicyController.php:14
  * @route '/privacy-policy'

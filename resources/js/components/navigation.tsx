@@ -4,13 +4,14 @@ import Wrapper from "@/components/ui/misc/wrapper.tsx";
 import {Logo} from "./logo";
 import {Menu} from 'lucide-react';
 import {Sheet, SheetContent, SheetDescription, SheetTitle, SheetTrigger} from '@/components/ui/sheet';
-import {aboutUs, contactUs, home, safety} from '@/routes';
+import {aboutUs, contactUs, faq, home, safety} from '@/routes';
 import {cn} from "@/lib/utils";
 
 const navLinks = [
     {name: 'Home', href: home.url()},
     {name: 'About Us', href: aboutUs.url()},
     {name: 'Safety', href: safety.url()},
+    {name: 'FAQ', href: faq.url()},
     {name: 'Contact Us', href: contactUs.url()},
 ];
 

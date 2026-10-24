@@ -1,6 +1,6 @@
 import AppLayout from "@/layouts/app-layout.tsx";
 import Hero from "@/components/hero.tsx";
-import Stats from "@/components/stats.tsx";
+
 import WhoWeAre from "@/components/who-we-are.tsx";
 import ServiceAreasAlt3 from "@/components/service-areas-alt-3.tsx";
 import ProjectSuccess4 from "@/components/project-success-4.tsx";
@@ -18,6 +18,7 @@ function Home() {
             <HomeHeroSplit/>
 
             <WhoWeAre/>
+            {/*<CraneIconsSeparator/>*/}
             {/*<Stats/>*/}
             {/*<ServiceAreasAlt1/>*/}
             <ServiceAreasAlt3/>
